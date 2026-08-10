@@ -1,0 +1,167 @@
+
+Run START:	Mon Feb  9 16:36:34 2026
+SonicParanoid 2.0.8 will be executed with the following parameters:
+Run ID:	sp2_9226163634_default_20cpus_ml075
+Input directory: /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/Bofasa_Prep_Results/Genome_Processing/Proteomes
+Main output directory: /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default
+Run directory: /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/runs/sp2_9226163634_default_20cpus_ml075
+Input proteomes:	59
+Alignment tool:	diamond
+Run mode:	default (Diamond [--very-sensitive])
+Threads:	20
+Minimum bitscore:	40
+Max length difference for in-paralogs:	0.75
+Ortholog merging threshold:	0.75
+MCL inflation:	1.50
+Alignments directory: /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/alignments/
+Pairwise tables directory: /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/runs/sp2_9226163634_default_20cpus_ml075/species_to_species_orthologs/
+Directory with ortholog groups: /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/runs/sp2_9226163634_default_20cpus_ml075/ortholog_groups/
+Pairwise tables database directory: /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/orthologs_db
+Perfom only graph-based orthology:	False
+Update run:	False
+Create query database indexes:	False
+Complete overwrite:	False
+Re-create ortholog tables:	False
+Memory per thread (Gigabytes):	23.61
+Minimum memory per thread (Gigabytes):	1.00
+Compress alignments:	True
+Compression level:	5
+SonicParanoid installation directory: /workspace/local/rauf/bofasa/comparator_software/sonicparanoid_env/lib/python3.12/site-packages/sonicparanoid
+Installation type:	Python
+Python version: 3.12.8 | packaged by conda-forge | (main, Dec  5 2024, 14:24:40) [GCC 13.3.0]
+Python executables: /workspace/local/rauf/bofasa/comparator_software/sonicparanoid_env/bin/python
+runID:	sp2_9226163634_default_20cpus_ml075
+
+For the 59 input species 1711 combinations are possible.
+
+3481 Diamond alignments will be performed...
+Creating 59 Diamond databases...
+
+Diamond databases creation elapsed time (seconds):	0.3
+
+Performing 3481 alignment using Diamond...
+Elapsed time for all-vs-all alignments using Diamond (seconds):	1081.566
+
+Predicting 1711 ortholog tables...INFO:
+infer_arch_based_orthologs :: START
+
+Ortholog tables creation elapsed time (seconds):	11.662
+Main output directory: /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default
+Run directory: /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/runs/sp2_9226163634_default_20cpus_ml075
+DB directory: /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/seqs_dbs/
+PfamA profile DB: /workspace/local/rauf/bofasa/comparator_software/sonicparanoid_env/lib/python3.12/site-packages/sonicparanoid/pfam_files/profile_db/pfama.mmseqs
+Table merging thr: 0.75
+
+Start domain architecture-based orthology inference.
+Creating 59 MMseqs DBs...
+
+MMseqs DBs creation elapsed time (seconds):	2.0
+
+Performing 59 profile searches and extraction of architectures...
+
+Elapsed time for profile searches using MMseqs (seconds):	72.645
+INFO:
+Training artificial neural network (ANN):
+    Architectures:	17330
+    Vocabulary size:	2029
+    Total domains for training (including uncovered):	58894
+INFO:
+Doc2Vec lifecycle event {'fname_or_handle': '/workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/arch_orthology/models/sp2_9226163634_default_20cpus_ml075.pv-dbow_sg.vecsize100.win2.mincnt1.ep200.thr1.dboww1.allw', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2026-02-09T16:56:26.593274', 'gensim': '4.3.2', 'python': '3.12.8 | packaged by conda-forge | (main, Dec  5 2024, 14:24:40) [GCC 13.3.0]', 'platform': 'Linux-6.8.0-90-generic-x86_64-with-glibc2.39', 'event': 'saving'}
+INFO:
+not storing attribute cum_table
+INFO:
+saved /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/arch_orthology/models/sp2_9226163634_default_20cpus_ml075.pv-dbow_sg.vecsize100.win2.mincnt1.ep200.thr1.dboww1.allw
+INFO:
+loading Doc2Vec object from /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/arch_orthology/models/sp2_9226163634_default_20cpus_ml075.pv-dbow_sg.vecsize100.win2.mincnt1.ep200.thr1.dboww1.allw
+INFO:
+loading dv recursively from /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/arch_orthology/models/sp2_9226163634_default_20cpus_ml075.pv-dbow_sg.vecsize100.win2.mincnt1.ep200.thr1.dboww1.allw.dv.* with mmap=r
+INFO:
+loading wv recursively from /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/arch_orthology/models/sp2_9226163634_default_20cpus_ml075.pv-dbow_sg.vecsize100.win2.mincnt1.ep200.thr1.dboww1.allw.wv.* with mmap=r
+INFO:
+setting ignored attribute cum_table to None
+INFO:
+Doc2Vec lifecycle event {'fname': '/workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/arch_orthology/models/sp2_9226163634_default_20cpus_ml075.pv-dbow_sg.vecsize100.win2.mincnt1.ep200.thr1.dboww1.allw', 'datetime': '2026-02-09T16:56:26.656952', 'gensim': '4.3.2', 'python': '3.12.8 | packaged by conda-forge | (main, Dec  5 2024, 14:24:40) [GCC 13.3.0]', 'platform': 'Linux-6.8.0-90-generic-x86_64-with-glibc2.39', 'event': 'loaded'}
+
+Converting 59 domain architectures to documents...
+Elapsed time for documents creation (seconds):	0.125
+
+Elapsed time for training d2v (seconds):	20.64
+
+Assigning embedding to domain architectures for 59 proteomes...
+Elapsed time for assigning embeddings to Architectures (seconds):	2.917
+
+Elapsed time (Arch extraction, d2v training, and embedding) (seconds):	25.475
+
+Identifing orthologs at the domain level for 1711 species pairs...
+Elapsed time for comparing architectures (seconds):	202.557
+
+Merging 1711 arch- and graph-based ortholog tables...
+Elapsed time for merging ortholog tables (seconds):	5.287
+Arch-based orthology inference elapsed time (seconds):	308.99
+
+Creating ortholog groups using MCL clustering...
+Creating orthology matrixes...
+Ortholog matrixes creation elapsed time (seconds):	7.793
+
+Merging inparalog matrixes...
+Inparalogs merging elapsed time (seconds):	0.793
+
+Creating input matrix for MCL...
+MCL graph creation elapsed time (seconds):	7.002
+
+Running MCL...
+MCL execution elapsed time (seconds):	56.964
+
+Generating final output files...
+Elapsed time for the creation of final output (seconds):	2.520
+Ortholog groups creation elapsed time (seconds):	75.136
+
+Ortholog groups:	4638
+Single-copy ortholog groups:	3302
+
+The ortholog groups and related statistics are stored in the directory:
+/workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/SonicParanoid_Default/runs/sp2_9226163634_default_20cpus_ml075/ortholog_groups
+
+Total elapsed time (seconds):	1480.272
+
+CITATION INFO:
+Cosentino Salvatore, Sira Sriswasdi & Wataru Iwasaki. (2024),
+Genome Biology. volume 25, Article number: 195 (July 2024).
+DOI: https://doi.org/10.1186/s13059-024-03298-4
+
+Cosentino Salvatore & Wataru Iwasaki. (2019),
+Bioinformatics. Volume 35, Issue 1, 01 January 2019, Pages 149–151.
+DOI: https://doi.org/10.1093/bioinformatics/bty631
+
+
+INSTRUCTIONS:
+Find the user manual for SonicParanoid at
+https://gitlab.com/salvo981/sonicparanoid2/-/wikis/home
+
+
+CONTACT:
+Salvatore Cosentino:	salvo981@gmail.com  or  salvocos@k.u-tokyo.ac.jp
+Wataru Iwasaki:	iwasaki@k.u-tokyo.ac.jp
+	Command being timed: "sonicparanoid -i Bofasa_Prep_Results/Genome_Processing/Proteomes/ -o SonicParanoid_Default/ -t 20"
+	User time (seconds): 28666.53
+	System time (seconds): 657.32
+	Percent of CPU this job got: 1973%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 24:45.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7111208
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 639
+	Minor (reclaiming a frame) page faults: 64828400
+	Voluntary context switches: 631059
+	Involuntary context switches: 293256
+	Swaps: 0
+	File system inputs: 85656
+	File system outputs: 21469504
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

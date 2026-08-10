@@ -1,0 +1,1604 @@
+pre-processing gff3 files...
+  0%|          | 0/1 [00:00<?, ?it/s]/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+/workspace/local/rauf/bofasa/comparator_software/panaroo_env/lib/python3.11/site-packages/Bio/SeqIO/FastaIO.py:203: BiopythonDeprecationWarning: Previously, the FASTA parser silently ignored comments at the beginning of the FASTA file (before the first sequence).
+
+Nowadays, the FASTA file format is usually understood not to have any such comments, and most software packages do not allow them. Therefore, the use of comments at the beginning of a FASTA file is now deprecated in Biopython.
+
+In a future Biopython release, this deprecation warning will be replaced by a ValueError. To avoid this, there are three options:
+
+(1) Modify your FASTA file to remove such comments at the beginning of the file.
+
+(2) Use SeqIO.parse with the 'fasta-pearson' format instead of 'fasta'. This format is consistent with the FASTA format defined by William Pearson's FASTA aligner software. Thie format allows for comments before the first sequence; lines starting with the ';' character anywhere in the file are also regarded as comment lines and are ignored.
+
+(3) Use the 'fasta-blast' format. This format regards any lines starting with '!', '#', or ';' as comment lines. The 'fasta-blast' format may be safer than the 'fasta-pearson' format, as it explicitly indicates which lines are comments. 
+  warnings.warn(
+100%|██████████| 1/1 [00:06<00:00,  6.32s/it]100%|██████████| 1/1 [00:06<00:00,  6.32s/it]
+================================================================
+Program: CD-HIT, V4.8.1 (+OpenMP), Dec 13 2024, 22:16:14
+Command: cd-hit -T 20 -i
+         Panaroo_Custom_Results/combined_protein_CDS.fasta -o
+         Panaroo_Custom_Results/combined_protein_cdhit_out.txt
+         -c 0.98 -s 0.5 -aL 0.0 -AL 99999999 -aS 0.0 -AS
+         99999999 -M 0 -d 999 -g 1 -n 2
+
+Started: Fri Apr 11 16:14:15 2025
+================================================================
+                            Output                              
+----------------------------------------------------------------
+Your word length is 2, using 5 may be faster!
+total seq: 90159
+longest and shortest : 1645 and 21
+Total letters: 27231605
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 38M
+Buffer          : 20 X 17M = 348M
+Table           : 2 X 1M = 2M
+Miscellaneous   : 1M
+Total           : 391M
+
+Table limit with the given memory limit:
+Max number of representatives: 547213
+Max number of word counting entries: 34655379
+
+# comparing sequences from          0  to       4956
+....---------- new table with     1708 representatives
+# comparing sequences from       4956  to       8828
+.......................----------   1541 remaining sequences to the next cycle
+---------- new table with      789 representatives
+# comparing sequences from       7287  to      11053
+.....................----------   2248 remaining sequences to the next cycle
+---------- new table with      575 representatives
+# comparing sequences from       8805  to      12502
+................................    10000  finished       3487  clusters
+----------   2360 remaining sequences to the next cycle
+---------- new table with      467 representatives
+# comparing sequences from      10142  to      13779
+.....................----------   2419 remaining sequences to the next cycle
+---------- new table with      454 representatives
+# comparing sequences from      11360  to      14941
+.....................46.7%----------   2332 remaining sequences to the next cycle
+---------- new table with      451 representatives
+# comparing sequences from      12609  to      16134
+.....................----------   2283 remaining sequences to the next cycle
+---------- new table with      422 representatives
+# comparing sequences from      13851  to      17319
+......................50.5%----------   2284 remaining sequences to the next cycle
+---------- new table with      425 representatives
+# comparing sequences from      15035  to      18449
+.....................----------   2191 remaining sequences to the next cycle
+---------- new table with      440 representatives
+# comparing sequences from      16258  to      19617
+.....................53.3%----------   2129 remaining sequences to the next cycle
+---------- new table with      431 representatives
+# comparing sequences from      17488  to      20791
+.....................----------   2023 remaining sequences to the next cycle
+---------- new table with      433 representatives
+# comparing sequences from      18768  to      22013
+................................    20000  finished       6992  clusters
+----------   1957 remaining sequences to the next cycle
+---------- new table with      426 representatives
+# comparing sequences from      20056  to      23242
+.....................----------   1882 remaining sequences to the next cycle
+---------- new table with      441 representatives
+# comparing sequences from      21360  to      24487
+....................----------   1838 remaining sequences to the next cycle
+---------- new table with      443 representatives
+# comparing sequences from      22649  to      25717
+....................----------   1774 remaining sequences to the next cycle
+---------- new table with      464 representatives
+# comparing sequences from      23943  to      26952
+......................----------   1626 remaining sequences to the next cycle
+---------- new table with      473 representatives
+# comparing sequences from      25326  to      28272
+.....................----------   1538 remaining sequences to the next cycle
+---------- new table with      499 representatives
+# comparing sequences from      26734  to      29616
+......................----------   1438 remaining sequences to the next cycle
+---------- new table with      506 representatives
+# comparing sequences from      28178  to      30995
+.....................----------   1345 remaining sequences to the next cycle
+---------- new table with      491 representatives
+# comparing sequences from      29650  to      32400
+...............................    30000  finished      10465  clusters
+.68.4%----------   1357 remaining sequences to the next cycle
+---------- new table with      511 representatives
+# comparing sequences from      31043  to      33730
+.....................----------   1276 remaining sequences to the next cycle
+---------- new table with      538 representatives
+# comparing sequences from      32454  to      35076
+......................----------   1074 remaining sequences to the next cycle
+---------- new table with      530 representatives
+# comparing sequences from      34002  to      36554
+.....................----------   1061 remaining sequences to the next cycle
+---------- new table with      481 representatives
+# comparing sequences from      35493  to      37977
+.....................73.0%----------   1130 remaining sequences to the next cycle
+---------- new table with      444 representatives
+# comparing sequences from      36847  to      39270
+.....................----------   1165 remaining sequences to the next cycle
+---------- new table with      491 representatives
+# comparing sequences from      38105  to      40471
+.....................----------    951 remaining sequences to the next cycle
+---------- new table with      462 representatives
+# comparing sequences from      39520  to      41821
+...............................    40000  finished      13965  clusters
+75.6%----------   1022 remaining sequences to the next cycle
+---------- new table with      454 representatives
+# comparing sequences from      40799  to      43042
+.....................----------   1002 remaining sequences to the next cycle
+---------- new table with      455 representatives
+# comparing sequences from      42040  to      44227
+.....................77.5%----------    960 remaining sequences to the next cycle
+---------- new table with      445 representatives
+# comparing sequences from      43267  to      45398
+.....................----------    883 remaining sequences to the next cycle
+---------- new table with      433 representatives
+# comparing sequences from      44515  to      46589
+....................----------    856 remaining sequences to the next cycle
+---------- new table with      420 representatives
+# comparing sequences from      45733  to      47752
+.....................79.9%----------    769 remaining sequences to the next cycle
+---------- new table with      445 representatives
+# comparing sequences from      46983  to      48945
+......................----------    717 remaining sequences to the next cycle
+---------- new table with      448 representatives
+# comparing sequences from      48228  to      50133
+.....................81.7%----------    687 remaining sequences to the next cycle
+---------- new table with      387 representatives
+# comparing sequences from      49446  to      51296
+...............................    50000  finished      17483  clusters
+----------    755 remaining sequences to the next cycle
+---------- new table with      398 representatives
+# comparing sequences from      50541  to      52341
+.....................----------    678 remaining sequences to the next cycle
+---------- new table with      381 representatives
+# comparing sequences from      51663  to      53412
+....................83.5%----------    679 remaining sequences to the next cycle
+---------- new table with      350 representatives
+# comparing sequences from      52733  to      54434
+....................84.1%----------    647 remaining sequences to the next cycle
+---------- new table with      337 representatives
+# comparing sequences from      53787  to      55440
+....................----------    659 remaining sequences to the next cycle
+---------- new table with      327 representatives
+# comparing sequences from      54781  to      56389
+.....................----------    675 remaining sequences to the next cycle
+---------- new table with      323 representatives
+# comparing sequences from      55714  to      57279
+.....................----------    625 remaining sequences to the next cycle
+---------- new table with      346 representatives
+# comparing sequences from      56654  to      58176
+.....................86.3%----------    570 remaining sequences to the next cycle
+---------- new table with      344 representatives
+# comparing sequences from      57606  to      59085
+.....................86.6%----------    601 remaining sequences to the next cycle
+---------- new table with      347 representatives
+# comparing sequences from      58484  to      59923
+.....................----------    527 remaining sequences to the next cycle
+---------- new table with      339 representatives
+# comparing sequences from      59396  to      60794
+...............................    60000  finished      20972  clusters
+----------    479 remaining sequences to the next cycle
+---------- new table with      323 representatives
+# comparing sequences from      60315  to      61671
+.....................----------    543 remaining sequences to the next cycle
+---------- new table with      295 representatives
+# comparing sequences from      61128  to      62447
+....................88.6%----------    467 remaining sequences to the next cycle
+---------- new table with      303 representatives
+# comparing sequences from      61980  to      63260
+.....................89.1%----------    456 remaining sequences to the next cycle
+---------- new table with      290 representatives
+# comparing sequences from      62804  to      64047
+.....................89.6%----------    516 remaining sequences to the next cycle
+---------- new table with      279 representatives
+# comparing sequences from      63531  to      64741
+.....................90.0%----------    414 remaining sequences to the next cycle
+---------- new table with      247 representatives
+# comparing sequences from      64327  to      65501
+.....................----------    469 remaining sequences to the next cycle
+---------- new table with      224 representatives
+# comparing sequences from      65032  to      66174
+...................----------    494 remaining sequences to the next cycle
+---------- new table with      197 representatives
+# comparing sequences from      65680  to      66792
+.....................----------    486 remaining sequences to the next cycle
+---------- new table with      206 representatives
+# comparing sequences from      66306  to      67390
+....................----------    511 remaining sequences to the next cycle
+---------- new table with      218 representatives
+# comparing sequences from      66879  to      67937
+.....................91.7%----------    466 remaining sequences to the next cycle
+---------- new table with      231 representatives
+# comparing sequences from      67471  to      68502
+.....................91.8%----------    388 remaining sequences to the next cycle
+---------- new table with      221 representatives
+# comparing sequences from      68114  to      69116
+....................----------    446 remaining sequences to the next cycle
+---------- new table with      226 representatives
+# comparing sequences from      68670  to      69646
+.....................----------    399 remaining sequences to the next cycle
+---------- new table with      233 representatives
+# comparing sequences from      69247  to      70197
+....................----------    270 remaining sequences to the next cycle
+---------- new table with      232 representatives
+# comparing sequences from      69927  to      70846
+...............................    70000  finished      24541  clusters
+92.9%----------    340 remaining sequences to the next cycle
+---------- new table with      214 representatives
+# comparing sequences from      70506  to      71399
+.....................----------    254 remaining sequences to the next cycle
+---------- new table with      206 representatives
+# comparing sequences from      71145  to      72009
+....................----------    368 remaining sequences to the next cycle
+---------- new table with      194 representatives
+# comparing sequences from      71641  to      72482
+....................----------    359 remaining sequences to the next cycle
+---------- new table with      202 representatives
+# comparing sequences from      72123  to      72942
+....................----------    270 remaining sequences to the next cycle
+---------- new table with      166 representatives
+# comparing sequences from      72672  to      73466
+.....................----------    358 remaining sequences to the next cycle
+---------- new table with      162 representatives
+# comparing sequences from      73108  to      73883
+....................----------    304 remaining sequences to the next cycle
+---------- new table with      141 representatives
+# comparing sequences from      73579  to      74332
+....................94.6%----------    349 remaining sequences to the next cycle
+---------- new table with      156 representatives
+# comparing sequences from      73983  to      74718
+.....................94.8%----------    265 remaining sequences to the next cycle
+---------- new table with      136 representatives
+# comparing sequences from      74453  to      75166
+...................----------    293 remaining sequences to the next cycle
+---------- new table with      147 representatives
+# comparing sequences from      74873  to      75567
+.....................----------    233 remaining sequences to the next cycle
+---------- new table with      147 representatives
+# comparing sequences from      75334  to      76007
+....................----------    199 remaining sequences to the next cycle
+---------- new table with      119 representatives
+# comparing sequences from      75808  to      76460
+....................----------    280 remaining sequences to the next cycle
+---------- new table with      113 representatives
+# comparing sequences from      76180  to      76815
+....................95.7%----------    290 remaining sequences to the next cycle
+---------- new table with      123 representatives
+# comparing sequences from      76525  to      77144
+....................----------    226 remaining sequences to the next cycle
+---------- new table with      115 representatives
+# comparing sequences from      76918  to      77519
+....................----------    248 remaining sequences to the next cycle
+---------- new table with      101 representatives
+# comparing sequences from      77271  to      77856
+....................----------    254 remaining sequences to the next cycle
+---------- new table with      132 representatives
+# comparing sequences from      77602  to      78172
+.....................----------    152 remaining sequences to the next cycle
+---------- new table with      172 representatives
+# comparing sequences from      78020  to      78571
+....................----------    115 remaining sequences to the next cycle
+---------- new table with      162 representatives
+# comparing sequences from      78456  to      78987
+....................99.6%----------    115 remaining sequences to the next cycle
+---------- new table with      170 representatives
+# comparing sequences from      78872  to      79385
+.....................----------     84 remaining sequences to the next cycle
+---------- new table with      165 representatives
+# comparing sequences from      79301  to      79794
+...................----------     43 remaining sequences to the next cycle
+---------- new table with      156 representatives
+# comparing sequences from      79751  to      80224
+...............................    80000  finished      27979  clusters
+----------     38 remaining sequences to the next cycle
+---------- new table with      154 representatives
+# comparing sequences from      80186  to      80639
+....................99.8%----------     26 remaining sequences to the next cycle
+---------- new table with      153 representatives
+# comparing sequences from      80613  to      81046
+....................99.9%----------     44 remaining sequences to the next cycle
+---------- new table with      136 representatives
+# comparing sequences from      81002  to      81418
+....................----------     33 remaining sequences to the next cycle
+---------- new table with      133 representatives
+# comparing sequences from      81385  to      81783
+....................----------     34 remaining sequences to the next cycle
+---------- new table with      119 representatives
+# comparing sequences from      81749  to      82131
+....................----------     44 remaining sequences to the next cycle
+---------- new table with      113 representatives
+# comparing sequences from      82087  to      82453
+...................----------     64 remaining sequences to the next cycle
+---------- new table with      129 representatives
+# comparing sequences from      82389  to      82742
+...................98.5%98.6%98.7%98.8%98.9%99.0%99.2%99.3%99.4%99.5%99.6%99.7%99.8%---------- new table with       74 representatives
+# comparing sequences from      82742  to      83079
+....................----------     68 remaining sequences to the next cycle
+---------- new table with      100 representatives
+# comparing sequences from      83011  to      83335
+....................----------     50 remaining sequences to the next cycle
+---------- new table with      104 representatives
+# comparing sequences from      83285  to      83597
+...................----------     30 remaining sequences to the next cycle
+---------- new table with      107 representatives
+# comparing sequences from      83567  to      83866
+....................99.0%99.1%99.2%99.3%99.4%99.5%99.6%99.7%99.9%100.0%---------- new table with       97 representatives
+# comparing sequences from      83866  to      84152
+....................99.3%99.4%99.5%99.6%99.7%99.8%100.0%---------- new table with       77 representatives
+# comparing sequences from      84152  to      84425
+....................----------     17 remaining sequences to the next cycle
+---------- new table with      100 representatives
+# comparing sequences from      84408  to      84669
+..................---------- new table with       69 representatives
+# comparing sequences from      84669  to      84918
+....................99.8%99.9%---------- new table with       72 representatives
+# comparing sequences from      84918  to      85156
+.....................---------- new table with       87 representatives
+# comparing sequences from      85156  to      85383
+...................99.3%99.5%99.6%99.7%99.8%99.9%---------- new table with       76 representatives
+# comparing sequences from      85383  to      85600
+...................99.3%99.4%99.6%99.7%99.8%99.9%---------- new table with       57 representatives
+# comparing sequences from      85600  to      85807
+...................---------- new table with       67 representatives
+# comparing sequences from      85807  to      86004
+.....................---------- new table with       60 representatives
+# comparing sequences from      86004  to      86192
+...................---------- new table with       58 representatives
+# comparing sequences from      86192  to      86372
+..................98.8%98.9%99.0%99.2%99.3%99.4%99.5%99.6%99.7%99.8%100.0%---------- new table with       49 representatives
+# comparing sequences from      86372  to      86544
+...................98.5%98.7%98.8%98.9%99.0%99.1%99.2%99.3%99.4%99.5%99.6%99.7%99.9%100.0%---------- new table with       38 representatives
+# comparing sequences from      86544  to      86708
+...................99.8%99.9%---------- new table with       44 representatives
+# comparing sequences from      86708  to      86864
+...................99.2%99.3%99.4%99.5%99.6%99.7%99.8%99.9%---------- new table with       97 representatives
+# comparing sequences from      86864  to      87013
+....................98.7%98.8%98.9%99.1%99.2%99.3%99.4%99.5%99.6%99.7%99.8%99.9%---------- new table with       89 representatives
+# comparing sequences from      87013  to      87156
+..................98.4%98.5%98.6%98.7%98.9%99.0%99.1%99.2%99.3%99.4%99.5%99.6%99.7%99.9%100.0%---------- new table with       76 representatives
+# comparing sequences from      87156  to      87292
+....................99.4%99.5%99.7%99.8%99.9%100.0%---------- new table with      123 representatives
+# comparing sequences from      87292  to      87422
+..................98.9%99.0%99.1%99.2%99.3%99.4%99.6%99.7%99.8%99.9%100.0%---------- new table with      119 representatives
+# comparing sequences from      87422  to      87546
+..................99.0%99.1%99.3%99.4%99.5%99.6%99.7%99.8%100.0%---------- new table with      103 representatives
+# comparing sequences from      87546  to      87664
+....................98.6%98.7%98.8%98.9%99.0%99.1%99.2%99.4%99.5%99.6%99.7%99.8%99.9%---------- new table with       50 representatives
+# comparing sequences from      87664  to      87777
+...................99.4%99.5%99.6%99.7%99.8%100.0%---------- new table with       64 representatives
+# comparing sequences from      87777  to      87885
+..................99.0%99.1%99.2%99.3%99.4%99.5%99.6%99.7%99.8%99.9%---------- new table with       37 representatives
+# comparing sequences from      87885  to      87988
+.................99.1%99.2%99.3%99.4%99.5%99.6%99.7%99.8%99.9%---------- new table with       27 representatives
+# comparing sequences from      87988  to      88086
+.....................99.0%99.1%99.2%99.3%99.4%99.6%99.7%99.8%99.9%100.0%---------- new table with       12 representatives
+# comparing sequences from      88086  to      88180
+..................99.3%99.4%99.5%99.6%99.7%99.8%99.9%---------- new table with       17 representatives
+# comparing sequences from      88180  to      88269
+..................99.5%99.6%99.7%99.8%99.9%---------- new table with       26 representatives
+# comparing sequences from      88269  to      88354
+.................99.3%99.4%99.5%99.6%99.7%99.8%99.9%---------- new table with       19 representatives
+# comparing sequences from      88354  to      88436
+.................99.5%99.6%99.7%99.8%99.9%---------- new table with       23 representatives
+# comparing sequences from      88436  to      88514
+....................99.4%99.5%99.6%99.7%99.8%100.0%---------- new table with       26 representatives
+# comparing sequences from      88514  to      88588
+..................99.3%99.4%99.5%99.7%99.8%99.9%100.0%---------- new table with       13 representatives
+# comparing sequences from      88588  to      88659
+..................99.2%99.3%99.4%99.5%99.6%99.7%99.9%100.0%---------- new table with        4 representatives
+# comparing sequences from      88659  to      88727
+.................99.6%99.7%99.8%99.9%---------- new table with       14 representatives
+# comparing sequences from      88727  to      88792
+................99.5%99.6%99.7%99.8%99.9%---------- new table with       17 representatives
+# comparing sequences from      88792  to      88854
+................99.5%99.6%99.7%99.8%99.9%---------- new table with       15 representatives
+# comparing sequences from      88854  to      88913
+....................99.4%99.5%99.6%99.7%99.8%99.9%---------- new table with        8 representatives
+# comparing sequences from      88913  to      88969
+...................99.5%99.6%99.7%99.8%99.9%---------- new table with        5 representatives
+# comparing sequences from      88969  to      89023
+...................99.6%99.7%99.8%99.9%---------- new table with        5 representatives
+# comparing sequences from      89023  to      89074
+.................99.7%99.8%99.9%100.0%---------- new table with       10 representatives
+# comparing sequences from      89074  to      89123
+................99.5%99.6%99.7%99.8%99.9%---------- new table with        6 representatives
+# comparing sequences from      89123  to      89170
+................---------- new table with       33 representatives
+# comparing sequences from      89170  to      90159
+...............................    90000  finished      31521  clusters
+---------- new table with      391 representatives
+
+    90159  finished      31600  clusters
+
+Approximated maximum memory consumption: 397M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 147.81
+running cmd: cd-hit -T 20 -i Panaroo_Custom_Results/combined_protein_CDS.fasta -o Panaroo_Custom_Results/combined_protein_cdhit_out.txt -c 0.98 -s 0.5 -aL 0.0 -AL 99999999 -aS 0.0 -AS 99999999 -M 0 -d 999 -g 1 -n 2
+generating initial network...
+Processing paralogs...
+  0%|          | 0/86 [00:00<?, ?it/s]100%|██████████| 86/86 [00:00<00:00, 2246.60it/s]
+collapse mistranslations...
+Processing depth:  1
+Iteration:  1
+  0%|          | 0/31687 [00:00<?, ?it/s]  2%|▏         | 573/31687 [00:00<00:05, 5710.83it/s]  4%|▍         | 1265/31687 [00:00<00:04, 6404.51it/s]  6%|▌         | 1922/31687 [00:00<00:04, 6470.37it/s]  9%|▊         | 2712/31687 [00:00<00:04, 7025.71it/s] 11%|█         | 3518/31687 [00:00<00:03, 7393.23it/s] 14%|█▎        | 4281/31687 [00:00<00:03, 7463.07it/s] 16%|█▌        | 5028/31687 [00:00<00:03, 7360.30it/s] 18%|█▊        | 5812/31687 [00:00<00:03, 7498.23it/s] 21%|██        | 6563/31687 [00:00<00:03, 7393.58it/s] 23%|██▎       | 7303/31687 [00:01<00:03, 7390.58it/s] 26%|██▌       | 8082/31687 [00:01<00:03, 7499.23it/s] 28%|██▊       | 8958/31687 [00:01<00:02, 7868.97it/s] 31%|███       | 9746/31687 [00:01<00:02, 7815.87it/s] 33%|███▎      | 10528/31687 [00:01<00:02, 7543.34it/s] 36%|███▌      | 11347/31687 [00:01<00:02, 7728.63it/s] 38%|███▊      | 12122/31687 [00:01<00:02, 7606.57it/s] 41%|████      | 12885/31687 [00:01<00:02, 7307.62it/s] 43%|████▎     | 13758/31687 [00:01<00:02, 7709.14it/s] 46%|████▌     | 14595/31687 [00:01<00:02, 7895.12it/s] 49%|████▉     | 15471/31687 [00:02<00:01, 8137.28it/s] 52%|█████▏    | 16500/31687 [00:02<00:01, 8769.21it/s] 55%|█████▍    | 17426/31687 [00:02<00:01, 8903.29it/s] 58%|█████▊    | 18319/31687 [00:02<00:01, 8770.91it/s] 61%|██████    | 19199/31687 [00:02<00:01, 8385.14it/s] 64%|██████▍   | 20280/31687 [00:02<00:01, 9071.92it/s] 67%|██████▋   | 21227/31687 [00:02<00:01, 9182.80it/s] 70%|███████   | 22228/31687 [00:02<00:01, 9416.22it/s] 73%|███████▎  | 23174/31687 [00:02<00:00, 9251.27it/s] 77%|███████▋  | 24319/31687 [00:02<00:00, 9894.20it/s] 80%|████████  | 25448/31687 [00:03<00:00, 10294.80it/s] 84%|████████▎ | 26481/31687 [00:03<00:00, 9848.67it/s]  87%|████████▋ | 27701/31687 [00:03<00:00, 10513.78it/s] 91%|█████████ | 28802/31687 [00:03<00:00, 10656.63it/s] 94%|█████████▍| 29873/31687 [00:03<00:00, 10365.51it/s]100%|█████████▉| 31683/31687 [00:03<00:00, 12599.66it/s]100%|██████████| 31687/31687 [00:03<00:00, 8788.99it/s] 
+Iteration:  2
+  0%|          | 0/3197 [00:00<?, ?it/s] 11%|█         | 346/3197 [00:00<00:00, 3445.60it/s] 23%|██▎       | 723/3197 [00:00<00:00, 3633.70it/s] 36%|███▌      | 1143/3197 [00:00<00:00, 3887.17it/s] 48%|████▊     | 1549/3197 [00:00<00:00, 3955.23it/s] 61%|██████    | 1945/3197 [00:00<00:00, 3929.60it/s] 73%|███████▎  | 2338/3197 [00:00<00:00, 3810.82it/s] 85%|████████▌ | 2720/3197 [00:00<00:00, 3722.44it/s] 97%|█████████▋| 3093/3197 [00:00<00:00, 3554.50it/s]100%|██████████| 3197/3197 [00:00<00:00, 3671.89it/s]
+Iteration:  3
+  0%|          | 0/398 [00:00<?, ?it/s] 70%|██████▉   | 277/398 [00:00<00:00, 2756.46it/s]100%|██████████| 398/398 [00:00<00:00, 2665.32it/s]
+Iteration:  4
+  0%|          | 0/68 [00:00<?, ?it/s]100%|██████████| 68/68 [00:00<00:00, 2321.69it/s]
+Iteration:  5
+  0%|          | 0/14 [00:00<?, ?it/s]100%|██████████| 14/14 [00:00<00:00, 2199.26it/s]
+Iteration:  6
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2180.84it/s]
+Iteration:  7
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1781.02it/s]
+Iteration:  8
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 2205.21it/s]
+Processing depth:  2
+Iteration:  1
+  0%|          | 0/27448 [00:00<?, ?it/s]  4%|▎         | 1019/27448 [00:00<00:02, 10146.90it/s]  7%|▋         | 2034/27448 [00:00<00:02, 8965.85it/s]  12%|█▏        | 3209/27448 [00:00<00:02, 10133.35it/s] 15%|█▌        | 4236/27448 [00:00<00:02, 9465.76it/s]  19%|█▉        | 5198/27448 [00:00<00:02, 9517.16it/s] 22%|██▏       | 6158/27448 [00:00<00:02, 9266.71it/s] 26%|██▌       | 7157/27448 [00:00<00:02, 9490.24it/s] 30%|██▉       | 8112/27448 [00:00<00:02, 9341.90it/s] 33%|███▎      | 9050/27448 [00:00<00:01, 9318.47it/s] 37%|███▋      | 10019/27448 [00:01<00:01, 9428.67it/s] 40%|███▉      | 10979/27448 [00:01<00:01, 9476.68it/s] 43%|████▎     | 11929/27448 [00:01<00:01, 9376.49it/s] 47%|████▋     | 12868/27448 [00:01<00:01, 9342.34it/s] 51%|█████     | 13897/27448 [00:01<00:01, 9621.68it/s] 54%|█████▍    | 14861/27448 [00:01<00:01, 9307.13it/s] 58%|█████▊    | 15795/27448 [00:01<00:01, 9152.32it/s] 61%|██████    | 16755/27448 [00:01<00:01, 9277.84it/s] 64%|██████▍   | 17685/27448 [00:01<00:01, 9158.46it/s] 68%|██████▊   | 18603/27448 [00:01<00:00, 8902.20it/s] 71%|███████   | 19496/27448 [00:02<00:00, 8741.81it/s] 74%|███████▍  | 20389/27448 [00:02<00:00, 8795.47it/s] 77%|███████▋  | 21270/27448 [00:02<00:00, 8713.64it/s] 81%|████████  | 22143/27448 [00:02<00:00, 8404.43it/s] 84%|████████▎ | 22986/27448 [00:02<00:00, 8322.79it/s] 87%|████████▋ | 24015/27448 [00:02<00:00, 8884.59it/s] 91%|█████████ | 24907/27448 [00:02<00:00, 6646.55it/s] 93%|█████████▎| 25656/27448 [00:03<00:00, 5815.85it/s] 96%|█████████▌| 26309/27448 [00:03<00:00, 5216.69it/s] 98%|█████████▊| 26885/27448 [00:03<00:00, 4614.37it/s]100%|█████████▉| 27389/27448 [00:03<00:00, 4045.43it/s]100%|██████████| 27448/27448 [00:03<00:00, 7727.11it/s]
+Iteration:  2
+  0%|          | 0/358 [00:00<?, ?it/s] 57%|█████▋    | 203/358 [00:00<00:00, 2027.75it/s]100%|██████████| 358/358 [00:00<00:00, 2029.80it/s]
+Iteration:  3
+  0%|          | 0/48 [00:00<?, ?it/s]100%|██████████| 48/48 [00:00<00:00, 2123.12it/s]
+Iteration:  4
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 1972.44it/s]
+Iteration:  5
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1796.28it/s]
+Iteration:  6
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1983.12it/s]
+Processing depth:  3
+Iteration:  1
+  0%|          | 0/27019 [00:00<?, ?it/s]  4%|▎         | 960/27019 [00:00<00:02, 9586.23it/s]  7%|▋         | 1919/27019 [00:00<00:02, 8560.38it/s] 11%|█         | 2968/27019 [00:00<00:02, 9380.75it/s] 14%|█▍        | 3916/27019 [00:00<00:02, 9225.99it/s] 18%|█▊        | 4845/27019 [00:00<00:02, 8897.85it/s] 21%|██        | 5740/27019 [00:00<00:02, 8667.82it/s] 24%|██▍       | 6610/27019 [00:00<00:02, 8661.25it/s] 28%|██▊       | 7479/27019 [00:00<00:02, 8611.63it/s] 31%|███       | 8342/27019 [00:00<00:02, 8616.95it/s] 34%|███▍      | 9281/27019 [00:01<00:02, 8841.81it/s] 38%|███▊      | 10167/27019 [00:01<00:01, 8448.85it/s] 41%|████      | 11086/27019 [00:01<00:01, 8664.63it/s] 44%|████▍     | 12009/27019 [00:01<00:01, 8828.79it/s] 48%|████▊     | 12895/27019 [00:01<00:01, 8767.27it/s] 51%|█████     | 13810/27019 [00:01<00:01, 8870.39it/s] 54%|█████▍    | 14699/27019 [00:01<00:01, 8397.87it/s] 58%|█████▊    | 15545/27019 [00:01<00:01, 8277.95it/s] 61%|██████    | 16377/27019 [00:01<00:01, 8041.91it/s] 64%|██████▎   | 17185/27019 [00:02<00:01, 7938.33it/s] 67%|██████▋   | 17981/27019 [00:02<00:01, 7797.89it/s] 69%|██████▉   | 18763/27019 [00:02<00:01, 7740.00it/s] 73%|███████▎  | 19625/27019 [00:02<00:00, 7992.90it/s] 76%|███████▌  | 20426/27019 [00:02<00:00, 7837.08it/s] 79%|███████▊  | 21212/27019 [00:02<00:00, 7622.50it/s] 81%|████████▏ | 21988/27019 [00:02<00:00, 7655.81it/s] 84%|████████▍ | 22755/27019 [00:02<00:00, 7639.81it/s] 87%|████████▋ | 23520/27019 [00:02<00:00, 7041.87it/s] 90%|████████▉ | 24234/27019 [00:03<00:00, 5653.66it/s] 92%|█████████▏| 24846/27019 [00:03<00:00, 4983.10it/s] 94%|█████████▍| 25386/27019 [00:03<00:00, 4509.14it/s] 96%|█████████▌| 25869/27019 [00:03<00:00, 4071.97it/s] 97%|█████████▋| 26300/27019 [00:03<00:00, 3600.18it/s] 99%|█████████▊| 26680/27019 [00:03<00:00, 3211.13it/s]100%|█████████▉| 27017/27019 [00:04<00:00, 2795.78it/s]100%|██████████| 27019/27019 [00:04<00:00, 6695.26it/s]
+Iteration:  2
+  0%|          | 0/106 [00:00<?, ?it/s]100%|██████████| 106/106 [00:00<00:00, 1774.45it/s]
+Iteration:  3
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 2477.21it/s]
+collapse gene families...
+Processing depth:  1
+Iteration:  1
+  0%|          | 0/26893 [00:00<?, ?it/s]  4%|▍         | 1052/26893 [00:00<00:02, 10501.83it/s]  8%|▊         | 2103/26893 [00:00<00:02, 9343.74it/s]  12%|█▏        | 3206/26893 [00:00<00:02, 10064.51it/s] 16%|█▌        | 4222/26893 [00:00<00:02, 10086.71it/s] 19%|█▉        | 5237/26893 [00:00<00:02, 9994.52it/s]  23%|██▎       | 6282/26893 [00:00<00:02, 10139.86it/s] 27%|██▋       | 7331/26893 [00:00<00:01, 10245.33it/s] 32%|███▏      | 8559/26893 [00:00<00:01, 10838.86it/s] 36%|███▌      | 9645/26893 [00:00<00:01, 10695.09it/s] 40%|███▉      | 10755/26893 [00:01<00:01, 10808.72it/s] 45%|████▌     | 12131/26893 [00:01<00:01, 11699.87it/s] 50%|████▉     | 13430/26893 [00:01<00:01, 12084.62it/s] 55%|█████▍    | 14688/26893 [00:01<00:00, 12220.35it/s] 59%|█████▉    | 15955/26893 [00:01<00:00, 12349.46it/s] 64%|██████▍   | 17289/26893 [00:01<00:00, 12630.07it/s] 69%|██████▉   | 18592/26893 [00:01<00:00, 12749.88it/s] 74%|███████▍  | 20006/26893 [00:01<00:00, 13162.13it/s] 80%|███████▉  | 21466/26893 [00:01<00:00, 13574.90it/s] 86%|████████▌ | 23001/26893 [00:01<00:00, 14089.22it/s] 91%|█████████ | 24411/26893 [00:02<00:00, 10869.58it/s] 95%|█████████▌| 25610/26893 [00:02<00:00, 9239.08it/s]  99%|█████████▉| 26646/26893 [00:02<00:00, 7492.69it/s]100%|██████████| 26893/26893 [00:02<00:00, 10253.22it/s]
+Iteration:  2
+  0%|          | 0/4440 [00:00<?, ?it/s] 10%|█         | 458/4440 [00:00<00:00, 4578.16it/s] 21%|██        | 916/4440 [00:00<00:00, 4516.28it/s] 31%|███▏      | 1391/4440 [00:00<00:00, 4621.00it/s] 43%|████▎     | 1913/4440 [00:00<00:00, 4847.17it/s] 55%|█████▍    | 2436/4440 [00:00<00:00, 4979.62it/s] 66%|██████▌   | 2935/4440 [00:00<00:00, 4884.78it/s] 77%|███████▋  | 3424/4440 [00:00<00:00, 4730.00it/s] 88%|████████▊ | 3926/4440 [00:00<00:00, 4818.67it/s] 99%|█████████▉| 4411/4440 [00:00<00:00, 4825.01it/s]100%|██████████| 4440/4440 [00:00<00:00, 4789.51it/s]
+Iteration:  3
+  0%|          | 0/1640 [00:00<?, ?it/s] 20%|██        | 331/1640 [00:00<00:00, 3303.36it/s] 40%|████      | 663/1640 [00:00<00:00, 3306.61it/s] 61%|██████    | 994/1640 [00:00<00:00, 3042.50it/s] 79%|███████▉  | 1301/1640 [00:00<00:00, 2864.93it/s] 98%|█████████▊| 1606/1640 [00:00<00:00, 2926.65it/s]100%|██████████| 1640/1640 [00:00<00:00, 2985.74it/s]
+Iteration:  4
+  0%|          | 0/891 [00:00<?, ?it/s] 29%|██▊       | 254/891 [00:00<00:00, 2531.59it/s] 57%|█████▋    | 508/891 [00:00<00:00, 2420.03it/s] 85%|████████▍ | 757/891 [00:00<00:00, 2450.36it/s]100%|██████████| 891/891 [00:00<00:00, 2461.02it/s]
+Iteration:  5
+  0%|          | 0/638 [00:00<?, ?it/s] 36%|███▌      | 231/638 [00:00<00:00, 2303.71it/s] 73%|███████▎  | 465/638 [00:00<00:00, 2319.81it/s]100%|██████████| 638/638 [00:00<00:00, 2368.79it/s]
+Iteration:  6
+  0%|          | 0/500 [00:00<?, ?it/s] 46%|████▌     | 230/500 [00:00<00:00, 2294.26it/s] 92%|█████████▏| 460/500 [00:00<00:00, 2262.67it/s]100%|██████████| 500/500 [00:00<00:00, 2292.48it/s]
+Iteration:  7
+  0%|          | 0/409 [00:00<?, ?it/s] 56%|█████▌    | 227/409 [00:00<00:00, 2261.44it/s]100%|██████████| 409/409 [00:00<00:00, 2242.23it/s]
+Iteration:  8
+  0%|          | 0/349 [00:00<?, ?it/s] 67%|██████▋   | 233/349 [00:00<00:00, 2324.65it/s]100%|██████████| 349/349 [00:00<00:00, 2241.04it/s]
+Iteration:  9
+  0%|          | 0/290 [00:00<?, ?it/s] 75%|███████▍  | 217/290 [00:00<00:00, 2167.54it/s]100%|██████████| 290/290 [00:00<00:00, 2112.34it/s]
+Iteration:  10
+  0%|          | 0/251 [00:00<?, ?it/s] 85%|████████▍ | 213/251 [00:00<00:00, 2122.66it/s]100%|██████████| 251/251 [00:00<00:00, 2137.18it/s]
+Iteration:  11
+  0%|          | 0/214 [00:00<?, ?it/s] 98%|█████████▊| 209/214 [00:00<00:00, 2087.90it/s]100%|██████████| 214/214 [00:00<00:00, 2087.36it/s]
+Iteration:  12
+  0%|          | 0/194 [00:00<?, ?it/s]100%|██████████| 194/194 [00:00<00:00, 2046.19it/s]
+Iteration:  13
+  0%|          | 0/185 [00:00<?, ?it/s]100%|██████████| 185/185 [00:00<00:00, 2063.22it/s]
+Iteration:  14
+  0%|          | 0/168 [00:00<?, ?it/s]100%|██████████| 168/168 [00:00<00:00, 2103.73it/s]
+Iteration:  15
+  0%|          | 0/151 [00:00<?, ?it/s]100%|██████████| 151/151 [00:00<00:00, 2091.65it/s]
+Iteration:  16
+  0%|          | 0/135 [00:00<?, ?it/s]100%|██████████| 135/135 [00:00<00:00, 2129.36it/s]
+Iteration:  17
+  0%|          | 0/112 [00:00<?, ?it/s]100%|██████████| 112/112 [00:00<00:00, 1933.69it/s]
+Iteration:  18
+  0%|          | 0/106 [00:00<?, ?it/s]100%|██████████| 106/106 [00:00<00:00, 2062.03it/s]
+Iteration:  19
+  0%|          | 0/98 [00:00<?, ?it/s]100%|██████████| 98/98 [00:00<00:00, 2258.46it/s]
+Iteration:  20
+  0%|          | 0/80 [00:00<?, ?it/s]100%|██████████| 80/80 [00:00<00:00, 1853.61it/s]
+Iteration:  21
+  0%|          | 0/81 [00:00<?, ?it/s]100%|██████████| 81/81 [00:00<00:00, 2069.61it/s]
+Iteration:  22
+  0%|          | 0/76 [00:00<?, ?it/s]100%|██████████| 76/76 [00:00<00:00, 2280.15it/s]
+Iteration:  23
+  0%|          | 0/57 [00:00<?, ?it/s]100%|██████████| 57/57 [00:00<00:00, 1928.48it/s]
+Iteration:  24
+  0%|          | 0/55 [00:00<?, ?it/s]100%|██████████| 55/55 [00:00<00:00, 1872.29it/s]
+Iteration:  25
+  0%|          | 0/54 [00:00<?, ?it/s]100%|██████████| 54/54 [00:00<00:00, 1913.82it/s]
+Iteration:  26
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 1835.12it/s]
+Iteration:  27
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 2045.52it/s]
+Iteration:  28
+  0%|          | 0/44 [00:00<?, ?it/s]100%|██████████| 44/44 [00:00<00:00, 1912.33it/s]
+Iteration:  29
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 1882.66it/s]
+Iteration:  30
+  0%|          | 0/41 [00:00<?, ?it/s]100%|██████████| 41/41 [00:00<00:00, 1953.92it/s]
+Iteration:  31
+  0%|          | 0/39 [00:00<?, ?it/s]100%|██████████| 39/39 [00:00<00:00, 1886.28it/s]
+Iteration:  32
+  0%|          | 0/38 [00:00<?, ?it/s]100%|██████████| 38/38 [00:00<00:00, 2115.07it/s]
+Iteration:  33
+  0%|          | 0/31 [00:00<?, ?it/s]100%|██████████| 31/31 [00:00<00:00, 2011.50it/s]
+Iteration:  34
+  0%|          | 0/29 [00:00<?, ?it/s]100%|██████████| 29/29 [00:00<00:00, 2240.55it/s]
+Iteration:  35
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 1919.23it/s]
+Iteration:  36
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 2000.55it/s]
+Iteration:  37
+  0%|          | 0/20 [00:00<?, ?it/s]100%|██████████| 20/20 [00:00<00:00, 1751.06it/s]
+Iteration:  38
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 1998.80it/s]
+Iteration:  39
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 1773.92it/s]
+Iteration:  40
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 1806.05it/s]
+Iteration:  41
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 1947.93it/s]
+Iteration:  42
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 2112.17it/s]
+Iteration:  43
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 1908.24it/s]
+Iteration:  44
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 2269.29it/s]
+Iteration:  45
+  0%|          | 0/16 [00:00<?, ?it/s]100%|██████████| 16/16 [00:00<00:00, 2069.60it/s]
+Iteration:  46
+  0%|          | 0/12 [00:00<?, ?it/s]100%|██████████| 12/12 [00:00<00:00, 1949.18it/s]
+Iteration:  47
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 2010.87it/s]
+Iteration:  48
+  0%|          | 0/9 [00:00<?, ?it/s]100%|██████████| 9/9 [00:00<00:00, 1741.34it/s]
+Iteration:  49
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 1764.69it/s]
+Iteration:  50
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 1774.17it/s]
+Iteration:  51
+  0%|          | 0/12 [00:00<?, ?it/s]100%|██████████| 12/12 [00:00<00:00, 1808.47it/s]
+Iteration:  52
+  0%|          | 0/12 [00:00<?, ?it/s]100%|██████████| 12/12 [00:00<00:00, 2175.28it/s]
+Iteration:  53
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 1813.44it/s]
+Iteration:  54
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 1823.37it/s]
+Iteration:  55
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 1837.83it/s]
+Iteration:  56
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 1878.07it/s]
+Iteration:  57
+  0%|          | 0/9 [00:00<?, ?it/s]100%|██████████| 9/9 [00:00<00:00, 1825.20it/s]
+Iteration:  58
+  0%|          | 0/9 [00:00<?, ?it/s]100%|██████████| 9/9 [00:00<00:00, 1867.82it/s]
+Iteration:  59
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 1822.92it/s]
+Iteration:  60
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 1786.33it/s]
+Iteration:  61
+  0%|          | 0/9 [00:00<?, ?it/s]100%|██████████| 9/9 [00:00<00:00, 1778.75it/s]
+Iteration:  62
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 2157.12it/s]
+Iteration:  63
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 1780.79it/s]
+Iteration:  64
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 1746.96it/s]
+Iteration:  65
+  0%|          | 0/14 [00:00<?, ?it/s]100%|██████████| 14/14 [00:00<00:00, 1793.53it/s]
+Iteration:  66
+  0%|          | 0/17 [00:00<?, ?it/s]100%|██████████| 17/17 [00:00<00:00, 1876.40it/s]
+Iteration:  67
+  0%|          | 0/16 [00:00<?, ?it/s]100%|██████████| 16/16 [00:00<00:00, 2090.03it/s]
+Iteration:  68
+  0%|          | 0/13 [00:00<?, ?it/s]100%|██████████| 13/13 [00:00<00:00, 2165.79it/s]
+Iteration:  69
+  0%|          | 0/12 [00:00<?, ?it/s]100%|██████████| 12/12 [00:00<00:00, 2244.74it/s]
+Iteration:  70
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 2202.66it/s]
+Iteration:  71
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 1842.19it/s]
+Iteration:  72
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 1958.62it/s]
+Iteration:  73
+  0%|          | 0/9 [00:00<?, ?it/s]100%|██████████| 9/9 [00:00<00:00, 2111.46it/s]
+Iteration:  74
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 1879.38it/s]
+Iteration:  75
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 1873.19it/s]
+Iteration:  76
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 3030.84it/s]
+Iteration:  77
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2304.56it/s]
+Iteration:  78
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1750.54it/s]
+Iteration:  79
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1762.07it/s]
+Iteration:  80
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1621.51it/s]
+Iteration:  81
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1769.50it/s]
+Iteration:  82
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1640.96it/s]
+Iteration:  83
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 1836.99it/s]
+Iteration:  84
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 1724.45it/s]
+Iteration:  85
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 1768.41it/s]
+Iteration:  86
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 2113.71it/s]
+Iteration:  87
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 3485.57it/s]
+Iteration:  88
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1776.75it/s]
+Iteration:  89
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1699.47it/s]
+Iteration:  90
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1692.62it/s]
+Iteration:  91
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1577.20it/s]
+Iteration:  92
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 1635.68it/s]
+Iteration:  93
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 1779.38it/s]
+Iteration:  94
+  0%|          | 0/7 [00:00<?, ?it/s]100%|██████████| 7/7 [00:00<00:00, 1843.88it/s]
+Iteration:  95
+  0%|          | 0/7 [00:00<?, ?it/s]100%|██████████| 7/7 [00:00<00:00, 2208.03it/s]
+Iteration:  96
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 2340.57it/s]
+Iteration:  97
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 1883.39it/s]
+Iteration:  98
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 1886.14it/s]
+Iteration:  99
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 1854.25it/s]
+Iteration:  100
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 1929.75it/s]
+Iteration:  101
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1685.14it/s]
+Iteration:  102
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 1670.04it/s]
+Iteration:  103
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 2719.16it/s]
+Iteration:  104
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 1916.08it/s]
+Iteration:  105
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1852.06it/s]
+Iteration:  106
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1912.01it/s]
+Iteration:  107
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1776.49it/s]
+Iteration:  108
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1717.57it/s]
+Iteration:  109
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1756.78it/s]
+Iteration:  110
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1771.24it/s]
+Iteration:  111
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1746.54it/s]
+Iteration:  112
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1750.54it/s]
+Iteration:  113
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1734.98it/s]
+Iteration:  114
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1727.83it/s]
+Iteration:  115
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1755.31it/s]
+Iteration:  116
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1661.77it/s]
+Iteration:  117
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1931.08it/s]
+Iteration:  118
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1704.31it/s]
+Iteration:  119
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1752.01it/s]
+Iteration:  120
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1728.18it/s]
+Iteration:  121
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1708.47it/s]
+Iteration:  122
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1656.52it/s]
+Iteration:  123
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1636.48it/s]
+Iteration:  124
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1727.47it/s]
+Iteration:  125
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1700.16it/s]
+Iteration:  126
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1705.00it/s]
+Iteration:  127
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1661.11it/s]
+Iteration:  128
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 2050.00it/s]
+Processing depth:  2
+Iteration:  1
+  0%|          | 0/13068 [00:00<?, ?it/s] 15%|█▌        | 2021/13068 [00:00<00:00, 20198.32it/s] 31%|███▏      | 4099/13068 [00:00<00:00, 20488.76it/s] 47%|████▋     | 6148/13068 [00:00<00:00, 15184.99it/s] 60%|█████▉    | 7792/13068 [00:00<00:00, 13149.98it/s] 70%|███████   | 9200/13068 [00:00<00:00, 12232.44it/s] 80%|████████  | 10479/13068 [00:00<00:00, 11898.48it/s]100%|██████████| 13068/13068 [00:00<00:00, 15404.41it/s]
+Iteration:  2
+  0%|          | 0/15 [00:00<?, ?it/s]100%|██████████| 15/15 [00:00<00:00, 1370.72it/s]
+Iteration:  3
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2320.77it/s]
+Iteration:  4
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2865.61it/s]
+Iteration:  5
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 2820.91it/s]
+Iteration:  6
+  0%|          | 0/20 [00:00<?, ?it/s]100%|██████████| 20/20 [00:00<00:00, 2160.12it/s]
+Iteration:  7
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 2098.16it/s]
+Iteration:  8
+  0%|          | 0/32 [00:00<?, ?it/s]100%|██████████| 32/32 [00:00<00:00, 2569.74it/s]
+Iteration:  9
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 2731.13it/s]
+Iteration:  10
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 2302.30it/s]
+Iteration:  11
+  0%|          | 0/36 [00:00<?, ?it/s]100%|██████████| 36/36 [00:00<00:00, 2721.37it/s]
+Iteration:  12
+  0%|          | 0/38 [00:00<?, ?it/s]100%|██████████| 38/38 [00:00<00:00, 2716.89it/s]
+Iteration:  13
+  0%|          | 0/35 [00:00<?, ?it/s]100%|██████████| 35/35 [00:00<00:00, 2699.88it/s]
+Iteration:  14
+  0%|          | 0/30 [00:00<?, ?it/s]100%|██████████| 30/30 [00:00<00:00, 2526.59it/s]
+Iteration:  15
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 1958.26it/s]
+Iteration:  16
+  0%|          | 0/36 [00:00<?, ?it/s]100%|██████████| 36/36 [00:00<00:00, 2731.31it/s]
+Iteration:  17
+  0%|          | 0/31 [00:00<?, ?it/s]100%|██████████| 31/31 [00:00<00:00, 2842.35it/s]
+Iteration:  18
+  0%|          | 0/31 [00:00<?, ?it/s]100%|██████████| 31/31 [00:00<00:00, 2456.70it/s]
+Iteration:  19
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 3104.10it/s]
+Iteration:  20
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 2803.38it/s]
+Iteration:  21
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 2439.57it/s]
+Iteration:  22
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 2462.45it/s]
+Iteration:  23
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 2794.21it/s]
+Iteration:  24
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2088.49it/s]
+Iteration:  25
+  0%|          | 0/32 [00:00<?, ?it/s]100%|██████████| 32/32 [00:00<00:00, 2825.34it/s]
+Iteration:  26
+  0%|          | 0/31 [00:00<?, ?it/s]100%|██████████| 31/31 [00:00<00:00, 2898.10it/s]
+Iteration:  27
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 2674.33it/s]
+Iteration:  28
+  0%|          | 0/29 [00:00<?, ?it/s]100%|██████████| 29/29 [00:00<00:00, 2640.05it/s]
+Iteration:  29
+  0%|          | 0/29 [00:00<?, ?it/s]100%|██████████| 29/29 [00:00<00:00, 3298.30it/s]
+Iteration:  30
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 2603.68it/s]
+Iteration:  31
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 2277.32it/s]
+Iteration:  32
+  0%|          | 0/30 [00:00<?, ?it/s]100%|██████████| 30/30 [00:00<00:00, 3079.67it/s]
+Iteration:  33
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 2341.40it/s]
+Iteration:  34
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 2707.05it/s]
+Iteration:  35
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 2899.84it/s]
+Iteration:  36
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 2585.71it/s]
+Iteration:  37
+  0%|          | 0/29 [00:00<?, ?it/s]100%|██████████| 29/29 [00:00<00:00, 2364.04it/s]
+Iteration:  38
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 3509.77it/s]
+Iteration:  39
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 2179.22it/s]
+Iteration:  40
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 2169.76it/s]
+Iteration:  41
+  0%|          | 0/35 [00:00<?, ?it/s]100%|██████████| 35/35 [00:00<00:00, 2560.80it/s]
+Iteration:  42
+  0%|          | 0/34 [00:00<?, ?it/s]100%|██████████| 34/34 [00:00<00:00, 3072.82it/s]
+Iteration:  43
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 2647.73it/s]
+Iteration:  44
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 2487.79it/s]
+Iteration:  45
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 2587.10it/s]
+Iteration:  46
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 2472.79it/s]
+Iteration:  47
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 2817.13it/s]
+Iteration:  48
+  0%|          | 0/20 [00:00<?, ?it/s]100%|██████████| 20/20 [00:00<00:00, 2423.82it/s]
+Iteration:  49
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 2353.82it/s]
+Iteration:  50
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 2791.62it/s]
+Iteration:  51
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 2509.02it/s]
+Iteration:  52
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 2724.27it/s]
+Iteration:  53
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 2421.71it/s]
+Iteration:  54
+  0%|          | 0/33 [00:00<?, ?it/s]100%|██████████| 33/33 [00:00<00:00, 2600.80it/s]
+Iteration:  55
+  0%|          | 0/37 [00:00<?, ?it/s]100%|██████████| 37/37 [00:00<00:00, 2816.35it/s]
+Iteration:  56
+  0%|          | 0/35 [00:00<?, ?it/s]100%|██████████| 35/35 [00:00<00:00, 3230.51it/s]
+Iteration:  57
+  0%|          | 0/30 [00:00<?, ?it/s]100%|██████████| 30/30 [00:00<00:00, 3163.76it/s]
+Iteration:  58
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 2669.70it/s]
+Iteration:  59
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2494.26it/s]
+Iteration:  60
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 2124.11it/s]
+Iteration:  61
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 2379.26it/s]
+Iteration:  62
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 2445.66it/s]
+Iteration:  63
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 2384.13it/s]
+Iteration:  64
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2869.70it/s]
+Iteration:  65
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 2144.07it/s]
+Iteration:  66
+  0%|          | 0/34 [00:00<?, ?it/s]100%|██████████| 34/34 [00:00<00:00, 3381.62it/s]
+Iteration:  67
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 2973.67it/s]
+Iteration:  68
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 2625.01it/s]
+Iteration:  69
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 2579.21it/s]
+Iteration:  70
+  0%|          | 0/31 [00:00<?, ?it/s]100%|██████████| 31/31 [00:00<00:00, 3325.24it/s]
+Iteration:  71
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2184.44it/s]
+Iteration:  72
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 2067.37it/s]
+Iteration:  73
+  0%|          | 0/31 [00:00<?, ?it/s]100%|██████████| 31/31 [00:00<00:00, 2950.72it/s]
+Iteration:  74
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 2648.29it/s]
+Iteration:  75
+  0%|          | 0/29 [00:00<?, ?it/s]100%|██████████| 29/29 [00:00<00:00, 3364.26it/s]
+Iteration:  76
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 3166.49it/s]
+Iteration:  77
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 2346.43it/s]
+Iteration:  78
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 2723.01it/s]
+Iteration:  79
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 2308.37it/s]
+Iteration:  80
+  0%|          | 0/20 [00:00<?, ?it/s]100%|██████████| 20/20 [00:00<00:00, 2941.41it/s]
+Iteration:  81
+  0%|          | 0/18 [00:00<?, ?it/s]100%|██████████| 18/18 [00:00<00:00, 2133.00it/s]
+Iteration:  82
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2554.84it/s]
+Iteration:  83
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2248.00it/s]
+Iteration:  84
+  0%|          | 0/32 [00:00<?, ?it/s]100%|██████████| 32/32 [00:00<00:00, 2544.32it/s]
+Iteration:  85
+  0%|          | 0/30 [00:00<?, ?it/s]100%|██████████| 30/30 [00:00<00:00, 2807.75it/s]
+Iteration:  86
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2574.18it/s]
+Iteration:  87
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 2508.15it/s]
+Iteration:  88
+  0%|          | 0/29 [00:00<?, ?it/s]100%|██████████| 29/29 [00:00<00:00, 2375.36it/s]
+Iteration:  89
+  0%|          | 0/32 [00:00<?, ?it/s]100%|██████████| 32/32 [00:00<00:00, 2691.35it/s]
+Iteration:  90
+  0%|          | 0/30 [00:00<?, ?it/s]100%|██████████| 30/30 [00:00<00:00, 2809.44it/s]
+Iteration:  91
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 2821.70it/s]
+Iteration:  92
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2285.36it/s]
+Iteration:  93
+  0%|          | 0/29 [00:00<?, ?it/s]100%|██████████| 29/29 [00:00<00:00, 2798.07it/s]
+Iteration:  94
+  0%|          | 0/29 [00:00<?, ?it/s]100%|██████████| 29/29 [00:00<00:00, 3145.29it/s]
+Iteration:  95
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 2768.71it/s]
+Iteration:  96
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 2403.79it/s]
+Iteration:  97
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 2699.66it/s]
+Iteration:  98
+  0%|          | 0/20 [00:00<?, ?it/s]100%|██████████| 20/20 [00:00<00:00, 2489.87it/s]
+Iteration:  99
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2493.76it/s]
+Iteration:  100
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 2578.21it/s]
+Iteration:  101
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 2593.08it/s]
+Iteration:  102
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 2052.71it/s]
+Iteration:  103
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 2388.22it/s]
+Iteration:  104
+  0%|          | 0/31 [00:00<?, ?it/s]100%|██████████| 31/31 [00:00<00:00, 2523.16it/s]
+Iteration:  105
+  0%|          | 0/35 [00:00<?, ?it/s]100%|██████████| 35/35 [00:00<00:00, 2786.91it/s]
+Iteration:  106
+  0%|          | 0/32 [00:00<?, ?it/s]100%|██████████| 32/32 [00:00<00:00, 3093.29it/s]
+Iteration:  107
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2919.81it/s]
+Iteration:  108
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 2681.08it/s]
+Iteration:  109
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 2565.99it/s]
+Iteration:  110
+  0%|          | 0/31 [00:00<?, ?it/s]100%|██████████| 31/31 [00:00<00:00, 3568.15it/s]
+Iteration:  111
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2788.15it/s]
+Iteration:  112
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 2346.26it/s]
+Iteration:  113
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 2564.70it/s]
+Iteration:  114
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 2498.28it/s]
+Iteration:  115
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 2544.91it/s]
+Iteration:  116
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2302.45it/s]
+Iteration:  117
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 3033.54it/s]
+Iteration:  118
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 2851.95it/s]
+Iteration:  119
+  0%|          | 0/18 [00:00<?, ?it/s]100%|██████████| 18/18 [00:00<00:00, 2416.31it/s]
+Iteration:  120
+  0%|          | 0/20 [00:00<?, ?it/s]100%|██████████| 20/20 [00:00<00:00, 2325.32it/s]
+Iteration:  121
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 2568.67it/s]
+Iteration:  122
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 2463.00it/s]
+Iteration:  123
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 2664.05it/s]
+Iteration:  124
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 3628.41it/s]
+Iteration:  125
+  0%|          | 0/15 [00:00<?, ?it/s]100%|██████████| 15/15 [00:00<00:00, 2131.97it/s]
+Iteration:  126
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 2743.26it/s]
+Iteration:  127
+  0%|          | 0/20 [00:00<?, ?it/s]100%|██████████| 20/20 [00:00<00:00, 2546.71it/s]
+Iteration:  128
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 2696.89it/s]
+Iteration:  129
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 2813.81it/s]
+Iteration:  130
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 3073.83it/s]
+Iteration:  131
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 2893.66it/s]
+Iteration:  132
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 2738.03it/s]
+Iteration:  133
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 2678.78it/s]
+Iteration:  134
+  0%|          | 0/18 [00:00<?, ?it/s]100%|██████████| 18/18 [00:00<00:00, 2539.18it/s]
+Iteration:  135
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 2690.93it/s]
+Iteration:  136
+  0%|          | 0/17 [00:00<?, ?it/s]100%|██████████| 17/17 [00:00<00:00, 2729.20it/s]
+Iteration:  137
+  0%|          | 0/18 [00:00<?, ?it/s]100%|██████████| 18/18 [00:00<00:00, 3379.48it/s]
+Iteration:  138
+  0%|          | 0/14 [00:00<?, ?it/s]100%|██████████| 14/14 [00:00<00:00, 2534.32it/s]
+Iteration:  139
+  0%|          | 0/17 [00:00<?, ?it/s]100%|██████████| 17/17 [00:00<00:00, 2834.44it/s]
+Iteration:  140
+  0%|          | 0/17 [00:00<?, ?it/s]100%|██████████| 17/17 [00:00<00:00, 3174.11it/s]
+Iteration:  141
+  0%|          | 0/15 [00:00<?, ?it/s]100%|██████████| 15/15 [00:00<00:00, 2538.52it/s]
+Iteration:  142
+  0%|          | 0/15 [00:00<?, ?it/s]100%|██████████| 15/15 [00:00<00:00, 2701.59it/s]
+Iteration:  143
+  0%|          | 0/16 [00:00<?, ?it/s]100%|██████████| 16/16 [00:00<00:00, 2287.44it/s]
+Iteration:  144
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 2613.27it/s]
+Iteration:  145
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 2508.56it/s]
+Iteration:  146
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 3051.82it/s]
+Iteration:  147
+  0%|          | 0/17 [00:00<?, ?it/s]100%|██████████| 17/17 [00:00<00:00, 2443.14it/s]
+Iteration:  148
+  0%|          | 0/16 [00:00<?, ?it/s]100%|██████████| 16/16 [00:00<00:00, 2532.31it/s]
+Iteration:  149
+  0%|          | 0/15 [00:00<?, ?it/s]100%|██████████| 15/15 [00:00<00:00, 2547.46it/s]
+Iteration:  150
+  0%|          | 0/12 [00:00<?, ?it/s]100%|██████████| 12/12 [00:00<00:00, 2786.30it/s]
+Iteration:  151
+  0%|          | 0/9 [00:00<?, ?it/s]100%|██████████| 9/9 [00:00<00:00, 3299.71it/s]
+Iteration:  152
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 2463.07it/s]
+Iteration:  153
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 3047.36it/s]
+Iteration:  154
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 2200.77it/s]
+Iteration:  155
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 2935.13it/s]
+Iteration:  156
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 2660.94it/s]
+Iteration:  157
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 2732.45it/s]
+Iteration:  158
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 2673.08it/s]
+Iteration:  159
+  0%|          | 0/12 [00:00<?, ?it/s]100%|██████████| 12/12 [00:00<00:00, 3375.70it/s]
+Iteration:  160
+  0%|          | 0/12 [00:00<?, ?it/s]100%|██████████| 12/12 [00:00<00:00, 3649.07it/s]
+Iteration:  161
+  0%|          | 0/9 [00:00<?, ?it/s]100%|██████████| 9/9 [00:00<00:00, 2785.06it/s]
+Iteration:  162
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 2736.46it/s]
+Iteration:  163
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 2401.41it/s]
+Iteration:  164
+  0%|          | 0/13 [00:00<?, ?it/s]100%|██████████| 13/13 [00:00<00:00, 2284.58it/s]
+Iteration:  165
+  0%|          | 0/16 [00:00<?, ?it/s]100%|██████████| 16/16 [00:00<00:00, 3080.51it/s]
+Iteration:  166
+  0%|          | 0/16 [00:00<?, ?it/s]100%|██████████| 16/16 [00:00<00:00, 3450.50it/s]
+Iteration:  167
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 2244.02it/s]
+Iteration:  168
+  0%|          | 0/12 [00:00<?, ?it/s]100%|██████████| 12/12 [00:00<00:00, 2722.25it/s]
+Iteration:  169
+  0%|          | 0/18 [00:00<?, ?it/s]100%|██████████| 18/18 [00:00<00:00, 3143.11it/s]
+Iteration:  170
+  0%|          | 0/17 [00:00<?, ?it/s]100%|██████████| 17/17 [00:00<00:00, 3034.82it/s]
+Iteration:  171
+  0%|          | 0/16 [00:00<?, ?it/s]100%|██████████| 16/16 [00:00<00:00, 3982.25it/s]
+Iteration:  172
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 2271.10it/s]
+Iteration:  173
+  0%|          | 0/9 [00:00<?, ?it/s]100%|██████████| 9/9 [00:00<00:00, 3277.08it/s]
+Iteration:  174
+  0%|          | 0/7 [00:00<?, ?it/s]100%|██████████| 7/7 [00:00<00:00, 1974.59it/s]
+Iteration:  175
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 3096.34it/s]
+Iteration:  176
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 2382.22it/s]
+Iteration:  177
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 4184.54it/s]
+Iteration:  178
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2991.12it/s]
+Iteration:  179
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 2218.03it/s]
+Iteration:  180
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 3135.34it/s]
+Iteration:  181
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 2337.96it/s]
+Iteration:  182
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1602.31it/s]
+Iteration:  183
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 3107.47it/s]
+Iteration:  184
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 2209.85it/s]
+Iteration:  185
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2641.25it/s]
+Iteration:  186
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 1783.44it/s]
+Iteration:  187
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 4070.16it/s]
+Iteration:  188
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 2671.87it/s]
+Iteration:  189
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 3109.77it/s]
+Iteration:  190
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 2128.37it/s]
+Iteration:  191
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2050.25it/s]
+Iteration:  192
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 3084.05it/s]
+Iteration:  193
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 2218.82it/s]
+Iteration:  194
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2917.27it/s]
+Iteration:  195
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2830.64it/s]
+Iteration:  196
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 1654.56it/s]
+Iteration:  197
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2377.39it/s]
+Iteration:  198
+  0%|          | 0/7 [00:00<?, ?it/s]100%|██████████| 7/7 [00:00<00:00, 2694.58it/s]
+Iteration:  199
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 3009.91it/s]
+Iteration:  200
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 2925.92it/s]
+Iteration:  201
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 1643.41it/s]
+Iteration:  202
+  0%|          | 0/9 [00:00<?, ?it/s]100%|██████████| 9/9 [00:00<00:00, 4599.02it/s]
+Iteration:  203
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 1964.91it/s]
+Iteration:  204
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 3314.35it/s]
+Iteration:  205
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 2653.50it/s]
+Iteration:  206
+  0%|          | 0/9 [00:00<?, ?it/s]100%|██████████| 9/9 [00:00<00:00, 4732.20it/s]
+Iteration:  207
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 1719.51it/s]
+Iteration:  208
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2933.59it/s]
+Iteration:  209
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 3097.14it/s]
+Iteration:  210
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 2179.24it/s]
+Iteration:  211
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2666.86it/s]
+Iteration:  212
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 2095.06it/s]
+Iteration:  213
+  0%|          | 0/7 [00:00<?, ?it/s]100%|██████████| 7/7 [00:00<00:00, 3414.76it/s]
+Iteration:  214
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 3299.48it/s]
+Iteration:  215
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 1822.34it/s]
+Iteration:  216
+  0%|          | 0/7 [00:00<?, ?it/s]100%|██████████| 7/7 [00:00<00:00, 2107.39it/s]
+Iteration:  217
+  0%|          | 0/9 [00:00<?, ?it/s]100%|██████████| 9/9 [00:00<00:00, 2163.13it/s]
+Iteration:  218
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 3222.98it/s]
+Iteration:  219
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 3060.79it/s]
+Iteration:  220
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 4610.81it/s]
+Iteration:  221
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 2328.88it/s]
+Iteration:  222
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 2167.97it/s]
+Iteration:  223
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2655.04it/s]
+Iteration:  224
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 2447.37it/s]
+Iteration:  225
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 1930.55it/s]
+Iteration:  226
+  0%|          | 0/7 [00:00<?, ?it/s]100%|██████████| 7/7 [00:00<00:00, 2402.83it/s]
+Iteration:  227
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2909.18it/s]
+Iteration:  228
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 3005.59it/s]
+Iteration:  229
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 1565.62it/s]
+Iteration:  230
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 3101.72it/s]
+Iteration:  231
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 2193.29it/s]
+Iteration:  232
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2908.67it/s]
+Iteration:  233
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 3113.81it/s]
+Iteration:  234
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 2496.11it/s]
+Iteration:  235
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1619.42it/s]
+Iteration:  236
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1607.63it/s]
+Iteration:  237
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2706.88it/s]
+Iteration:  238
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1713.01it/s]
+Iteration:  239
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1378.35it/s]
+Iteration:  240
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2837.82it/s]
+Iteration:  241
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2879.71it/s]
+Iteration:  242
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2879.71it/s]
+Iteration:  243
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2537.39it/s]
+Iteration:  244
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 2089.14it/s]
+Iteration:  245
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 2757.23it/s]
+Iteration:  246
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 2562.82it/s]
+Iteration:  247
+  0%|          | 0/7 [00:00<?, ?it/s]100%|██████████| 7/7 [00:00<00:00, 3000.83it/s]
+Iteration:  248
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 3264.47it/s]
+Iteration:  249
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 3219.37it/s]
+Iteration:  250
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 3392.53it/s]
+Iteration:  251
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 2710.55it/s]
+Iteration:  252
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 8433.59it/s]
+Iteration:  253
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2840.71it/s]
+Iteration:  254
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2865.94it/s]
+Iteration:  255
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2704.26it/s]
+Iteration:  256
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1618.49it/s]
+Iteration:  257
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2902.63it/s]
+Iteration:  258
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2863.01it/s]
+Iteration:  259
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2860.08it/s]
+Iteration:  260
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3247.62it/s]
+Iteration:  261
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1470.14it/s]
+Iteration:  262
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2815.91it/s]
+Iteration:  263
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2890.63it/s]
+Iteration:  264
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3188.37it/s]
+Iteration:  265
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1442.83it/s]
+Iteration:  266
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2887.64it/s]
+Iteration:  267
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2833.03it/s]
+Iteration:  268
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3054.85it/s]
+Iteration:  269
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1470.65it/s]
+Iteration:  270
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2925.92it/s]
+Iteration:  271
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3207.88it/s]
+Iteration:  272
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1639.04it/s]
+Iteration:  273
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1374.73it/s]
+Iteration:  274
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1613.81it/s]
+Iteration:  275
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3183.53it/s]
+Iteration:  276
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1389.30it/s]
+Iteration:  277
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2849.39it/s]
+Iteration:  278
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2872.81it/s]
+Iteration:  279
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3285.78it/s]
+Iteration:  280
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1679.74it/s]
+Iteration:  281
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1432.97it/s]
+Iteration:  282
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2928.98it/s]
+Iteration:  283
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2942.34it/s]
+Iteration:  284
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2904.64it/s]
+Iteration:  285
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2883.67it/s]
+Iteration:  286
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2854.24it/s]
+Iteration:  287
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2858.13it/s]
+Iteration:  288
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2903.64it/s]
+Iteration:  289
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2924.90it/s]
+Iteration:  290
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2827.30it/s]
+Iteration:  291
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2742.27it/s]
+Iteration:  292
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3264.05it/s]
+Iteration:  293
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1471.17it/s]
+Iteration:  294
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2818.75it/s]
+Iteration:  295
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1420.35it/s]
+Iteration:  296
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 6264.83it/s]
+Iteration:  297
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 1448.81it/s]
+Iteration:  298
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2494.38it/s]
+Iteration:  299
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 2155.35it/s]
+Iteration:  300
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 2757.14it/s]
+Iteration:  301
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 2728.89it/s]
+Iteration:  302
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 2880.31it/s]
+Iteration:  303
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 3342.74it/s]
+Iteration:  304
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 7237.80it/s]
+Iteration:  305
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 50533.78it/s]
+Processing depth:  3
+Iteration:  1
+  0%|          | 0/8586 [00:00<?, ?it/s] 24%|██▍       | 2092/8586 [00:00<00:00, 20884.92it/s] 49%|████▊     | 4181/8586 [00:00<00:00, 10684.89it/s] 64%|██████▍   | 5510/8586 [00:00<00:00, 9232.15it/s]  76%|███████▋  | 6568/8586 [00:00<00:00, 8482.45it/s] 87%|████████▋ | 7487/8586 [00:00<00:00, 8207.53it/s]100%|██████████| 8586/8586 [00:00<00:00, 10051.94it/s]
+trimming contig ends...
+refinding genes...
+Number of searches to perform:  23000
+Searching...
+0it [00:00, ?it/s]20it [00:00, 13948.47it/s]
+translating hits...
+Updating output...
+Number of refound genes:  0
+collapse gene families with refound genes...
+Processing depth:  1
+Iteration:  1
+  0%|          | 0/8586 [00:00<?, ?it/s] 31%|███▏      | 2695/8586 [00:00<00:00, 26839.96it/s] 63%|██████▎   | 5379/8586 [00:00<00:00, 12569.47it/s] 82%|████████▏ | 7023/8586 [00:00<00:00, 11085.34it/s]100%|██████████| 8586/8586 [00:00<00:00, 12954.55it/s]
+Processing depth:  2
+Iteration:  1
+  0%|          | 0/8586 [00:00<?, ?it/s] 30%|██▉       | 2536/8586 [00:00<00:00, 25280.40it/s] 59%|█████▉    | 5065/8586 [00:00<00:00, 11528.84it/s] 77%|███████▋  | 6597/8586 [00:00<00:00, 9941.05it/s]  91%|█████████ | 7787/8586 [00:00<00:00, 9974.13it/s]100%|██████████| 8586/8586 [00:00<00:00, 11596.06it/s]
+Processing depth:  3
+Iteration:  1
+  0%|          | 0/8586 [00:00<?, ?it/s] 28%|██▊       | 2439/8586 [00:00<00:00, 24384.09it/s] 57%|█████▋    | 4878/8586 [00:00<00:00, 10540.55it/s] 74%|███████▎  | 6326/8586 [00:00<00:00, 9197.81it/s]  87%|████████▋ | 7448/8586 [00:00<00:00, 8582.09it/s]100%|██████████| 8586/8586 [00:00<00:00, 10486.69it/s]
+writing output...
+	Command being timed: "panaroo -i PIRATE_Input/SimPan_0.gff PIRATE_Input/SimPan_1.gff PIRATE_Input/SimPan_10.gff PIRATE_Input/SimPan_11.gff PIRATE_Input/SimPan_12.gff PIRATE_Input/SimPan_13.gff PIRATE_Input/SimPan_14.gff PIRATE_Input/SimPan_15.gff PIRATE_Input/SimPan_16.gff PIRATE_Input/SimPan_17.gff PIRATE_Input/SimPan_18.gff PIRATE_Input/SimPan_19.gff PIRATE_Input/SimPan_2.gff PIRATE_Input/SimPan_3.gff PIRATE_Input/SimPan_4.gff PIRATE_Input/SimPan_5.gff PIRATE_Input/SimPan_6.gff PIRATE_Input/SimPan_7.gff PIRATE_Input/SimPan_8.gff PIRATE_Input/SimPan_9.gff --len_dif_percent 0.5 -f 0.5 -t 20 -o Panaroo_Custom_Results --clean-mode sensitive"
+	User time (seconds): 3236.30
+	System time (seconds): 55.09
+	Percent of CPU this job got: 580%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:26.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 679872
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 484
+	Minor (reclaiming a frame) page faults: 8622635
+	Voluntary context switches: 426969
+	Involuntary context switches: 12410
+	Swaps: 0
+	File system inputs: 193480
+	File system outputs: 1120048
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

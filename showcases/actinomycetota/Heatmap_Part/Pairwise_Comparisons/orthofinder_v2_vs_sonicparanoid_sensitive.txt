@@ -1,0 +1,2 @@
+Method_A	Method_B	Jaccard_Index	Method_A_Unique	Method_B_Unique	Intersection	Union
+Method A	Method B	0.2702017500220991	2234637	18174101	7556166	27964904

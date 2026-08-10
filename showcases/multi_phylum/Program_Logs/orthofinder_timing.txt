@@ -1,0 +1,144 @@
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2026-02-01 01:12:42 : Starting OrthoFinder 2.5.5
+20 thread(s) for highly parallel tasks (BLAST searches etc.)
+2 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "mafft" - ok
+Test can run "fasttree" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2026-02-01 01:12:42 : Creating diamond database 1 of 8
+2026-02-01 01:12:42 : Creating diamond database 2 of 8
+2026-02-01 01:12:42 : Creating diamond database 3 of 8
+2026-02-01 01:12:42 : Creating diamond database 4 of 8
+2026-02-01 01:12:43 : Creating diamond database 5 of 8
+2026-02-01 01:12:43 : Creating diamond database 6 of 8
+2026-02-01 01:12:43 : Creating diamond database 7 of 8
+2026-02-01 01:12:43 : Creating diamond database 8 of 8
+
+Running diamond all-versus-all
+------------------------------
+Using 20 thread(s)
+2026-02-01 01:12:43 : This may take some time....
+2026-02-01 01:12:43 : Done 0 of 64
+2026-02-01 01:12:54 : Done 10 of 64
+2026-02-01 01:13:00 : Done 20 of 64
+2026-02-01 01:13:03 : Done 30 of 64
+2026-02-01 01:13:08 : Done 40 of 64
+2026-02-01 01:13:25 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2026-02-01 01:13:25 : Initial processing of each species
+2026-02-01 01:13:26 : Initial processing of species 1 complete
+2026-02-01 01:13:27 : Initial processing of species 0 complete
+2026-02-01 01:13:27 : Initial processing of species 2 complete
+2026-02-01 01:13:28 : Initial processing of species 3 complete
+2026-02-01 01:13:29 : Initial processing of species 5 complete
+2026-02-01 01:13:31 : Initial processing of species 4 complete
+2026-02-01 01:13:31 : Initial processing of species 6 complete
+2026-02-01 01:13:33 : Initial processing of species 7 complete
+2026-02-01 01:13:36 : Connected putative homologues
+2026-02-01 01:13:36 : Written final scores for species 1 to graph file
+2026-02-01 01:13:36 : Written final scores for species 0 to graph file
+2026-02-01 01:13:37 : Written final scores for species 2 to graph file
+2026-02-01 01:13:37 : Written final scores for species 3 to graph file
+2026-02-01 01:13:37 : Written final scores for species 5 to graph file
+2026-02-01 01:13:38 : Written final scores for species 4 to graph file
+2026-02-01 01:13:38 : Written final scores for species 6 to graph file
+2026-02-01 01:13:39 : Written final scores for species 7 to graph file
+2026-02-01 01:13:44 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 27332 genes (76.1% of total) to 5319 orthogroups. Fifty percent of all genes were in orthogroups with 5 or more genes (G50 was 5) and were contained in the largest 1752 orthogroups (O50 was 1752). There were 472 orthogroups with all species present and 223 of these consisted entirely of single-copy genes.
+
+2026-02-01 01:13:46 : Done orthogroups
+
+Analysing Orthogroups
+=====================
+2026-02-01 01:13:46 : Starting MSA/Trees
+Species tree: Using 337 orthogroups with minimum of 87.5% of species having single-copy genes in any orthogroup
+
+Inferring multiple sequence alignments for species tree
+-------------------------------------------------------
+2026-02-01 01:13:48 : Done 0 of 337
+2026-02-01 01:13:52 : Done 100 of 337
+2026-02-01 01:13:56 : Done 200 of 337
+2026-02-01 01:14:00 : Done 300 of 337
+
+Inferring remaining multiple sequence alignments and gene trees
+---------------------------------------------------------------
+2026-02-01 01:14:04 : Done 0 of 4983
+2026-02-01 01:16:32 : Done 1000 of 4983
+2026-02-01 01:17:02 : Done 2000 of 4983
+2026-02-01 01:17:23 : Done 3000 of 4983
+2026-02-01 01:17:40 : Done 4000 of 4983
+2026-02-01 01:19:58 : Done MSA/Trees
+
+Best outgroup(s) for species tree
+---------------------------------
+2026-02-01 01:19:58 : Starting STRIDE
+2026-02-01 01:19:59 : Done STRIDE
+Observed 30 well-supported, non-terminal duplications. 29 support the best roots and 1 contradict them.
+Best outgroups for species tree:
+  GCF_001077535.1_ASM107753v2_genomic.fna
+  GCA_001411495.1_ASM141149v1_genomic.fna, GCA_003697165.2_ASM369716v2_genomic.fna
+  GCA_000009045.1_ASM904v1_genomic.fna, GCA_001027105.1_ASM102710v1_genomic.fna, GCF_001077535.1_ASM107753v2_genomic.fna
+  GCA_000023205.1_ASM2320v1_genomic.fna, GCA_000195955.2_ASM19595v2_genomic.fna, GCF_024752535.1_ASM2475253v1_genomic.fna
+
+WARNING: Multiple potential species tree roots were identified, only one will be analyed.
+
+Reconciling gene trees and species tree
+---------------------------------------
+Outgroup: GCF_001077535.1_ASM107753v2_genomic.fna
+2026-02-01 01:19:59 : Starting Recon and orthologues
+2026-02-01 01:19:59 : Starting OF Orthologues
+2026-02-01 01:19:59 : Done 0 of 2365
+2026-02-01 01:20:01 : Done 1000 of 2365
+2026-02-01 01:20:02 : Done 2000 of 2365
+2026-02-01 01:20:03 : Done OF Orthologues
+
+Writing results files
+=====================
+2026-02-01 01:20:03 : Done orthologues
+
+Results:
+    OrthoFinder_Results/Results_Feb01/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914
+	Command being timed: "orthofinder -f Bofasa_Prep_Prokka/Genome_Processing/Proteomes/ -o OrthoFinder_Results/ -t 20 -M msa"
+	User time (seconds): 4370.30
+	System time (seconds): 1866.74
+	Percent of CPU this job got: 1408%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:22.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8004872
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9866
+	Minor (reclaiming a frame) page faults: 153770230
+	Voluntary context switches: 1667710
+	Involuntary context switches: 283795
+	Swaps: 0
+	File system inputs: 96
+	File system outputs: 1392376
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

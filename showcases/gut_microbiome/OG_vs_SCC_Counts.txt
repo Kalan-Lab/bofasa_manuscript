@@ -1,0 +1,7 @@
+method	type	ogs	scc
+OrthoFinder	1	7451327	56
+OrthoFinder	2	8616534	53
+SCARAP	1	14870879	58
+PIRATE	1	3885411	26
+SonicParanoid	1	16877456	66
+bofasa	1	4853236	65

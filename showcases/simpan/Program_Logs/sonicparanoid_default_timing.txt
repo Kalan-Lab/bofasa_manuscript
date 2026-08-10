@@ -1,0 +1,113 @@
+
+Run START:	Tue Apr 22 18:03:36 2025
+SonicParanoid 2.0.8 will be executed with the following parameters:
+Run ID:	sp2_2242518336_default_20cpus_ml075
+Input directory: /workspace/local/rauf/bofasa/simpan_redo/Bofasa_Prep_Results/Genome_Processing/Proteomes
+Main output directory: /workspace/local/rauf/bofasa/simpan_redo/SonicParanoid_Default
+Run directory: /workspace/local/rauf/bofasa/simpan_redo/SonicParanoid_Default/runs/sp2_2242518336_default_20cpus_ml075
+Input proteomes:	20
+Alignment tool:	diamond
+Run mode:	default (Diamond [--very-sensitive])
+Threads:	20
+Minimum bitscore:	40
+Max length difference for in-paralogs:	0.75
+Ortholog merging threshold:	0.75
+MCL inflation:	1.50
+Alignments directory: /workspace/local/rauf/bofasa/simpan_redo/SonicParanoid_Default/alignments/
+Pairwise tables directory: /workspace/local/rauf/bofasa/simpan_redo/SonicParanoid_Default/runs/sp2_2242518336_default_20cpus_ml075/species_to_species_orthologs/
+Directory with ortholog groups: /workspace/local/rauf/bofasa/simpan_redo/SonicParanoid_Default/runs/sp2_2242518336_default_20cpus_ml075/ortholog_groups/
+Pairwise tables database directory: /workspace/local/rauf/bofasa/simpan_redo/SonicParanoid_Default/orthologs_db
+Perfom only graph-based orthology:	True
+Update run:	False
+Create query database indexes:	False
+Complete overwrite:	False
+Re-create ortholog tables:	False
+Memory per thread (Gigabytes):	23.61
+Minimum memory per thread (Gigabytes):	1.00
+Compress alignments:	True
+Compression level:	5
+SonicParanoid installation directory: /workspace/local/rauf/bofasa/comparator_software/sonicparanoid_env/lib/python3.12/site-packages/sonicparanoid
+Installation type:	Python
+Python version: 3.12.8 | packaged by conda-forge | (main, Dec  5 2024, 14:24:40) [GCC 13.3.0]
+Python executables: /workspace/local/rauf/bofasa/comparator_software/sonicparanoid_env/bin/python
+runID:	sp2_2242518336_default_20cpus_ml075
+
+For the 20 input species 190 combinations are possible.
+
+400 Diamond alignments will be performed...
+Creating 20 Diamond databases...
+
+Diamond databases creation elapsed time (seconds):	0.261
+
+Performing 400 alignment using Diamond...
+Elapsed time for all-vs-all alignments using Diamond (seconds):	301.748
+
+Predicting 190 ortholog tables...
+Ortholog tables creation elapsed time (seconds):	3.028
+
+Creating ortholog groups using MCL clustering...
+Creating orthology matrixes...
+Ortholog matrixes creation elapsed time (seconds):	2.007
+
+Merging inparalog matrixes...
+Inparalogs merging elapsed time (seconds):	0.178
+
+Creating input matrix for MCL...
+MCL graph creation elapsed time (seconds):	1.752
+
+Running MCL...
+MCL execution elapsed time (seconds):	33.619
+
+Generating final output files...
+Elapsed time for the creation of final output (seconds):	1.644
+Ortholog groups creation elapsed time (seconds):	39.253
+
+Ortholog groups:	6188
+Single-copy ortholog groups:	6077
+
+The ortholog groups and related statistics are stored in the directory:
+/workspace/local/rauf/bofasa/simpan_redo/SonicParanoid_Default/runs/sp2_2242518336_default_20cpus_ml075/ortholog_groups
+
+Total elapsed time (seconds):	345.778
+
+CITATION INFO:
+Cosentino Salvatore, Sira Sriswasdi & Wataru Iwasaki. (2024),
+Genome Biology. volume 25, Article number: 195 (July 2024).
+DOI: https://doi.org/10.1186/s13059-024-03298-4
+
+Cosentino Salvatore & Wataru Iwasaki. (2019),
+Bioinformatics. Volume 35, Issue 1, 01 January 2019, Pages 149–151.
+DOI: https://doi.org/10.1093/bioinformatics/bty631
+
+
+INSTRUCTIONS:
+Find the user manual for SonicParanoid at
+https://gitlab.com/salvo981/sonicparanoid2/-/wikis/home
+
+
+CONTACT:
+Salvatore Cosentino:	salvo981@gmail.com  or  salvocos@k.u-tokyo.ac.jp
+Wataru Iwasaki:	iwasaki@k.u-tokyo.ac.jp
+	Command being timed: "sonicparanoid -i Bofasa_Prep_Results/Genome_Processing/Proteomes/ -o SonicParanoid_Default/ -t 20 --graph-only"
+	User time (seconds): 6244.10
+	System time (seconds): 141.51
+	Percent of CPU this job got: 1839%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:47.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 145296
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 6
+	Minor (reclaiming a frame) page faults: 16739875
+	Voluntary context switches: 70926
+	Involuntary context switches: 45851
+	Swaps: 0
+	File system inputs: 984
+	File system outputs: 2939560
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

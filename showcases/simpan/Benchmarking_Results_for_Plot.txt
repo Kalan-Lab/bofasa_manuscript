@@ -1,0 +1,15 @@
+Method	Category	Value
+bofasa	False Negative	3338
+bofasa	False Positive	777
+bofasa - rs1000	False Negative	3374
+bofasa - rs1000	False Positive	671
+PIRATE	False Negative	3667
+PIRATE	False Positive	942
+SCARAP	False Negative	722
+SCARAP	False Positive	2075
+OrthoFinder v2.5.5	False Negative	991
+OrthoFinder v2.5.5	False Positive	2118
+OrthoFinder v3.1.3	False Negative	570
+OrthoFinder v3.1.3	False Positive	2429
+SonicParanoid	False Negative	1219
+SonicParanoid	False Positive	1462

@@ -1,0 +1,8 @@
+method	time	memory
+bofasa	11.33	0.299
+bofasa - rs1000	11.43	0.301
+OrthoFinder v2.5.5	43.82	9.059
+OrthoFinder v3.1.3	47.35	9.016
+SCARAP	0.72	0.933
+PIRATE	15.37	0.679
+SonicParanoid	5.78	0.145

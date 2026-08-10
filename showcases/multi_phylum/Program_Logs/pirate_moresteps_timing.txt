@@ -1,0 +1,233 @@
+
+-------------------------------
+
+PIRATE input options:
+
+ - Input Directory = /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_Input
+ - Output directory = /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results
+ - PIRATE will run using 20 cores
+ - 8 files in input directory.
+ - PIRATE will be run on 20,30,40,50,60,70,80,90,95,98 amino acid % identity thresholds.
+ - PIRATE will be run on features annotated as CDS
+
+-------------------------------
+
+Standardising and checking input files:
+
+ - 8 gff files passed QC and will be analysed by PIRATE - completed in: 0s
+
+-------------------------------
+
+ - creating co-ordinate files - completed in: 1s
+ - creating genome loci list: - completed in: 0s
+
+-------------------------------
+
+Extracting pangenome sequences:
+
+ - completed in: 3s
+
+-------------------------------
+
+Constructing pangenome sequences:
+
+
+Options:
+
+ - Creating pangenome on amino acid % identity using BLAST.
+ - Input directory:	/workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results
+ - Output directory:	/workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations
+ - Number of input files: 1
+ - Threshold(s): 20 30 40 50 60 70 80 90 95 98
+ - MCL inflation value: 1.5
+ - Homology test cutoff: 1E-6
+ - Loci file contains 35939 loci from 8 genomes.
+ - Extracting core loci during cdhit clustering
+ - Opening pan_sequences
+ - /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pan_sequences.fasta contains 35740 sequences.
+ - Passing 35741 loci to cd-hit at 100%  
+ - command: "cd-hit -i /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.temp.fasta -o /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.100 -aS 0.9 -c 1 -T 20 -g 1 -n 5 -M 2000 -d 256 >> /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.cdhit_log.txt"
+ - Passing 35741 loci to cd-hit at 99.5%  
+ - command: "cd-hit -i /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.temp.fasta -o /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.99.5 -aS 0.9 -c 0.995 -T 20 -g 1 -n 5 -M 2000 -d 256 >> /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.cdhit_log.txt"
+ - Passing 35741 loci to cd-hit at 99%  
+ - command: "cd-hit -i /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.temp.fasta -o /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.99 -aS 0.9 -c 0.99 -T 20 -g 1 -n 5 -M 2000 -d 256 >> /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.cdhit_log.txt"
+ - Passing 35741 loci to cd-hit at 98.5%  
+ - command: "cd-hit -i /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.temp.fasta -o /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.98.5 -aS 0.9 -c 0.985 -T 20 -g 1 -n 5 -M 2000 -d 256 >> /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.cdhit_log.txt"
+ - Passing 35741 loci to cd-hit at 98%  
+ - command: "cd-hit -i /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.temp.fasta -o /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.98 -aS 0.9 -c 0.98 -T 20 -g 1 -n 5 -M 2000 -d 256 >> /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/pangenome_iterations/pan_sequences.cdhit_log.txt"
+ - completed in 60 secs
+
+ - 0 core loci (0%)
+ - 35741 non-core loci (100%)
+
+ - 35494 representative loci passed to blast.
+
+ - running all-vs-all BLASTP on pan_sequences
+ - completed in 529 secs
+
+ - running mcl on pan_sequences at 20    
+ - 11647 clusters at 20 % - completed in 13 secs
+ - running mcl on pan_sequences at 30    
+ - 13718 clusters at 30 % - completed in 79 secs
+ - running mcl on pan_sequences at 40    
+ - 21059 clusters at 40 % - completed in 96 secs
+ - running mcl on pan_sequences at 50    
+ - 28021 clusters at 50 % - completed in 143 secs
+ - running mcl on pan_sequences at 60    
+ - 32012 clusters at 60 % - completed in 185 secs
+ - running mcl on pan_sequences at 70    
+ - 34138 clusters at 70 % - completed in 219 secs
+ - running mcl on pan_sequences at 80    
+ - 35021 clusters at 80 % - completed in 236 secs
+ - running mcl on pan_sequences at 90    
+ - 35308 clusters at 90 % - completed in 231 secs
+ - running mcl on pan_sequences at 95    
+ - 35406 clusters at 95 % - completed in 229 secs
+ - running mcl on pan_sequences at 98    
+ - 35475 clusters at 98 % - completed in 235 secs
+
+ - reinflating clusters for pan_sequences
+ - Finished
+
+ - completed in: 2257s
+
+-------------------------------
+
+Parsing pangenome files:
+
+Processing 20% - 2453 paralogous gene clusters.
+Processing 30% - 2589 paralogous gene clusters.
+Processing 40% - 2495 paralogous gene clusters.
+Processing 50% - 1729 paralogous gene clusters.
+Processing 60% - 1058 paralogous gene clusters.
+Processing 70% - 651 paralogous gene clusters.
+Processing 80% - 425 paralogous gene clusters.
+Processing 90% - 271 paralogous gene clusters.
+Processing 95% - 204 paralogous gene clusters.
+Processing 98% - 158 paralogous gene clusters.
+
+2453 paralog containing gene clusters detected.
+8 genomes processed.
+
+ - completed in: 3s
+
+-------------------------------
+
+Classifing paralogous clusters:
+
+ - 23117 loci contained in 2453 clusters containing paralogs
+ - WARNING: cluster threshold below recommended setting.
+ - Setting cluster threshold to 0.4 and n to 2
+ - identifying paralogs
+ - 0% complete      - 4% complete      - 8% complete      - 12% complete      - 16% complete      - 20% complete      - 24% complete      - 28% complete      - 32% complete      - 36% complete      - 40% complete      - 44% complete      - 48% complete      - 52% complete      - 57% complete      - 61% complete      - 65% complete      - 69% complete      - 73% complete      - 77% complete      - 81% complete      - 85% complete      - 89% complete      - 93% complete      - 97% complete      - 100% complete     
+ - concatenating output files
+ - completed in: 283s
+
+-------------------------------
+
+Split paralogous clusters:
+
+ - 2453 paralogous groups to split
+ - storing line indices for sequence groups
+ - building indexes for loci list and paralog categories files
+ - assigning loci to sub files for parallel processing
+ - proportion of gene family expected in allele to split = 0.75
+ - 1236 paralogous groups split into 1511 additional core/accessory alleles (3964 total)
+ - completed in: 110s
+
+-------------------------------
+
+Linking clusters between thresholds:
+ - subsetting loci file for parallel - /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/loci_list.tab
+ - 2453 clusters to exclude
+ - 9194 gene families to process
+ - subsetting loci file for parallel - /workspace/local/rauf/bofasa/Polished_Analyses/minus_one_small_multi_phyla/PIRATE_MoreSteps_Results/split_paralog_loci.tab
+ - 0 clusters to exclude
+ - 3317 gene families to process
+ - completed in: 32s
+
+-------------------------------
+
+Ordering gene families on pangenome graph
+
+ - 8 samples found in file headers
+ - 12511 genes of 12511 total genes were present in 8 isolates
+ - 2557 gene clusters filtered due to dosage >1.1. These WILL NOT APPEAR in outputs.
+ - 12511 clusters from 8 genomes (dosage threshold <= 1.1) used for graphing.
+ - 6931 syntenic blocks after first pass.
+ - 6 reversed blocks were printed to pangenome.reversed.tsv file.
+ - 608 reciprocal links in 311 blocks.
+ - 6627 connected blocks were printed to *.connected_blocks file.
+ - completed in: 1s
+
+-------------------------------
+
+Creating binary tree
+
+ - parsing gene cluster file
+ - printing binary fasta
+ - running fasttree
+ - completed in: 0s
+
+-------------------------------
+
+Creating representative sequence multifasta files
+
+ - number of groups : 12511
+ - extracting sequences from gffs
+ - printing sequences to files
+ - complete
+ - completed in: 5s
+
+-------------------------------
+
+Summary of pangenome clusters:
+
+# 12511 gene families in 8 genomes.
+# 2557 contain greater than one allele at the thresholds analysed.
+# 329 contain fission/fusion events.
+# 311 contain duplication/loss.
+
+%isolates	#clusters	>1 allele	fission/fusion	multicopy
+0-10%	0	0	0	0
+10-25%	10368	1368	74	70
+25-50%	1016	493	64	60
+50-75%	444	283	49	47
+75-90%	220	155	49	45
+90-95%	0	0	0	0
+95-100%	463	258	93	89
+
+-------------------------------
+
+PIRATE completed in 2698s
+
+Q: What does a Dyslexic Pirate Say?
+A: RRRRRRA!
+
+YARR!
+
+-------------------------------
+
+	Command being timed: "PIRATE -i PIRATE_Input/ -o PIRATE_MoreSteps_Results/ -t 20 --steps 20,30,40,50,60,70,80,90,95,98"
+	User time (seconds): 12653.15
+	System time (seconds): 5200.30
+	Percent of CPU this job got: 661%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 44:57.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2398516
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 18774
+	Minor (reclaiming a frame) page faults: 596664767
+	Voluntary context switches: 2367025
+	Involuntary context switches: 733352
+	Swaps: 0
+	File system inputs: 85056
+	File system outputs: 26510496
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

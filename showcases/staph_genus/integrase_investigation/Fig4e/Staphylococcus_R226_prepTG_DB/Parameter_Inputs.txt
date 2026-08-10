@@ -1,0 +1,18 @@
+Download Premade Database: None
+Target Genomes Directory: None
+GTDB species/genus: Staphylococcus
+GTDB Release: R226
+Output Directory: /workspace/local/rauf/bofasa/Polished_Analyses/complete_staph/OG001033_ContextCrawl/Staphylococcus_R226_prepTG_DB/
+Reference Proteome Provided: None
+Gene Calling Method: pyrodigal
+Use Meta Mode?: False
+Create Species Tree?: False
+Number of threads: 50
+Maximum Memory in GB: 250
+MGE Annotation Requested?: False
+Rename Locus Tags in GenBank files?: False
+Error if no Locus Tags in GenBank files?: False
+Error if no Translation in GenBank files?: False
+DIAMOND linclust Collapsing Parameters: --approx-id 90 --mutual-cover 90
+Skip DIAMOND linclust Clustering?: False
+Perform DIAMOND recluster to improve protein clustering?: False

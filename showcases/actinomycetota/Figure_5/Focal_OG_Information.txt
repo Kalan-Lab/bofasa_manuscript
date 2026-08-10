@@ -1,0 +1,24 @@
+# Taxonomies here are from GTDB R232 - note the release used for gathering genomes
+OG006197	ENGKICBP_02907	CP000667.1.region014	NRPS|RRE-containing|T1PKS|arylpolyene	Micromonospora tropica	Mycobacteriales
+OG006197	PHGDOLFD_03732	CP001814.1.region010	NRPS|aminopolycarboxylic-acid	Streptosporangium roseum	Streptosporangiales
+OG006197	OHNNCDBA_01050	CP002040.1.region002	NRP-metallophore|NRPS	Nocardiopsis dassonvillei	Streptosporangiales
+OG006197	OHNNCDBA_01779	CP002040.1.region006	NRPS|T3PKS	Nocardiopsis dassonvillei	Streptosporangiales
+OG006197	FBJIEHCP_02899	CP014859.1.region013	NRP-metallophore|NRPS|T1PKS	Actinoalloteichus_A hymeniacidonis	Mycobacteriales
+OG006197	EDJDNCNJ_06169	AP023359.1.region023	NRPS|NRPS-like|T1PKS	Polymorphospora rubra	Mycobacteriales
+OG006197	LPCNAAIG_00378	CP088911.1.region003	NRPS|T1PKS|hglE-KS	Yinghuangia sp021165735	Streptomycetales
+OG006197	JJGKHACB_02184	CP059556.1.region009	NRP-metallophore|NRPS	Saccharopolyspora_C gregorii	Mycobacteriales
+OG006197	KCDDEKNF_03285	CP031087.1.region022	NRP-metallophore|NRPS|butyrolactone	Actinokineospora fastidiosa	Mycobacteriales
+OG006197	HJAGIHJO_05587	CP116413.1.region023	NRPS|terpene	Crossiella sp023897065	Mycobacteriales
+OG019627	PHGDOLFD_03435	CP001814.1.region008	NRP-metallophore|NRPS	Streptosporangium roseum	Streptosporangiales
+OG019627	NNHKPLGI_03035	AM420293.1.region015	NAPAA|NRP-metallophore|NRPS|betalactone	Saccharopolyspora_D erythraea	Mycobacteriales
+OG019627	AJFFMNBA_00040	CP002801.1.region001	NRP-metallophore|NRPS	Protofrankia coriariae	Mycobacteriales # Frankiales in R232
+OG019627	KJLJKCPJ_03413	CP022753.1.region014	NRP-metallophore|NRPS|NRPS-like|T1PKS	Nocardiopsis_C gilva	Streptosporangiales
+OG019627	KJLJKCPJ_03414	CP022753.1.region014	NRP-metallophore|NRPS|NRPS-like|T1PKS	Nocardiopsis_C gilva	Streptosporangiales
+OG019627	HFFEINAF_04989	CP023445.1.region025	NRP-metallophore|NRPS	Actinosynnema auranticum	Mycobacteriales
+OG019627	BDNPIODH_01004	CP028158.1.region006	NRP-metallophore|NRPS|ladderane	Plantactinospora sp003030345	Mycobacteriales
+OG019627	EDJDNCNJ_01731	AP023359.1.region003	NRP-metallophore|NRPS	Polymorphospora rubra	Mycobacteriales
+OG019627	KOHMPLKI_04140	AP023360.1.region010	NRPS	Catellatospora sp018326265	Mycobacteriales
+OG019627	ELIHALEN_03785	CP076538.1.region020	NRP-metallophore|NRPS	Amycolatopsis aidingensis	Mycobacteriales
+OG019627	ELIHALEN_03786	CP076538.1.region020	NRP-metallophore|NRPS	Amycolatopsis aidingensis	Mycobacteriales
+OG019627	KCDDEKNF_03061	CP031087.1.region020	NRPS	Actinokineospora fastidiosa	Mycobacteriales
+OG019627	MIEMMKFP_03248	CP103871.1.region011	NRP-metallophore|NRPS|T2PKS	Actinacidiphila bryophytorum	Streptomycetales

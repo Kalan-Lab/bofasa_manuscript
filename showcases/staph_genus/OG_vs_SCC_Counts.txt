@@ -1,0 +1,9 @@
+method	type	ogs	scc
+OrthoFinder	1	3388143	858 # v2 - hog
+OrthoFinder	2	3447289	826 # v3 - og (output formatting changed)
+SCARAP	1	3529018	797
+PIRATE	1	3186738	888
+SonicParanoid	1	4442849	807
+bofasa	1	3159378	909
+bofasa	2	3126589	948
+#KOfam	1	2967568	30

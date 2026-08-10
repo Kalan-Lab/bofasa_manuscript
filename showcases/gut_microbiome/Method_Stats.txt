@@ -1,0 +1,13 @@
+shape	gappy_cat	method	intersection_proportion	gappy_specific_og_pairs
+open_circle	gappy	bofasa	0.4654754065122735	713152
+open_circle	gappy	orthofinder_v2	0.46445794151833625	935640
+open_triangle	gappy	orthofinder_v3	0.44406985453779907	1178980
+open_circle	gappy	sonicparanoid	0.4957375685055852	1545595
+open_circle	gappy	pirate	0.4834283940617865	153395
+open_circle	gappy	scarap	0.3611314435414342	3872136
+fill_circle	supergappy	bofasa	0.2122317975058291	594857
+fill_circle	supergappy	orthofinder_v2	0.21702067296201066	1782582
+fill_triangle	supergappy	orthofinder_v3	0.19697792639128447	840481
+fill_circle	supergappy	sonicparanoid	0.21438971608043297	1348802
+fill_circle	supergappy	pirate	0.19539142705881052	194796
+fill_circle	supergappy	scarap	0.16515076210357169	1849784

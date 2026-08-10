@@ -1,0 +1,96 @@
+2026-02-01 00:04:33,901 - bofasa - INFO - Starting bofasa preparation
+2026-02-01 00:04:33,901 - bofasa - INFO - Number of annotation directories: 8
+2026-02-01 00:04:33,901 - bofasa - INFO - Output directory: Bofasa_Prep_Prokka/
+2026-02-01 00:04:33,901 - bofasa - INFO - Threads: 20
+2026-02-01 00:04:33,901 - bofasa - INFO - Gene calling method: pyrodigal
+2026-02-01 00:04:33,901 - bofasa - INFO - genomad setup status: True - genomad is properly set up
+2026-02-01 00:04:33,901 - bofasa - INFO - Saving parameters for future records.
+2026-02-01 00:04:33,901 - bofasa - INFO - Done saving parameters!
+2026-02-01 00:04:33,901 - bofasa - INFO - 
+--------------------
+Step 1
+--------------------
+Processing genomes / annotation folders provided as input.
+2026-02-01 00:04:33,902 - bofasa - INFO - Processing 8 annotation directories...
+2026-02-01 00:04:33,902 - bofasa - INFO - Processing 8 annotation directories...
+Checking genomad setup...
+✓ genomad is properly set up
+Setting memory limit from unlimited to 64GB
+Memory limit set to: 64GB
+Processing annotation directories ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:01
+Processed 2281 proteins from Prokka directory.
+Processed 4069 proteins from Prokka directory.
+Processed 2529 proteins from Prokka directory.
+Processed 4708 proteins from Prokka directory.
+Processed 3677 proteins from Prokka directory.
+Processed 4214 proteins from Prokka directory.
+2026-02-01 00:04:35,318 - bofasa - INFO - Successfully processed prokka directory: GCA_000009045.1_ASM904v1_genomic.fna
+2026-02-01 00:04:35,319 - bofasa - INFO - Successfully processed prokka directory: GCA_000023205.1_ASM2320v1_genomic.fna
+2026-02-01 00:04:35,319 - bofasa - INFO - Successfully processed prokka directory: GCA_000195955.2_ASM19595v2_genomic.fna
+2026-02-01 00:04:35,319 - bofasa - INFO - Successfully processed prokka directory: GCA_001027105.1_ASM102710v1_genomic.fna
+2026-02-01 00:04:35,319 - bofasa - INFO - Successfully processed prokka directory: GCA_001411495.1_ASM141149v1_genomic.fna
+2026-02-01 00:04:35,319 - bofasa - INFO - Successfully processed prokka directory: GCA_003697165.2_ASM369716v2_genomic.fna
+2026-02-01 00:04:35,319 - bofasa - INFO - Successfully processed prokka directory: GCF_001077535.1_ASM107753v2_genomic.fna
+2026-02-01 00:04:35,319 - bofasa - INFO - Successfully processed prokka directory: GCF_024752535.1_ASM2475253v1_genomic.fna
+2026-02-01 00:04:35,320 - bofasa - INFO - Found and successfully processed 8 genomes, continuing ...
+2026-02-01 00:04:35,320 - bofasa - INFO - 
+--------------------
+Step 2b
+--------------------
+Annotating IS elements using the ISFinder database.
+2026-02-01 00:04:35,321 - bofasa - INFO - Running 8 DIAMOND blastp jobs for IS element annotation
+2026-02-01 00:04:35,494 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCA_000023205.1_ASM2320v1_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCA_000023205.1_ASM2320v1_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:35,495 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCA_001027105.1_ASM102710v1_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCA_001027105.1_ASM102710v1_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:35,494 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCA_000009045.1_ASM904v1_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCA_000009045.1_ASM904v1_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:35,494 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCA_000195955.2_ASM19595v2_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCA_000195955.2_ASM19595v2_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:35,495 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCA_001411495.1_ASM141149v1_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCA_001411495.1_ASM141149v1_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:35,495 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCF_001077535.1_ASM107753v2_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCF_001077535.1_ASM107753v2_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:35,495 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCA_003697165.2_ASM369716v2_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCA_003697165.2_ASM369716v2_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:35,496 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCF_024752535.1_ASM2475253v1_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCF_024752535.1_ASM2475253v1_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:37,875 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCA_000009045.1_ASM904v1_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCA_000009045.1_ASM904v1_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:37,887 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCF_001077535.1_ASM107753v2_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCF_001077535.1_ASM107753v2_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:37,950 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCA_001027105.1_ASM102710v1_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCA_001027105.1_ASM102710v1_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:37,986 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCA_000023205.1_ASM2320v1_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCA_000023205.1_ASM2320v1_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:38,044 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCA_001411495.1_ASM141149v1_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCA_001411495.1_ASM141149v1_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:38,183 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCA_003697165.2_ASM369716v2_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCA_003697165.2_ASM369716v2_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:38,233 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCF_024752535.1_ASM2475253v1_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCF_024752535.1_ASM2475253v1_genomic.fna.isfinder_diamond_blastp.txt
+2026-02-01 00:04:38,260 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Prokka/Genome_Processing/Proteomes/GCA_000195955.2_ASM19595v2_genomic.fna.faa -o Bofasa_Prep_Prokka/ISFinder_Annotations/GCA_000195955.2_ASM19595v2_genomic.fna.isfinder_diamond_blastp.txt
+Running DIAMOND blastp ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:02
+2026-02-01 00:04:38,321 - bofasa - INFO - IS finder annotation completed
+2026-02-01 00:04:38,322 - bofasa - INFO - 
+--------------------
+Step 3
+--------------------
+Annotating proteins with Pfam HMMs to split them into domain/inter-domain "chunks" or units.
+2026-02-01 00:04:38,323 - bofasa - INFO - Creating domain-chopped up version of proteome files for 8 genomes
+Creating domain-chopped proteomes ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:53
+2026-02-01 00:05:31,711 - bofasa - INFO - Pfam annotation and protein splitting completed
+2026-02-01 00:05:31,818 - bofasa - INFO - 
+--------------------
+Step 4
+--------------------
+Nearly there, putting together final files.
+2026-02-01 00:05:31,819 - bofasa - INFO - bofasa preparation completed successfully
+	Command being timed: "bofasa prep -a Prokka_Annotations/GCA_000009045.1_ASM904v1_genomic.fna Prokka_Annotations/GCA_000023205.1_ASM2320v1_genomic.fna Prokka_Annotations/GCA_000195955.2_ASM19595v2_genomic.fna Prokka_Annotations/GCA_001027105.1_ASM102710v1_genomic.fna Prokka_Annotations/GCA_001411495.1_ASM141149v1_genomic.fna Prokka_Annotations/GCA_003697165.2_ASM369716v2_genomic.fna Prokka_Annotations/GCF_001077535.1_ASM107753v2_genomic.fna Prokka_Annotations/GCF_024752535.1_ASM2475253v1_genomic.fna -c 20 -mm 64 -o Bofasa_Prep_Prokka/"
+	User time (seconds): 4615.75
+	System time (seconds): 45.55
+	Percent of CPU this job got: 7430%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:02.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 825184
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 46
+	Minor (reclaiming a frame) page faults: 5025587
+	Voluntary context switches: 1131093
+	Involuntary context switches: 814037
+	Swaps: 0
+	File system inputs: 28520
+	File system outputs: 171352
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

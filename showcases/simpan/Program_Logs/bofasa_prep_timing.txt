@@ -1,0 +1,127 @@
+2026-01-23 07:38:20,871 - bofasa - INFO - Starting bofasa preparation
+2026-01-23 07:38:20,872 - bofasa - INFO - Number of input genomes: 20
+2026-01-23 07:38:20,872 - bofasa - INFO - Output directory: Bofasa_Prep_Results/
+2026-01-23 07:38:20,872 - bofasa - INFO - Threads: 20
+2026-01-23 07:38:20,872 - bofasa - INFO - Gene calling method: pyrodigal
+2026-01-23 07:38:20,872 - bofasa - INFO - genomad setup status: True - genomad is properly set up
+2026-01-23 07:38:20,872 - bofasa - INFO - Saving parameters for future records.
+2026-01-23 07:38:20,873 - bofasa - INFO - Done saving parameters!
+2026-01-23 07:38:20,873 - bofasa - INFO - 
+--------------------
+Step 1
+--------------------
+Processing genomes / annotation folders provided as input.
+2026-01-23 07:38:20,874 - bofasa - INFO - Processing 20 GenBank files...
+2026-01-23 07:38:20,874 - bofasa - INFO - Attempting to process/re-format 20 genomes provided as GenBank files using 20 threads
+Checking genomad setup...
+✓ genomad is properly set up
+Setting memory limit from unlimited to 16GB
+Memory limit set to: 16GB
+Processing GenBank files ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:03
+Processed 4619 proteins from 1 records in GenBank file.
+Processed 4401 proteins from 1 records in GenBank file.
+Processed 4406 proteins from 1 records in GenBank file.
+Processed 4534 proteins from 1 records in GenBank file.
+Processed 4383 proteins from 1 records in GenBank file.
+Processed 4457 proteins from 1 records in GenBank file.
+Processed 4580 proteins from 1 records in GenBank file.
+Processed 4524 proteins from 1 records in GenBank file.
+Processed 4557 proteins from 1 records in GenBank file.
+Processed 4523 proteins from 1 records in GenBank file.
+Processed 4467 proteins from 1 records in GenBank file.
+Processed 4445 proteins from 1 records in GenBank file.
+Processed 4429 proteins from 1 records in GenBank file.
+Processed 4670 proteins from 1 records in GenBank file.
+Processed 4549 proteins from 1 records in GenBank file.
+Processed 4580 proteins from 1 records in GenBank file.
+Processed 4587 proteins from 1 records in GenBank file.
+Processed 4489 proteins from 1 records in GenBank file.
+Processed 4427 proteins from 1 records in GenBank file.
+Processed 4532 proteins from 1 records in GenBank file.
+2026-01-23 07:38:24,710 - bofasa - INFO - Successfully processed 20 out of 20 genomes.
+2026-01-23 07:38:24,714 - bofasa - INFO - Found and successfully processed 20 genomes, continuing ...
+2026-01-23 07:38:24,714 - bofasa - INFO - 
+--------------------
+Step 2b
+--------------------
+Annotating IS elements using the ISFinder database.
+2026-01-23 07:38:24,716 - bofasa - INFO - Running 20 DIAMOND blastp jobs for IS element annotation
+2026-01-23 07:38:24,913 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/10.faa -o Bofasa_Prep_Results/ISFinder_Annotations/10.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,913 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/1.faa -o Bofasa_Prep_Results/ISFinder_Annotations/1.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,913 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/0.faa -o Bofasa_Prep_Results/ISFinder_Annotations/0.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,914 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/11.faa -o Bofasa_Prep_Results/ISFinder_Annotations/11.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,914 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/12.faa -o Bofasa_Prep_Results/ISFinder_Annotations/12.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,914 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/13.faa -o Bofasa_Prep_Results/ISFinder_Annotations/13.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,914 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/15.faa -o Bofasa_Prep_Results/ISFinder_Annotations/15.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,915 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/17.faa -o Bofasa_Prep_Results/ISFinder_Annotations/17.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,915 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/16.faa -o Bofasa_Prep_Results/ISFinder_Annotations/16.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,915 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/14.faa -o Bofasa_Prep_Results/ISFinder_Annotations/14.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,915 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/2.faa -o Bofasa_Prep_Results/ISFinder_Annotations/2.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,916 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/3.faa -o Bofasa_Prep_Results/ISFinder_Annotations/3.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,916 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/4.faa -o Bofasa_Prep_Results/ISFinder_Annotations/4.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,915 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/18.faa -o Bofasa_Prep_Results/ISFinder_Annotations/18.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,916 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/5.faa -o Bofasa_Prep_Results/ISFinder_Annotations/5.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,915 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/19.faa -o Bofasa_Prep_Results/ISFinder_Annotations/19.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,916 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/6.faa -o Bofasa_Prep_Results/ISFinder_Annotations/6.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,917 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/9.faa -o Bofasa_Prep_Results/ISFinder_Annotations/9.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,917 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/7.faa -o Bofasa_Prep_Results/ISFinder_Annotations/7.isfinder_diamond_blastp.txt
+2026-01-23 07:38:24,917 - bofasa - INFO - Running command: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/8.faa -o Bofasa_Prep_Results/ISFinder_Annotations/8.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,038 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/16.faa -o Bofasa_Prep_Results/ISFinder_Annotations/16.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,038 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/19.faa -o Bofasa_Prep_Results/ISFinder_Annotations/19.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,042 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/1.faa -o Bofasa_Prep_Results/ISFinder_Annotations/1.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,047 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/14.faa -o Bofasa_Prep_Results/ISFinder_Annotations/14.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,050 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/13.faa -o Bofasa_Prep_Results/ISFinder_Annotations/13.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,052 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/6.faa -o Bofasa_Prep_Results/ISFinder_Annotations/6.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,056 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/7.faa -o Bofasa_Prep_Results/ISFinder_Annotations/7.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,061 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/0.faa -o Bofasa_Prep_Results/ISFinder_Annotations/0.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,068 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/12.faa -o Bofasa_Prep_Results/ISFinder_Annotations/12.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,068 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/11.faa -o Bofasa_Prep_Results/ISFinder_Annotations/11.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,069 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/18.faa -o Bofasa_Prep_Results/ISFinder_Annotations/18.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,072 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/3.faa -o Bofasa_Prep_Results/ISFinder_Annotations/3.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,079 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/10.faa -o Bofasa_Prep_Results/ISFinder_Annotations/10.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,081 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/9.faa -o Bofasa_Prep_Results/ISFinder_Annotations/9.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,101 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/17.faa -o Bofasa_Prep_Results/ISFinder_Annotations/17.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,102 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/8.faa -o Bofasa_Prep_Results/ISFinder_Annotations/8.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,105 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/5.faa -o Bofasa_Prep_Results/ISFinder_Annotations/5.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,117 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/2.faa -o Bofasa_Prep_Results/ISFinder_Annotations/2.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,150 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/4.faa -o Bofasa_Prep_Results/ISFinder_Annotations/4.isfinder_diamond_blastp.txt
+2026-01-23 07:38:27,155 - bofasa - INFO - Command completed successfully: diamond blastp --ignore-warnings -p 1 -d /workspace/local/rauf/bofasa/Polished_Analyses/bofasa_conda_env/share/bofasa/db/isfinder_db/ISfinder.dmnd -q Bofasa_Prep_Results/Genome_Processing/Proteomes/15.faa -o Bofasa_Prep_Results/ISFinder_Annotations/15.isfinder_diamond_blastp.txt
+Running DIAMOND blastp ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:02
+2026-01-23 07:38:27,167 - bofasa - INFO - IS finder annotation completed
+2026-01-23 07:38:27,196 - bofasa - INFO - 
+--------------------
+Step 3
+--------------------
+Annotating proteins with Pfam HMMs to split them into domain/inter-domain "chunks" or units.
+2026-01-23 07:38:27,198 - bofasa - INFO - Creating domain-chopped up version of proteome files for 20 genomes
+Creating domain-chopped proteomes ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:34
+2026-01-23 07:40:01,788 - bofasa - INFO - Pfam annotation and protein splitting completed
+2026-01-23 07:40:01,843 - bofasa - INFO - 
+--------------------
+Step 4
+--------------------
+Nearly there, putting together final files.
+2026-01-23 07:40:01,843 - bofasa - INFO - bofasa preparation completed successfully
+	Command being timed: "bofasa prep -i GenBank_Input/0.gbk GenBank_Input/1.gbk GenBank_Input/10.gbk GenBank_Input/11.gbk GenBank_Input/12.gbk GenBank_Input/13.gbk GenBank_Input/14.gbk GenBank_Input/15.gbk GenBank_Input/16.gbk GenBank_Input/17.gbk GenBank_Input/18.gbk GenBank_Input/19.gbk GenBank_Input/2.gbk GenBank_Input/3.gbk GenBank_Input/4.gbk GenBank_Input/5.gbk GenBank_Input/6.gbk GenBank_Input/7.gbk GenBank_Input/8.gbk GenBank_Input/9.gbk -o Bofasa_Prep_Results/ -c 20"
+	User time (seconds): 8923.82
+	System time (seconds): 42.68
+	Percent of CPU this job got: 8215%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:49.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 327756
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 167
+	Minor (reclaiming a frame) page faults: 2211463
+	Voluntary context switches: 1986784
+	Involuntary context switches: 2631278
+	Swaps: 0
+	File system inputs: 1965896
+	File system outputs: 314800
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,19 @@
+ord	method	category	value
+6	OrthoFinder v2.5.5	full	7691
+6	OrthoFinder v2.5.5	minus_one	4694
+2	OrthoFinder v3.1.3	full	51349
+2	OrthoFinder v3.1.3	minus_one	21647
+1	SCARAP	full	60732
+1	SCARAP	minus_one	35308
+9	PIRATE	full	85
+9	PIRATE	minus_one	11
+5	PIRATE - with 20,30,40	full	24626
+5	PIRATE - with 20,30,40	minus_one	6724
+4	SonicParanoid	full	53910
+4	SonicParanoid	minus_one	6960
+3	SonicParanoid - sensitive	full	50545
+3	SonicParanoid - sensitive	minus_one	10779
+7	bofasa	full	2483
+7	bofasa	minus_one	2432
+8	bofasa - rs1000	full	3725
+8	bofasa - rs1000	minus_one	3092

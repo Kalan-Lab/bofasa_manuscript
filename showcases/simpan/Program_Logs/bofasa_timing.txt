@@ -1,0 +1,206 @@
+2026-01-23 07:55:47,077 - bofasa - INFO - Starting bofasa analysis
+2026-01-23 07:55:47,077 - bofasa - INFO - Input directory: Bofasa_Prep_Results/
+2026-01-23 07:55:47,077 - bofasa - INFO - Output directory: Bofasa_Results/
+2026-01-23 07:55:47,078 - bofasa - INFO - Threads: 20
+2026-01-23 07:55:47,078 - bofasa - INFO - Memory limit requested: 16GB
+2026-01-23 07:55:47,078 - bofasa - INFO - Saving parameters for future records.
+2026-01-23 07:55:47,078 - bofasa - INFO - Done saving parameters!
+2026-01-23 07:55:47,078 - bofasa - INFO - geNomad was not run ...
+2026-01-23 07:55:47,078 - bofasa - INFO - 
+--------------------
+Step 1
+--------------------
+Running OrthoFinder on bacterial genomes (MGEs will be processed separately if bofasa prep was run with the -emg flag).
+2026-01-23 07:55:47,389 - bofasa - INFO - Running OrthoFinder on 20 bacterial genomes (0 MGEs will be integrated separately)
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2026-01-23 07:55:47 : Starting OrthoFinder 2.5.5
+20 thread(s) for highly parallel tasks (BLAST searches etc.)
+2 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2026-01-23 07:55:48 : Creating diamond database 1 of 20
+2026-01-23 07:55:48 : Creating diamond database 2 of 20
+2026-01-23 07:55:48 : Creating diamond database 3 of 20
+2026-01-23 07:55:48 : Creating diamond database 4 of 20
+2026-01-23 07:55:48 : Creating diamond database 5 of 20
+2026-01-23 07:55:48 : Creating diamond database 6 of 20
+2026-01-23 07:55:48 : Creating diamond database 7 of 20
+2026-01-23 07:55:48 : Creating diamond database 8 of 20
+2026-01-23 07:55:48 : Creating diamond database 9 of 20
+2026-01-23 07:55:48 : Creating diamond database 10 of 20
+2026-01-23 07:55:48 : Creating diamond database 11 of 20
+2026-01-23 07:55:48 : Creating diamond database 12 of 20
+2026-01-23 07:55:48 : Creating diamond database 13 of 20
+2026-01-23 07:55:48 : Creating diamond database 14 of 20
+2026-01-23 07:55:48 : Creating diamond database 15 of 20
+2026-01-23 07:55:48 : Creating diamond database 16 of 20
+2026-01-23 07:55:49 : Creating diamond database 17 of 20
+2026-01-23 07:55:49 : Creating diamond database 18 of 20
+2026-01-23 07:55:49 : Creating diamond database 19 of 20
+2026-01-23 07:55:49 : Creating diamond database 20 of 20
+
+Running diamond all-versus-all
+------------------------------
+Using 20 thread(s)
+2026-01-23 07:55:49 : This may take some time....
+2026-01-23 07:55:49 : Done 0 of 400
+2026-01-23 07:57:06 : Done 100 of 400
+2026-01-23 07:58:17 : Done 200 of 400
+2026-01-23 07:59:26 : Done 300 of 400
+2026-01-23 08:00:42 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2026-01-23 08:00:42 : Initial processing of each species
+2026-01-23 08:00:45 : Initial processing of species 1 complete
+2026-01-23 08:00:45 : Initial processing of species 0 complete
+2026-01-23 08:00:48 : Initial processing of species 3 complete
+2026-01-23 08:00:48 : Initial processing of species 2 complete
+2026-01-23 08:00:51 : Initial processing of species 4 complete
+2026-01-23 08:00:51 : Initial processing of species 5 complete
+2026-01-23 08:00:54 : Initial processing of species 6 complete
+2026-01-23 08:00:54 : Initial processing of species 7 complete
+2026-01-23 08:00:57 : Initial processing of species 8 complete
+2026-01-23 08:00:57 : Initial processing of species 9 complete
+2026-01-23 08:01:00 : Initial processing of species 10 complete
+2026-01-23 08:01:00 : Initial processing of species 11 complete
+2026-01-23 08:01:03 : Initial processing of species 12 complete
+2026-01-23 08:01:03 : Initial processing of species 13 complete
+2026-01-23 08:01:06 : Initial processing of species 14 complete
+2026-01-23 08:01:07 : Initial processing of species 15 complete
+2026-01-23 08:01:09 : Initial processing of species 16 complete
+2026-01-23 08:01:09 : Initial processing of species 17 complete
+2026-01-23 08:01:12 : Initial processing of species 18 complete
+2026-01-23 08:01:13 : Initial processing of species 19 complete
+2026-01-23 08:01:19 : Connected putative homologues
+2026-01-23 08:01:20 : Written final scores for species 3 to graph file
+2026-01-23 08:01:20 : Written final scores for species 0 to graph file
+2026-01-23 08:01:22 : Written final scores for species 4 to graph file
+2026-01-23 08:01:22 : Written final scores for species 1 to graph file
+2026-01-23 08:01:23 : Written final scores for species 5 to graph file
+2026-01-23 08:01:23 : Written final scores for species 2 to graph file
+2026-01-23 08:01:24 : Written final scores for species 6 to graph file
+2026-01-23 08:01:25 : Written final scores for species 9 to graph file
+2026-01-23 08:01:26 : Written final scores for species 7 to graph file
+2026-01-23 08:01:26 : Written final scores for species 10 to graph file
+2026-01-23 08:01:27 : Written final scores for species 11 to graph file
+2026-01-23 08:01:27 : Written final scores for species 8 to graph file
+2026-01-23 08:01:29 : Written final scores for species 15 to graph file
+2026-01-23 08:01:29 : Written final scores for species 12 to graph file
+2026-01-23 08:01:30 : Written final scores for species 16 to graph file
+2026-01-23 08:01:30 : Written final scores for species 13 to graph file
+2026-01-23 08:01:32 : Written final scores for species 17 to graph file
+2026-01-23 08:01:32 : Written final scores for species 14 to graph file
+2026-01-23 08:01:33 : Written final scores for species 18 to graph file
+2026-01-23 08:01:35 : Written final scores for species 19 to graph file
+2026-01-23 08:02:06 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 88287 genes (97.9% of total) to 6161 orthogroups. Fifty percent of all genes were in orthogroups with 20 or more genes (G50 was 20) and were contained in the largest 2235 orthogroups (O50 was 2235). There were 3477 orthogroups with all species present and 3455 of these consisted entirely of single-copy genes.
+
+2026-01-23 08:02:09 : Done orthogroups
+
+Results:
+    Bofasa_Results/OrthoFinder_Results/Results_Jan23/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914
+2026-01-23 08:02:09,636 - bofasa - INFO - Successfully ran: orthofinder -f Bofasa_Results/OrthoFinder_Input_Bacterial_Genomes/ -o Bofasa_Results/OrthoFinder_Results/ -t 20 -og -I 1.2
+2026-01-23 08:02:09,637 - bofasa - INFO - 
+--------------------
+Step 1b
+--------------------
+Integrating MGE (phage/plasmid) proteins into ortholog groups.
+2026-01-23 08:02:09,637 - bofasa - INFO - No MGE proteins found or were requested to be extracted via the -emg flag in bofasa prep
+2026-01-23 08:02:09,637 - bofasa - INFO - 
+--------------------
+Step 2
+--------------------
+Determine refined domain-resolution ortholog groups.
+Running multiple-sequence alignments using MUSCLE super5.
+2026-01-23 08:02:09,638 - bofasa - INFO - Running multiple-sequence alignments using MUSCLE super5.
+2026-01-23 08:02:09,928 - bofasa - INFO - Prepared 0 heavy jobs and 8033 light jobs for alignment
+2026-01-23 08:02:09,928 - bofasa - INFO - No heavy domain alignment jobs
+Checking OrthoFinder setup...
+✓ OrthoFinder is properly set up
+Setting memory limit from unlimited to 16GB
+Memory limit set to: 16GB
+Creating light domain alignments ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:03:03
+2026-01-23 08:05:13,605 - bofasa - INFO - Light domain alignments completed: 8033 successful, 0 failed
+Running alignment trimming using trimal.
+2026-01-23 08:05:13,676 - bofasa - INFO - Running alignment trimming using trimal.
+2026-01-23 08:05:13,676 - bofasa - INFO - Running 6161 TrimAl commands with 20 processes
+Running TrimAl ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:02
+2026-01-23 08:05:16,602 - bofasa - INFO - TrimAl summary: 6161 successful, 0 failed out of 6161 total commands
+2026-01-23 08:05:17,198 - bofasa - INFO - Running phylogeny constructions using FastTree 2.
+2026-01-23 08:05:17,198 - bofasa - INFO - Running 6161 FastTree commands
+Running FastTree ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:25
+2026-01-23 08:06:42,720 - bofasa - INFO - FastTree summary: 6161 successful, 0 failed out of 6161 total commands
+Using phylogenetics to split coarse domain resolution ortholog groups.
+2026-01-23 08:06:44,680 - bofasa - INFO - Using phylogenetics to split coarse domain resolution ortholog groups.
+Domain OG splits ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:01
+2026-01-23 08:06:47,149 - bofasa - INFO - Phylogenetic resolution of orthogroups completed successfully
+2026-01-23 08:06:47,169 - bofasa - INFO - 
+--------------------
+Step 3
+--------------------
+Determine protein-resolution ortholog groups.
+Protein comparisons ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:05
+2026-01-23 08:06:55,837 - bofasa - INFO - Successfully ran: mcl Bofasa_Results/Protein_Clustering/Protein_Pairs_Based_on_DOGs.txt --abc -I 1.2 -o Bofasa_Results/Protein_Clustering/Protein_Clusters_Based_on_DOGs.txt -te 20
+Large OG splits ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   0% -:--:--
+Regular OG splits ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+2026-01-23 08:06:56,505 - bofasa - INFO - 
+--------------------
+Step 4
+--------------------
+Assessing neighborhoods for each ortholog group.
+Extracting gene contexts ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:01
+2026-01-23 08:06:59,685 - bofasa - INFO - Ortholog group contexts determined successfully
+2026-01-23 08:06:59,726 - bofasa - INFO - 
+--------------------
+Step 5
+--------------------
+Creating final consolidated report.
+2026-01-23 08:07:02,009 - bofasa - INFO - Final Excel report created successfully
+2026-01-23 08:07:02,010 - bofasa - INFO - 
+--------------------
+Step 6
+--------------------
+Creating final summary visualization of conservation vs. neighborhood syntenic conservation.
+2026-01-23 08:07:04,885 - bofasa - INFO - bofasa analysis completed successfully
+	Command being timed: "bofasa run -i Bofasa_Prep_Results/ -o Bofasa_Results/ -c 20"
+	User time (seconds): 9931.04
+	System time (seconds): 1166.13
+	Percent of CPU this job got: 1632%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:19.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 299056
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 433
+	Minor (reclaiming a frame) page faults: 202370154
+	Voluntary context switches: 417979
+	Involuntary context switches: 127278
+	Swaps: 0
+	File system inputs: 58272
+	File system outputs: 1692032
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

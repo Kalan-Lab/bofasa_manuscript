@@ -1,0 +1,167 @@
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2026-01-28 21:11:00 : Starting OrthoFinder 2.5.5
+20 thread(s) for highly parallel tasks (BLAST searches etc.)
+2 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "mafft" - ok
+Test can run "fasttree" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2026-01-28 21:11:00 : Creating diamond database 1 of 20
+2026-01-28 21:11:00 : Creating diamond database 2 of 20
+2026-01-28 21:11:01 : Creating diamond database 3 of 20
+2026-01-28 21:11:01 : Creating diamond database 4 of 20
+2026-01-28 21:11:01 : Creating diamond database 5 of 20
+2026-01-28 21:11:01 : Creating diamond database 6 of 20
+2026-01-28 21:11:01 : Creating diamond database 7 of 20
+2026-01-28 21:11:01 : Creating diamond database 8 of 20
+2026-01-28 21:11:01 : Creating diamond database 9 of 20
+2026-01-28 21:11:01 : Creating diamond database 10 of 20
+2026-01-28 21:11:01 : Creating diamond database 11 of 20
+2026-01-28 21:11:01 : Creating diamond database 12 of 20
+2026-01-28 21:11:01 : Creating diamond database 13 of 20
+2026-01-28 21:11:01 : Creating diamond database 14 of 20
+2026-01-28 21:11:01 : Creating diamond database 15 of 20
+2026-01-28 21:11:01 : Creating diamond database 16 of 20
+2026-01-28 21:11:01 : Creating diamond database 17 of 20
+2026-01-28 21:11:01 : Creating diamond database 18 of 20
+2026-01-28 21:11:01 : Creating diamond database 19 of 20
+2026-01-28 21:11:01 : Creating diamond database 20 of 20
+
+Running diamond all-versus-all
+------------------------------
+Using 20 thread(s)
+2026-01-28 21:11:01 : This may take some time....
+2026-01-28 21:11:01 : Done 0 of 400
+2026-01-28 21:12:13 : Done 100 of 400
+2026-01-28 21:13:19 : Done 200 of 400
+2026-01-28 21:14:23 : Done 300 of 400
+2026-01-28 21:15:34 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2026-01-28 21:15:34 : Initial processing of each species
+2026-01-28 21:15:37 : Initial processing of species 1 complete
+2026-01-28 21:15:37 : Initial processing of species 0 complete
+2026-01-28 21:15:40 : Initial processing of species 3 complete
+2026-01-28 21:15:40 : Initial processing of species 2 complete
+2026-01-28 21:15:43 : Initial processing of species 4 complete
+2026-01-28 21:15:44 : Initial processing of species 5 complete
+2026-01-28 21:15:46 : Initial processing of species 6 complete
+2026-01-28 21:15:47 : Initial processing of species 7 complete
+2026-01-28 21:15:49 : Initial processing of species 8 complete
+2026-01-28 21:15:50 : Initial processing of species 9 complete
+2026-01-28 21:15:52 : Initial processing of species 10 complete
+2026-01-28 21:15:53 : Initial processing of species 11 complete
+2026-01-28 21:15:56 : Initial processing of species 12 complete
+2026-01-28 21:15:57 : Initial processing of species 13 complete
+2026-01-28 21:15:59 : Initial processing of species 14 complete
+2026-01-28 21:16:00 : Initial processing of species 15 complete
+2026-01-28 21:16:02 : Initial processing of species 16 complete
+2026-01-28 21:16:03 : Initial processing of species 17 complete
+2026-01-28 21:16:05 : Initial processing of species 18 complete
+2026-01-28 21:16:07 : Initial processing of species 19 complete
+2026-01-28 21:16:13 : Connected putative homologues
+2026-01-28 21:16:15 : Written final scores for species 0 to graph file
+2026-01-28 21:16:15 : Written final scores for species 3 to graph file
+2026-01-28 21:16:16 : Written final scores for species 1 to graph file
+2026-01-28 21:16:16 : Written final scores for species 4 to graph file
+2026Processing... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   2707/2707 0:41:02
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m01[0m[39;49m-[0m[1;36;49m28[0m[39;49m [0m[1;92;49m21:25:49[0m[39;49m : Done MSA/Trees[0m
+
+Best outgroup(s) for species tree
+---------------------------------
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m01[0m[39;49m-[0m[1;36;49m28[0m[39;49m [0m[1;92;49m21:25:49[0m[39;49m : Starting STRIDE[0m
+ERROR: Species tree inference failed
+cannot access local variable 'speciesTree' where it is not associated with a value
+  File "/workspace/local/rauf/bofasa/comparator_software/orthofinder_3.1.0_env/bin/src/orthofinder/run/__main__.py", line 508, in main
+    GetOrthologues(
+  File "/workspace/local/rauf/bofasa/comparator_software/orthofinder_3.1.0_env/bin/src/orthofinder/run/__main__.py", line 128, in GetOrthologues
+    orthologues.OrthologuesWorkflow(
+  File "/workspace/local/rauf/bofasa/comparator_software/orthofinder_3.1.0_env/bin/src/orthofinder/comparative_genomics/orthologues.py", line 530, in OrthologuesWorkflow
+    return_obj = RootSpeciesTree(
+                 ^^^^^^^^^^^^^^^^
+  File "/workspace/local/rauf/bofasa/comparator_software/orthofinder_3.1.0_env/bin/src/orthofinder/comparative_genomics/orthologues.py", line 692, in RootSpeciesTree
+    stride.GetRoot(
+  File "/workspace/local/rauf/bofasa/comparator_software/orthofinder_3.1.0_env/bin/src/orthofinder/tools/stride.py", line 516, in GetRoot
+    species, dict_clades, clade_names = AnalyseSpeciesTree(speciesTree)
+                                                           ^^^^^^^^^^^
+
+[38;5;136;49mOrthoFinder[0m[39;49m finished in [0m[1;32;49m3039.[0m[32;49m507627[0m[39;49ms[0m
+
+	Command being timed: "orthofinder -f Bofasa_Prep_Results/Genome_Processing/Proteomes/ -o OrthoFinder_v3_Results/ -t 20 -M msa"
+	User time (seconds): 11127.97
+	System time (seconds): 572.05
+	Percent of CPU this job got: 378%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 51:30.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9007596
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults:2026-01-28 21:59:01 : Done MSA/Trees
+
+Best outgroup(s) for species tree
+---------------------------------
+2026-01-28 21:59:01 : Starting STRIDE
+2026-01-28 21:59:02 : Done STRIDE
+Observed 17 well-supported, non-terminal duplications. 17 support the best root and 0 contradict it.
+Best outgroup for species tree:
+  13, 12, 17, 6
+
+Reconciling gene trees and species tree
+---------------------------------------
+Outgroup: 13, 12, 17, 6
+2026-01-28 21:59:02 : Starting Recon and orthologues
+2026-01-28 21:59:02 : Starting OF Orthologues
+2026-01-28 21:59:03 : Done 0 of 4841
+2026-01-28 21:59:06 : Done 1000 of 4841
+2026-01-28 21:59:09 : Done 2000 of 4841
+2026-01-28 21:59:13 : Done 3000 of 4841
+2026-01-28 21:59:16 : Done 4000 of 4841
+2026-01-28 21:59:18 : Done OF Orthologues
+
+Writing results files
+=====================
+2026-01-28 21:59:19 : Done orthologues
+
+Results:
+    OrthoFinder_v3_Results/Results_Jan28/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914
+	Command being timed: "orthofinder -f Bofasa_Prep_Results/Genome_Processing/Proteomes/ -o OrthoFinder_v3_Results/ -t 20 -M msa"
+	User time (seconds): 11456.95
+	System time (seconds): 2529.58
+	Percent of CPU this job got: 481%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 48:22.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9058940
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7883
+	Minor (reclaiming a frame) page faults: 282180247
+	Voluntary context switches: 2260625
+	Involuntary context switches: 382927
+	Swaps: 0
+	File system inputs: 18200
+	File system outputs: 2792960
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,5 @@
+orthogroup	cat	count
+1. OG019627	metallophore	11
+1. OG019627	other	2
+2. OG006197	metallophore	4
+2. OG006197	other	6

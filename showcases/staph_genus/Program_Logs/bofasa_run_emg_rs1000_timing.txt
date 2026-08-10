@@ -1,0 +1,349 @@
+2026-02-09 04:19:22,121 - bofasa - INFO - Starting bofasa analysis
+2026-02-09 04:19:22,122 - bofasa - INFO - Input directory: Bofasa_Prep_Emg_Results/
+2026-02-09 04:19:22,122 - bofasa - INFO - Output directory: Bofasa_Run_Emg_RS1000_Results/
+2026-02-09 04:19:22,122 - bofasa - INFO - Threads: 20
+2026-02-09 04:19:22,122 - bofasa - INFO - Memory limit requested: 16GB
+2026-02-09 04:19:22,122 - bofasa - INFO - Saving parameters for future records.
+2026-02-09 04:19:22,122 - bofasa - INFO - Done saving parameters!
+2026-02-09 04:19:22,122 - bofasa - INFO - geNomad was successfully run on input genomes and will be used downstream ...
+2026-02-09 04:19:22,122 - bofasa - INFO - 
+--------------------
+Step 1
+--------------------
+Running OrthoFinder on bacterial genomes (MGEs will be processed separately if bofasa prep was run with the -emg flag).
+2026-02-09 04:19:22,159 - bofasa - INFO - Running OrthoFinder on 59 bacterial genomes (180 MGEs will be integrated separately)
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2026-02-09 04:19:22 : Starting OrthoFinder 2.5.5
+20 thread(s) for highly parallel tasks (BLAST searches etc.)
+2 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2026-02-09 04:19:23 : Creating diamond database 1 of 59
+2026-02-09 04:19:23 : Creating diamond database 2 of 59
+2026-02-09 04:19:23 : Creating diamond database 3 of 59
+2026-02-09 04:19:23 : Creating diamond database 4 of 59
+2026-02-09 04:19:23 : Creating diamond database 5 of 59
+2026-02-09 04:19:23 : Creating diamond database 6 of 59
+2026-02-09 04:19:23 : Creating diamond database 7 of 59
+2026-02-09 04:19:23 : Creating diamond database 8 of 59
+2026-02-09 04:19:23 : Creating diamond database 9 of 59
+2026-02-09 04:19:23 : Creating diamond database 10 of 59
+2026-02-09 04:19:23 : Creating diamond database 11 of 59
+2026-02-09 04:19:23 : Creating diamond database 12 of 59
+2026-02-09 04:19:23 : Creating diamond database 13 of 59
+2026-02-09 04:19:23 : Creating diamond database 14 of 59
+2026-02-09 04:19:23 : Creating diamond database 15 of 59
+2026-02-09 04:19:23 : Creating diamond database 16 of 59
+2026-02-09 04:19:24 : Creating diamond database 17 of 59
+2026-02-09 04:19:24 : Creating diamond database 18 of 59
+2026-02-09 04:19:24 : Creating diamond database 19 of 59
+2026-02-09 04:19:24 : Creating diamond database 20 of 59
+2026-02-09 04:19:24 : Creating diamond database 21 of 59
+2026-02-09 04:19:24 : Creating diamond database 22 of 59
+2026-02-09 04:19:24 : Creating diamond database 23 of 59
+2026-02-09 04:19:24 : Creating diamond database 24 of 59
+2026-02-09 04:19:24 : Creating diamond database 25 of 59
+2026-02-09 04:19:24 : Creating diamond database 26 of 59
+2026-02-09 04:19:24 : Creating diamond database 27 of 59
+2026-02-09 04:19:24 : Creating diamond database 28 of 59
+2026-02-09 04:19:24 : Creating diamond database 29 of 59
+2026-02-09 04:19:24 : Creating diamond database 30 of 59
+2026-02-09 04:19:24 : Creating diamond database 31 of 59
+2026-02-09 04:19:24 : Creating diamond database 32 of 59
+2026-02-09 04:19:24 : Creating diamond database 33 of 59
+2026-02-09 04:19:24 : Creating diamond database 34 of 59
+2026-02-09 04:19:24 : Creating diamond database 35 of 59
+2026-02-09 04:19:24 : Creating diamond database 36 of 59
+2026-02-09 04:19:24 : Creating diamond database 37 of 59
+2026-02-09 04:19:24 : Creating diamond database 38 of 59
+2026-02-09 04:19:24 : Creating diamond database 39 of 59
+2026-02-09 04:19:24 : Creating diamond database 40 of 59
+2026-02-09 04:19:24 : Creating diamond database 41 of 59
+2026-02-09 04:19:24 : Creating diamond database 42 of 59
+2026-02-09 04:19:24 : Creating diamond database 43 of 59
+2026-02-09 04:19:24 : Creating diamond database 44 of 59
+2026-02-09 04:19:25 : Creating diamond database 45 of 59
+2026-02-09 04:19:25 : Creating diamond database 46 of 59
+2026-02-09 04:19:25 : Creating diamond database 47 of 59
+2026-02-09 04:19:25 : Creating diamond database 48 of 59
+2026-02-09 04:19:25 : Creating diamond database 49 of 59
+2026-02-09 04:19:25 : Creating diamond database 50 of 59
+2026-02-09 04:19:25 : Creating diamond database 51 of 59
+2026-02-09 04:19:25 : Creating diamond database 52 of 59
+2026-02-09 04:19:25 : Creating diamond database 53 of 59
+2026-02-09 04:19:25 : Creating diamond database 54 of 59
+2026-02-09 04:19:25 : Creating diamond database 55 of 59
+2026-02-09 04:19:25 : Creating diamond database 56 of 59
+2026-02-09 04:19:25 : Creating diamond database 57 of 59
+2026-02-09 04:19:25 : Creating diamond database 58 of 59
+2026-02-09 04:19:25 : Creating diamond database 59 of 59
+
+Running diamond all-versus-all
+------------------------------
+Using 20 thread(s)
+2026-02-09 04:19:25 : This may take some time....
+2026-02-09 04:19:25 : Done 0 of 3481
+2026-02-09 04:24:05 : Done 1000 of 3481
+2026-02-09 04:28:24 : Done 2000 of 3481
+2026-02-09 04:32:30 : Done 3000 of 3481
+2026-02-09 04:34:22 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2026-02-09 04:34:22 : Initial processing of each species
+2026-02-09 04:34:34 : Initial processing of species 0 complete
+2026-02-09 04:34:34 : Initial processing of species 1 complete
+2026-02-09 04:34:47 : Initial processing of species 2 complete
+2026-02-09 04:34:48 : Initial processing of species 3 complete
+2026-02-09 04:35:00 : Initial processing of species 5 complete
+2026-02-09 04:35:00 : Initial processing of species 4 complete
+2026-02-09 04:35:13 : Initial processing of species 7 complete
+2026-02-09 04:35:14 : Initial processing of species 6 complete
+2026-02-09 04:35:25 : Initial processing of species 9 complete
+2026-02-09 04:35:26 : Initial processing of species 8 complete
+2026-02-09 04:35:38 : Initial processing of species 10 complete
+2026-02-09 04:35:39 : Initial processing of species 11 complete
+2026-02-09 04:35:51 : Initial processing of species 12 complete
+2026-02-09 04:35:52 : Initial processing of species 13 complete
+2026-02-09 04:36:03 : Initial processing of species 14 complete
+2026-02-09 04:36:05 : Initial processing of species 15 complete
+2026-02-09 04:36:16 : Initial processing of species 16 complete
+2026-02-09 04:36:19 : Initial processing of species 17 complete
+2026-02-09 04:36:30 : Initial processing of species 18 complete
+2026-02-09 04:36:30 : Initial processing of species 19 complete
+2026-02-09 04:36:41 : Initial processing of species 21 complete
+2026-02-09 04:36:43 : Initial processing of species 20 complete
+2026-02-09 04:36:54 : Initial processing of species 22 complete
+2026-02-09 04:36:56 : Initial processing of species 23 complete
+2026-02-09 04:37:08 : Initial processing of species 24 complete
+2026-02-09 04:37:08 : Initial processing of species 25 complete
+2026-02-09 04:37:20 : Initial processing of species 26 complete
+2026-02-09 04:37:21 : Initial processing of species 27 complete
+2026-02-09 04:37:34 : Initial processing of species 29 complete
+2026-02-09 04:37:35 : Initial processing of species 28 complete
+2026-02-09 04:37:46 : Initial processing of species 30 complete
+2026-02-09 04:37:46 : Initial processing of species 31 complete
+2026-02-09 04:37:58 : Initial processing of species 33 complete
+2026-02-09 04:38:00 : Initial processing of species 32 complete
+2026-02-09 04:38:12 : Initial processing of species 34 complete
+2026-02-09 04:38:13 : Initial processing of species 35 complete
+2026-02-09 04:38:24 : Initial processing of species 36 complete
+2026-02-09 04:38:26 : Initial processing of species 37 complete
+2026-02-09 04:38:35 : Initial processing of species 38 complete
+2026-02-09 04:38:37 : Initial processing of species 39 complete
+2026-02-09 04:38:48 : Initial processing of species 40 complete
+2026-02-09 04:38:49 : Initial processing of species 41 complete
+2026-02-09 04:39:02 : Initial processing of species 42 complete
+2026-02-09 04:39:02 : Initial processing of species 43 complete
+2026-02-09 04:39:15 : Initial processing of species 44 complete
+2026-02-09 04:39:16 : Initial processing of species 45 complete
+2026-02-09 04:39:27 : Initial processing of species 46 complete
+2026-02-09 04:39:28 : Initial processing of species 47 complete
+2026-02-09 04:39:39 : Initial processing of species 48 complete
+2026-02-09 04:39:41 : Initial processing of species 49 complete
+2026-02-09 04:39:50 : Initial processing of species 50 complete
+2026-02-09 04:39:55 : Initial processing of species 51 complete
+2026-02-09 04:40:03 : Initial processing of species 52 complete
+2026-02-09 04:40:08 : Initial processing of species 53 complete
+2026-02-09 04:40:17 : Initial processing of species 54 complete
+2026-02-09 04:40:21 : Initial processing of species 55 complete
+2026-02-09 04:40:30 : Initial processing of species 56 complete
+2026-02-09 04:40:32 : Initial processing of species 57 complete
+2026-02-09 04:40:44 : Initial processing of species 58 complete
+2026-02-09 04:41:27 : Connected putative homologues
+2026-02-09 04:41:32 : Written final scores for species 0 to graph file
+2026-02-09 04:41:32 : Written final scores for species 8 to graph file
+2026-02-09 04:41:37 : Written final scores for species 9 to graph file
+2026-02-09 04:41:37 : Written final scores for species 1 to graph file
+2026-02-09 04:41:42 : Written final scores for species 2 to graph file
+2026-02-09 04:41:43 : Written final scores for species 10 to graph file
+2026-02-09 04:41:48 : Written final scores for species 3 to graph file
+2026-02-09 04:41:49 : Written final scores for species 11 to graph file
+2026-02-09 04:41:54 : Written final scores for species 4 to graph file
+2026-02-09 04:41:55 : Written final scores for species 12 to graph file
+2026-02-09 04:41:59 : Written final scores for species 5 to graph file
+2026-02-09 04:42:01 : Written final scores for species 13 to graph file
+2026-02-09 04:42:05 : Written final scores for species 6 to graph file
+2026-02-09 04:42:06 : Written final scores for species 14 to graph file
+2026-02-09 04:42:11 : Written final scores for species 7 to graph file
+2026-02-09 04:42:12 : Written final scores for species 15 to graph file
+2026-02-09 04:42:17 : Written final scores for species 16 to graph file
+2026-02-09 04:42:18 : Written final scores for species 24 to graph file
+2026-02-09 04:42:23 : Written final scores for species 17 to graph file
+2026-02-09 04:42:23 : Written final scores for species 25 to graph file
+2026-02-09 04:42:29 : Written final scores for species 18 to graph file
+2026-02-09 04:42:29 : Written final scores for species 26 to graph file
+2026-02-09 04:42:34 : Written final scores for species 19 to graph file
+2026-02-09 04:42:34 : Written final scores for species 27 to graph file
+2026-02-09 04:42:39 : Written final scores for species 20 to graph file
+2026-02-09 04:42:41 : Written final scores for species 28 to graph file
+2026-02-09 04:42:44 : Written final scores for species 21 to graph file
+2026-02-09 04:42:47 : Written final scores for species 29 to graph file
+2026-02-09 04:42:49 : Written final scores for species 22 to graph file
+2026-02-09 04:42:52 : Written final scores for species 30 to graph file
+2026-02-09 04:42:55 : Written final scores for species 23 to graph file
+2026-02-09 04:42:58 : Written final scores for species 31 to graph file
+2026-02-09 04:43:01 : Written final scores for species 32 to graph file
+2026-02-09 04:43:03 : Written final scores for species 40 to graph file
+2026-02-09 04:43:06 : Written final scores for species 33 to graph file
+2026-02-09 04:43:09 : Written final scores for species 41 to graph file
+2026-02-09 04:43:12 : Written final scores for species 34 to graph file
+2026-02-09 04:43:15 : Written final scores for species 42 to graph file
+2026-02-09 04:43:18 : Written final scores for species 35 to graph file
+2026-02-09 04:43:21 : Written final scores for species 43 to graph file
+2026-02-09 04:43:24 : Written final scores for species 36 to graph file
+2026-02-09 04:43:26 : Written final scores for species 44 to graph file
+2026-02-09 04:43:30 : Written final scores for species 37 to graph file
+2026-02-09 04:43:32 : Written final scores for species 45 to graph file
+2026-02-09 04:43:35 : Written final scores for species 38 to graph file
+2026-02-09 04:43:38 : Written final scores for species 46 to graph file
+2026-02-09 04:43:40 : Written final scores for species 39 to graph file
+2026-02-09 04:43:43 : Written final scores for species 47 to graph file
+2026-02-09 04:43:45 : Written final scores for species 48 to graph file
+2026-02-09 04:43:49 : Written final scores for species 56 to graph file
+2026-02-09 04:43:51 : Written final scores for species 49 to graph file
+2026-02-09 04:43:54 : Written final scores for species 57 to graph file
+2026-02-09 04:43:55 : Written final scores for species 50 to graph file
+2026-02-09 04:44:00 : Written final scores for species 58 to graph file
+2026-02-09 04:44:01 : Written final scores for species 51 to graph file
+2026-02-09 04:44:07 : Written final scores for species 52 to graph file
+2026-02-09 04:44:12 : Written final scores for species 53 to graph file
+2026-02-09 04:44:18 : Written final scores for species 54 to graph file
+2026-02-09 04:44:24 : Written final scores for species 55 to graph file
+2026-02-09 04:48:14 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 323133 genes (97.9% of total) to 10434 orthogroups. Fifty percent of all genes were in orthogroups with 59 or more genes (G50 was 59) and were contained in the largest 2220 orthogroups (O50 was 2220). There were 2538 orthogroups with all species present and 1940 of these consisted entirely of single-copy genes.
+
+2026-02-09 04:48:23 : Done orthogroups
+
+Results:
+    Bofasa_Run_Emg_RS1000_Results/OrthoFinder_Results/Results_Feb09/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914
+2026-02-09 04:48:24,497 - bofasa - INFO - Successfully ran: orthofinder -f Bofasa_Run_Emg_RS1000_Results/OrthoFinder_Input_Bacterial_Genomes/ -o Bofasa_Run_Emg_RS1000_Results/OrthoFinder_Results/ -t 20 -og -I 1.2
+2026-02-09 04:48:24,498 - bofasa - INFO - 
+--------------------
+Step 1b
+--------------------
+Integrating MGE (phage/plasmid) proteins into ortholog groups.
+2026-02-09 04:48:24,498 - bofasa - INFO - Step 1b.1: Concatenating MGE proteins...
+2026-02-09 04:48:28,397 - bofasa - INFO - Concatenated 13060 MGE proteins from 180 MGEs
+2026-02-09 04:48:28,397 - bofasa - INFO - Concatenated 329971 bacterial genome proteins from 59 bacteria genomes
+2026-02-09 04:48:28,397 - bofasa - INFO - Step 1b.2: Creating DIAMOND databases from bacterial and MGE domain-resolution protein chunks...
+2026-02-09 04:48:28,397 - bofasa - INFO - Running command: diamond makedb --in Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/Bacterial_genome_protein_chunks_concatenated.faa --db Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/Bacterial_genome_domain-resolution_protein_chunks.dmnd --threads 20
+2026-02-09 04:48:29,092 - bofasa - INFO - Command completed successfully: diamond makedb --in Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/Bacterial_genome_protein_chunks_concatenated.faa --db Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/Bacterial_genome_domain-resolution_protein_chunks.dmnd --threads 20
+2026-02-09 04:48:29,092 - bofasa - INFO - Running command: diamond makedb --in Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_protein_chunks_concatenated.faa --db Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_domain-resolution_protein_chunks.dmnd --threads 20
+2026-02-09 04:48:29,136 - bofasa - INFO - Command completed successfully: diamond makedb --in Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_protein_chunks_concatenated.faa --db Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_domain-resolution_protein_chunks.dmnd --threads 20
+2026-02-09 04:48:29,136 - bofasa - INFO - Step 1b.3: Running reflexive alignment of MGE domain-resolution protein chunks against themselves to cluster them into homologous. groups...
+2026-02-09 04:48:29,136 - bofasa - INFO - Running command: diamond blastp --db Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_domain-resolution_protein_chunks.dmnd --query Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_protein_chunks_concatenated.faa --out Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_vs_MGE_diamond.tsv --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp --threads 20 --very-sensitive --evalue 0.001 --max-target-seqs 10
+2026-02-09 04:48:30,962 - bofasa - INFO - Command completed successfully: diamond blastp --db Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_domain-resolution_protein_chunks.dmnd --query Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_protein_chunks_concatenated.faa --out Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_vs_MGE_diamond.tsv --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp --threads 20 --very-sensitive --evalue 0.001 --max-target-seqs 10
+2026-02-09 04:48:31,073 - bofasa - INFO - Running slclust with input: Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/Homologous_MGE_pairs.txt and output: Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/Homologous_MGE_slclusters.txt
+2026-02-09 04:48:31,220 - bofasa - INFO - slclust completed successfully
+2026-02-09 04:48:31,229 - bofasa - INFO - Step 1b.4: Running DIAMOND blastp to align MGE proteins against bacterial genome proteins...
+2026-02-09 04:48:31,229 - bofasa - INFO - Running command: diamond blastp --db Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/Bacterial_genome_domain-resolution_protein_chunks.dmnd --query Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_protein_chunks_concatenated.faa --out Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_vs_BacterialGenomes_diamond.tsv --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore --threads 20 --very-sensitive --evalue 0.001 --max-target-seqs 10
+2026-02-09 04:48:35,698 - bofasa - INFO - Command completed successfully: diamond blastp --db Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/Bacterial_genome_domain-resolution_protein_chunks.dmnd --query Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_protein_chunks_concatenated.faa --out Bofasa_Run_Emg_RS1000_Results/MGE_Integration_Workspace/MGE_vs_BacterialGenomes_diamond.tsv --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore --threads 20 --very-sensitive --evalue 0.001 --max-target-seqs 10
+2026-02-09 04:48:35,698 - bofasa - INFO - Sorting DIAMOND output by bitscore (this may take a while for large files)...
+2026-02-09 04:48:35,750 - bofasa - INFO - Successfully sorted DIAMOND output by bitscore
+2026-02-09 04:48:36,393 - bofasa - WARNING - There were 1340 MGE-derived proteins
+which might be homologous/orthologous to each other, but were differentially assigned to orthogroups determined
+by OrthoFinder based on proteins from non-MGE contexts.
+For proteins which didn't map to OrthoFinder orthogroups
+directly, we currently leave them as singletons for such
+cases.
+
+2026-02-09 04:48:37,249 - bofasa - INFO - MGE protein integration completed
+2026-02-09 04:48:37,250 - bofasa - INFO - 
+--------------------
+Step 2
+--------------------
+Determine refined domain-resolution ortholog groups.
+Running multiple-sequence alignments using MUSCLE super5.
+2026-02-09 04:48:37,250 - bofasa - INFO - Running multiple-sequence alignments using MUSCLE super5.
+2026-02-09 04:48:37,927 - bofasa - INFO - Prepared 61 heavy jobs and 19326 light jobs for alignment
+Checking OrthoFinder setup...
+✓ OrthoFinder is properly set up
+Setting memory limit from unlimited to 16GB
+Memory limit set to: 16GB
+Creating heavy domain alignments ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:03:56
+2026-02-09 04:52:34,818 - bofasa - INFO - Heavy domain alignments completed: 61 successful, 0 failed
+Creating light domain alignments ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:13:45
+2026-02-09 05:06:21,379 - bofasa - INFO - Light domain alignments completed: 19326 successful, 0 failed
+Running alignment trimming using trimal.
+2026-02-09 05:06:21,558 - bofasa - INFO - Running alignment trimming using trimal.
+2026-02-09 05:06:21,558 - bofasa - INFO - Running 11282 TrimAl commands with 20 processes
+Running TrimAl ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:05
+2026-02-09 05:06:27,452 - bofasa - INFO - TrimAl summary: 11282 successful, 0 failed out of 11282 total commands
+2026-02-09 05:06:28,803 - bofasa - INFO - Running phylogeny constructions using FastTree 2.
+2026-02-09 05:06:28,803 - bofasa - INFO - Running 11282 FastTree commands
+Running FastTree ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:04:45
+2026-02-09 05:11:14,518 - bofasa - INFO - FastTree summary: 11282 successful, 0 failed out of 11282 total commands
+Using phylogenetics to split coarse domain resolution ortholog groups.
+2026-02-09 10:51:17,255 - bofasa - INFO - Using phylogenetics to split coarse domain resolution ortholog groups.
+Domain OG splits ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 1:07:29
+2026-02-09 11:58:49,120 - bofasa - INFO - Phylogenetic resolution of orthogroups completed successfully
+2026-02-09 11:58:49,181 - bofasa - INFO - 
+--------------------
+Step 3
+--------------------
+Determine protein-resolution ortholog groups.
+Protein comparisons ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:37
+2026-02-09 12:02:05,029 - bofasa - INFO - Successfully ran: mcl Bofasa_Run_Emg_RS1000_Results/Protein_Clustering/Protein_Pairs_Based_on_DOGs.txt --abc -I 1.2 -o Bofasa_Run_Emg_RS1000_Results/Protein_Clustering/Protein_Clusters_Based_on_DOGs.txt -te 20
+Large OG splits ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   0% -:--:--
+Regular OG splits ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:02:25
+2026-02-09 12:04:32,094 - bofasa - INFO - 
+--------------------
+Step 4
+--------------------
+Assessing neighborhoods for each ortholog group.
+Extracting gene contexts ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:12
+2026-02-09 12:04:49,141 - bofasa - INFO - Ortholog group contexts determined successfully
+2026-02-09 12:04:49,219 - bofasa - INFO - 
+--------------------
+Step 5
+--------------------
+Creating final consolidated report.
+2026-02-09 12:04:51,918 - bofasa - INFO - Final Excel report created successfully
+2026-02-09 12:04:51,918 - bofasa - INFO - 
+--------------------
+Step 6
+--------------------
+Creating final summary visualization of conservation vs. neighborhood syntenic conservation.
+2026-02-09 12:04:52,186 - bofasa - INFO - bofasa analysis completed successfully
+	Command being timed: "bofasa run -i Bofasa_Prep_Emg_Results/ -o Bofasa_Run_Emg_RS1000_Results/ -c 20 -rs 1000"
+	User time (seconds): 100943.30
+	System time (seconds): 7665.21
+	Percent of CPU this job got: 388%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:45:31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1009924
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1059
+	Minor (reclaiming a frame) page faults: 740541083
+	Voluntary context switches: 19190126
+	Involuntary context switches: 4807418
+	Swaps: 0
+	File system inputs: 88
+	File system outputs: 13202936
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

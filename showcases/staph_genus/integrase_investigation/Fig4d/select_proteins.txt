@@ -1,0 +1,7 @@
+LJMGFGNG_00557 (Shorter - is i1)
+
+../Bofasa_Prep_Emg_Results/Genome_Processing/BEDs/GCA_020883535.1_ASM2088353v1.bed:CP086654.1	618318	618845	LJMGFGNG_00557	1	-
+
+GEKGOEHC_01536 (Longer - is i2)
+
+../Bofasa_Prep_Emg_Results/Genome_Processing/BEDs/GCA_013463155.1_ASM1346315v1.bed:CP040781.1   1597629 1598645 GEKGOEHC_01536  1       +

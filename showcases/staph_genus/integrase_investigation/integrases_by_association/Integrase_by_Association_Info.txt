@@ -1,0 +1,33 @@
+# Date of phyre2 analyses: 05/02/2026
+protein	bofasa_emg_OG	domain_architecture	genomad_context	method_count	methods	found_by_bofasa_emg	call_on_whether_recombinase_or_integrase	notes
+FDKKAMCB_00863	OG000261	full_protein_1	other	1	pirate	no	no	Structure analysis via Phyre2.2 suggests not recombinase/integrase
+GFADKNMA_00837	OG002355	ORF6C_1|inter-domain_region_1	phage	1	scarap	no	no	Lacks much support for anything other than the mysterious "ORF6C" protein
+IBCIAPJO_00078	OG011585	full_protein_1	other	1	scarap	no	no	Lacks much support for anything
+JGOPALOP_00974	OG000261	HTH_26_1|inter-domain_region_1	phage	1	pirate	no	no	Appears more similar to transcriptional regulator
+MBCLEFKK_01875	OG010342	full_protein_1	other	1	scarap	no	no	Lacks much support for anything
+MDGCNODB_01949	OG002355	inter-domain_region_1|ORF6C_1|inter-domain_region_2	phage	1	scarap	no	no	Lacks much support for anything
+MGCOHGHF_01169	OG002355	inter-domain_region_1|ORF6C_1|inter-domain_region_2	phage	1	scarap	no	no	Lacks much support for anything
+OOJICCJC_01897	OG002355	inter-domain_region_1|ORF6C_1|inter-domain_region_2	phage	1	scarap	no	no	Lacks much support for anything
+PNIJDPDN_01534	OG002355	inter-domain_region_1|ORF6C_1|inter-domain_region_2	phage	1	scarap	no	no	Appears more similar to Hemagglutinin
+HABHJAFP_02013	OG001033	full_protein_1	other	3	bofasa_emg_rs1000; orthofinder_v2; orthofinder_v3	yes	maybe	Lacks much structural support, but BLAST suggests integrase similarity
+HDLACEBL_01490	OG011533	full_protein_1	other	3	orthofinder_v2; orthofinder_v3; pirate	no	maybe	Lacks much structural support, but BLAST suggests integrase similarity
+OOJICCJC_00276	OG005627	full_protein_1	other	3	orthofinder_v2; orthofinder_v3; pirate	no	maybe	Lacks much structural support, but BLAST suggests integrase similarity
+AGBCFMOI_01522	OG001033	full_protein_1	other	4	bofasa_emg_rs1000; orthofinder_v2; orthofinder_v3; pirate	yes	no	Based on BLAST but not Phyre2.2: some support for partial likely frameshift integrase
+JDKOHCII_01114	OG001033	full_protein_1	other	4	bofasa_emg_rs1000; orthofinder_v2; orthofinder_v3; scarap	yes	yes	97.1% confidence, 51% coverage, 34% ID = HP1 INTEGRASE
+JFFBPJDF_01700	OG011657	full_protein_1	other	4	bofasa; orthofinder_v2; orthofinder_v3; pirate	no	no	More so support for Serrate RNA effector molecule
+JFFBPJDF_01701	OG002786	full_protein_1	other	4	bofasa_emg_rs1000; orthofinder_v2; orthofinder_v3; sonicparanoid_default	yes	no	63.6% confidence, 19% ID, 51% coverage = sporulation-related
+JGOPALOP_01828	OG005744	full_protein_1	other	4	bofasa; orthofinder_v2; orthofinder_v3; pirate	no	no	Lacks much support for anything integrase/recombinase related
+MNPIKEDE_01693	OG009607	full_protein_1	other	4	orthofinder_v2; orthofinder_v3; pirate; scarap	no	maybe	61.6% confidence, 78% coverage, 14% ID = Putative prophage CPS-53 integrase
+PHNBHADF_01063	OG007850	full_protein_1	other	4	orthofinder_v2; orthofinder_v3; pirate; scarap	no	no	More so support for Origin recognition complex subunit 6
+PHNBHADF_01066	OG007852	full_protein_1	other	4	bofasa; orthofinder_v2; orthofinder_v3; pirate	no	no	Lacks much support for anything
+CBCLDEOM_00258	OG001033	full_protein_1	other	5	bofasa; bofasa_emg_rs1000; orthofinder_v2; orthofinder_v3; pirate	yes	yes	99.6% confidence, 26% ID, 98% coverage = Int protein
+CBCLDEOM_00449	OG001033	full_protein_1	other	5	bofasa; bofasa_emg_rs1000; orthofinder_v2; pirate; scarap	yes	yes	99.3% confidence, 74% coverage, 26% ID = Tyrosine recombinase XerA
+HMLLPBAG_00943	OG011435	full_protein_1	other	5	bofasa; orthofinder_v2; orthofinder_v3; pirate; scarap	no	no	cuta homology perhaps
+IAFBBCDB_02487	OG004651	full_protein_1	other	5	bofasa; bofasa_emg_rs1000; orthofinder_v2; orthofinder_v3; scarap	yes	yes	18% ID but 95.5% structure-based confidence to tyrosine recombinase XerH
+MNPIKEDE_01694	OG001033	full_protein_1	other	5	bofasa_emg_rs1000; orthofinder_v2; orthofinder_v3; pirate; scarap	yes	yes	98.3% confidence; 84% coverage; 31% identity
+MNPIKEDE_01695	OG001033	full_protein_1	other	5	bofasa; bofasa_emg_rs1000; orthofinder_v2; orthofinder_v3; pirate	yes	yes	95.5% confidence, 18% ID, ~95% coverage Tyrosine recombinase XerH
+NPMJLMGP_01174	OG007477	full_protein_1	phage	5	orthofinder_v2; orthofinder_v3; pirate; scarap; sonicparanoid_default	no	yes	72.5% confidence, 20% ID, 57% Coverage = Integrase - appears to be frameshift
+GMIPHGPG_00918	OG004119	full_protein_1	other	6	bofasa; bofasa_emg_rs1000; orthofinder_v2; orthofinder_v3; pirate; sonicparanoid_default	yes	yes	 98.8% confidence, 21% ID, 65% coverage = Tyrosine recombinase XerH
+GMLEJJNB_01988	OG005337	full_protein_1	other	6	bofasa; orthofinder_v2; orthofinder_v3; pirate; scarap; sonicparanoid_default	no	yes	20% ID but 98.8% structure-based confidence to tyrosine recombinase XerH (only 34% coverage!!!)- might be instances of transposase knocking out function
+PHNBHADF_01065	OG007851	full_protein_1	other	6	bofasa; orthofinder_v2; orthofinder_v3; pirate; scarap; sonicparanoid_default	no	yes	19% ID but 93.8% structure-based confidence to phage integrase/site-specific recombinase (only 26% coverage!!!) - might be instances of transposase knocking out function
+GFEKFDJE_01025	OG001033	full_protein_1	other	7	bofasa; bofasa_emg_rs1000; orthofinder_v2; orthofinder_v3; pirate; scarap; sonicparanoid_default	yes	yes	24% ID but 99.6% structure-based confidence to site-specific recombinase IntI4

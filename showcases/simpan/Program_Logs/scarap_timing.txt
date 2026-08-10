@@ -1,0 +1,63 @@
+[22/04 18:58:58] INFO: welcome to SCARAP
+[22/04 18:58:58] INFO: creating output folder and log file
+[22/04 18:58:58] INFO: output folder 'scarap_results/' created
+[22/04 18:58:58] INFO: log file created!
+[22/04 18:58:58] INFO: welcome to the pan task
+[22/04 18:58:58] INFO: checking arguments other than output folder
+[22/04 18:58:58] INFO: checking dependencies
+[22/04 18:58:59] INFO: detected MMseqs2 version 16.74 (release unknown)
+[22/04 18:58:59] WARNING: SCARAP has only been tested with MMseqs2 releases 11, 12 and 13
+[22/04 18:58:59] INFO: detected MAFFT v7.526
+[22/04 18:58:59] INFO: maximum number of representatives set to 40
+[22/04 18:58:59] INFO: maximum number of sequences to align set to 640
+[22/04 18:58:59] INFO: pangenome will be constructed with the FH strategy
+[22/04 18:58:59] INFO: for alignments of more than 640 sequences, 32 to 40 representative sequences will be used
+[22/04 18:58:59] INFO: 20 genomes were supplied
+[22/04 18:58:59] INFO: constructing gene table
+
+This is SCARAP version 1.0.0
+
+[22/04 18:58:59] INFO: checking if gene names are unique
+[22/04 18:58:59] INFO: STAGE 1: creation of superfamilies
+[22/04 18:58:59] INFO: creating subfolders for superfamily inference steps
+[22/04 18:58:59] INFO: creating mmseqs sequence database
+[22/04 18:58:59] INFO: creating preclusters
+[22/04 18:59:09] INFO: clustering the preclusters using profiles
+[22/04 18:59:20] INFO: compiling pangenome file with superfamilies
+/workspace/local/rauf/bofasa/comparator_software/scarap_env/lib/python3.11/site-packages/scarap/pan.py:989: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  preclustertable = preclustertable.applymap(lambda x: x.split(" ")[0])
+/workspace/local/rauf/bofasa/comparator_software/scarap_env/lib/python3.11/site-packages/scarap/pan.py:992: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  clustertable = clustertable.applymap(lambda x: x.split(" ")[0])
+[22/04 18:59:20] INFO: STAGE 2: splitting of superfamilies
+[22/04 18:59:20] INFO: gathering sequences of superfamilies
+[22/04 18:59:26] INFO: counting splitable superfamilies
+[22/04 18:59:26] INFO: found 353 splitable superfamilies
+[22/04 18:59:26] INFO: splitting superfamilies
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||[22/04 18:59:34] INFO: assigning names to the gene families
+[22/04 18:59:34] INFO: writing pangenome file
+[22/04 18:59:34] INFO: removing temporary folders
+[22/04 18:59:35] INFO: SCARAP out
+
+	Command being timed: "scarap pan Bofasa_Prep_Results/Genome_Processing/Proteomes/ scarap_results/ -t 20"
+	User time (seconds): 388.83
+	System time (seconds): 131.61
+	Percent of CPU this job got: 1183%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:43.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 923964
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1517
+	Minor (reclaiming a frame) page faults: 10262431
+	Voluntary context switches: 119760
+	Involuntary context switches: 20158
+	Swaps: 0
+	File system inputs: 266112
+	File system outputs: 621472
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
