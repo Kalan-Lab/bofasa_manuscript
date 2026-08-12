@@ -1,0 +1,453 @@
+2026-07-28 18:00:25,463 - bofasa - INFO - Starting bofasa analysis
+2026-07-28 18:00:25,463 - bofasa - INFO - Input directory: Bofasa_Prep_SuperGappy_Results/
+2026-07-28 18:00:25,463 - bofasa - INFO - Output directory: Bofasa_Run_SuperGappy_Results/
+2026-07-28 18:00:25,463 - bofasa - INFO - Threads: 20
+2026-07-28 18:00:25,463 - bofasa - INFO - Memory limit requested: 250GB
+2026-07-28 18:00:25,463 - bofasa - INFO - Saving parameters for future records.
+2026-07-28 18:00:25,464 - bofasa - INFO - Done saving parameters!
+2026-07-28 18:00:25,464 - bofasa - INFO - geNomad was not run ...
+2026-07-28 18:00:25,464 - bofasa - INFO - 
+--------------------
+Step 1
+--------------------
+Running OrthoFinder on bacterial genomes (MGEs will be processed separately if bofasa prep was run with the -emg flag).
+2026-07-28 18:00:25,537 - bofasa - INFO - Running OrthoFinder on 100 bacterial genomes (0 MGEs will be integrated separately)
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2026-07-28 18:00:25 : Starting OrthoFinder 2.5.5
+20 thread(s) for highly parallel tasks (BLAST searches etc.)
+2 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2026-07-28 18:00:26 : Creating diamond database 1 of 100
+2026-07-28 18:00:26 : Creating diamond database 2 of 100
+2026-07-28 18:00:26 : Creating diamond database 3 of 100
+2026-07-28 18:00:26 : Creating diamond database 4 of 100
+2026-07-28 18:00:26 : Creating diamond database 5 of 100
+2026-07-28 18:00:27 : Creating diamond database 6 of 100
+2026-07-28 18:00:27 : Creating diamond database 7 of 100
+2026-07-28 18:00:27 : Creating diamond database 8 of 100
+2026-07-28 18:00:27 : Creating diamond database 9 of 100
+2026-07-28 18:00:27 : Creating diamond database 10 of 100
+2026-07-28 18:00:27 : Creating diamond database 11 of 100
+2026-07-28 18:00:27 : Creating diamond database 12 of 100
+2026-07-28 18:00:27 : Creating diamond database 13 of 100
+2026-07-28 18:00:27 : Creating diamond database 14 of 100
+2026-07-28 18:00:27 : Creating diamond database 15 of 100
+2026-07-28 18:00:27 : Creating diamond database 16 of 100
+2026-07-28 18:00:27 : Creating diamond database 17 of 100
+2026-07-28 18:00:27 : Creating diamond database 18 of 100
+2026-07-28 18:00:27 : Creating diamond database 19 of 100
+2026-07-28 18:00:27 : Creating diamond database 20 of 100
+2026-07-28 18:00:27 : Creating diamond database 21 of 100
+2026-07-28 18:00:27 : Creating diamond database 22 of 100
+2026-07-28 18:00:27 : Creating diamond database 23 of 100
+2026-07-28 18:00:27 : Creating diamond database 24 of 100
+2026-07-28 18:00:27 : Creating diamond database 25 of 100
+2026-07-28 18:00:27 : Creating diamond database 26 of 100
+2026-07-28 18:00:27 : Creating diamond database 27 of 100
+2026-07-28 18:00:27 : Creating diamond database 28 of 100
+2026-07-28 18:00:27 : Creating diamond database 29 of 100
+2026-07-28 18:00:27 : Creating diamond database 30 of 100
+2026-07-28 18:00:27 : Creating diamond database 31 of 100
+2026-07-28 18:00:27 : Creating diamond database 32 of 100
+2026-07-28 18:00:27 : Creating diamond database 33 of 100
+2026-07-28 18:00:27 : Creating diamond database 34 of 100
+2026-07-28 18:00:27 : Creating diamond database 35 of 100
+2026-07-28 18:00:28 : Creating diamond database 36 of 100
+2026-07-28 18:00:28 : Creating diamond database 37 of 100
+2026-07-28 18:00:28 : Creating diamond database 38 of 100
+2026-07-28 18:00:28 : Creating diamond database 39 of 100
+2026-07-28 18:00:28 : Creating diamond database 40 of 100
+2026-07-28 18:00:28 : Creating diamond database 41 of 100
+2026-07-28 18:00:28 : Creating diamond database 42 of 100
+2026-07-28 18:00:28 : Creating diamond database 43 of 100
+2026-07-28 18:00:28 : Creating diamond database 44 of 100
+2026-07-28 18:00:28 : Creating diamond database 45 of 100
+2026-07-28 18:00:28 : Creating diamond database 46 of 100
+2026-07-28 18:00:28 : Creating diamond database 47 of 100
+2026-07-28 18:00:28 : Creating diamond database 48 of 100
+2026-07-28 18:00:28 : Creating diamond database 49 of 100
+2026-07-28 18:00:28 : Creating diamond database 50 of 100
+2026-07-28 18:00:28 : Creating diamond database 51 of 100
+2026-07-28 18:00:28 : Creating diamond database 52 of 100
+2026-07-28 18:00:28 : Creating diamond database 53 of 100
+2026-07-28 18:00:28 : Creating diamond database 54 of 100
+2026-07-28 18:00:28 : Creating diamond database 55 of 100
+2026-07-28 18:00:28 : Creating diamond database 56 of 100
+2026-07-28 18:00:28 : Creating diamond database 57 of 100
+2026-07-28 18:00:28 : Creating diamond database 58 of 100
+2026-07-28 18:00:28 : Creating diamond database 59 of 100
+2026-07-28 18:00:28 : Creating diamond database 60 of 100
+2026-07-28 18:00:28 : Creating diamond database 61 of 100
+2026-07-28 18:00:28 : Creating diamond database 62 of 100
+2026-07-28 18:00:28 : Creating diamond database 63 of 100
+2026-07-28 18:00:28 : Creating diamond database 64 of 100
+2026-07-28 18:00:29 : Creating diamond database 65 of 100
+2026-07-28 18:00:29 : Creating diamond database 66 of 100
+2026-07-28 18:00:29 : Creating diamond database 67 of 100
+2026-07-28 18:00:29 : Creating diamond database 68 of 100
+2026-07-28 18:00:29 : Creating diamond database 69 of 100
+2026-07-28 18:00:29 : Creating diamond database 70 of 100
+2026-07-28 18:00:29 : Creating diamond database 71 of 100
+2026-07-28 18:00:29 : Creating diamond database 72 of 100
+2026-07-28 18:00:29 : Creating diamond database 73 of 100
+2026-07-28 18:00:29 : Creating diamond database 74 of 100
+2026-07-28 18:00:29 : Creating diamond database 75 of 100
+2026-07-28 18:00:29 : Creating diamond database 76 of 100
+2026-07-28 18:00:29 : Creating diamond database 77 of 100
+2026-07-28 18:00:29 : Creating diamond database 78 of 100
+2026-07-28 18:00:29 : Creating diamond database 79 of 100
+2026-07-28 18:00:29 : Creating diamond database 80 of 100
+2026-07-28 18:00:29 : Creating diamond database 81 of 100
+2026-07-28 18:00:29 : Creating diamond database 82 of 100
+2026-07-28 18:00:29 : Creating diamond database 83 of 100
+2026-07-28 18:00:29 : Creating diamond database 84 of 100
+2026-07-28 18:00:29 : Creating diamond database 85 of 100
+2026-07-28 18:00:29 : Creating diamond database 86 of 100
+2026-07-28 18:00:29 : Creating diamond database 87 of 100
+2026-07-28 18:00:29 : Creating diamond database 88 of 100
+2026-07-28 18:00:29 : Creating diamond database 89 of 100
+2026-07-28 18:00:29 : Creating diamond database 90 of 100
+2026-07-28 18:00:29 : Creating diamond database 91 of 100
+2026-07-28 18:00:29 : Creating diamond database 92 of 100
+2026-07-28 18:00:29 : Creating diamond database 93 of 100
+2026-07-28 18:00:29 : Creating diamond database 94 of 100
+2026-07-28 18:00:29 : Creating diamond database 95 of 100
+2026-07-28 18:00:30 : Creating diamond database 96 of 100
+2026-07-28 18:00:30 : Creating diamond database 97 of 100
+2026-07-28 18:00:30 : Creating diamond database 98 of 100
+2026-07-28 18:00:30 : Creating diamond database 99 of 100
+2026-07-28 18:00:30 : Creating diamond database 100 of 100
+
+Running diamond all-versus-all
+------------------------------
+Using 20 thread(s)
+2026-07-28 18:00:30 : This may take some time....
+2026-07-28 18:00:30 : Done 0 of 10000
+2026-07-28 18:03:30 : Done 1000 of 10000
+2026-07-28 18:05:50 : Done 2000 of 10000
+2026-07-28 18:07:58 : Done 3000 of 10000
+2026-07-28 18:09:57 : Done 4000 of 10000
+2026-07-28 18:11:49 : Done 5000 of 10000
+2026-07-28 18:13:36 : Done 6000 of 10000
+2026-07-28 18:15:18 : Done 7000 of 10000
+2026-07-28 18:16:54 : Done 8000 of 10000
+2026-07-28 18:18:22 : Done 9000 of 10000
+2026-07-28 18:19:48 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2026-07-28 18:19:49 : Initial processing of each species
+2026-07-28 18:19:59 : Initial processing of species 1 complete
+2026-07-28 18:19:59 : Initial processing of species 0 complete
+2026-07-28 18:20:05 : Initial processing of species 3 complete
+2026-07-28 18:20:06 : Initial processing of species 2 complete
+2026-07-28 18:20:11 : Initial processing of species 4 complete
+2026-07-28 18:20:13 : Initial processing of species 5 complete
+2026-07-28 18:20:18 : Initial processing of species 7 complete
+2026-07-28 18:20:26 : Initial processing of species 6 complete
+2026-07-28 18:20:27 : Initial processing of species 8 complete
+2026-07-28 18:20:35 : Initial processing of species 9 complete
+2026-07-28 18:20:37 : Initial processing of species 10 complete
+2026-07-28 18:20:45 : Initial processing of species 11 complete
+2026-07-28 18:20:49 : Initial processing of species 12 complete
+2026-07-28 18:20:52 : Initial processing of species 13 complete
+2026-07-28 18:21:00 : Initial processing of species 15 complete
+2026-07-28 18:21:01 : Initial processing of species 14 complete
+2026-07-28 18:21:09 : Initial processing of species 16 complete
+2026-07-28 18:21:16 : Initial processing of species 18 complete
+2026-07-28 18:21:20 : Initial processing of species 17 complete
+2026-07-28 18:21:30 : Initial processing of species 19 complete
+2026-07-28 18:21:30 : Initial processing of species 20 complete
+2026-07-28 18:21:38 : Initial processing of species 22 complete
+2026-07-28 18:21:41 : Initial processing of species 21 complete
+2026-07-28 18:21:49 : Initial processing of species 23 complete
+2026-07-28 18:21:55 : Initial processing of species 24 complete
+2026-07-28 18:21:56 : Initial processing of species 25 complete
+2026-07-28 18:22:03 : Initial processing of species 26 complete
+2026-07-28 18:22:04 : Initial processing of species 27 complete
+2026-07-28 18:22:10 : Initial processing of species 28 complete
+2026-07-28 18:22:14 : Initial processing of species 29 complete
+2026-07-28 18:22:21 : Initial processing of species 31 complete
+2026-07-28 18:22:23 : Initial processing of species 30 complete
+2026-07-28 18:22:30 : Initial processing of species 33 complete
+2026-07-28 18:22:32 : Initial processing of species 32 complete
+2026-07-28 18:22:42 : Initial processing of species 34 complete
+2026-07-28 18:22:44 : Initial processing of species 35 complete
+2026-07-28 18:22:50 : Initial processing of species 36 complete
+2026-07-28 18:22:58 : Initial processing of species 37 complete
+2026-07-28 18:23:04 : Initial processing of species 38 complete
+2026-07-28 18:23:06 : Initial processing of species 39 complete
+2026-07-28 18:23:14 : Initial processing of species 41 complete
+2026-07-28 18:23:16 : Initial processing of species 40 complete
+2026-07-28 18:23:21 : Initial processing of species 42 complete
+2026-07-28 18:23:35 : Initial processing of species 44 complete
+2026-07-28 18:23:36 : Initial processing of species 43 complete
+2026-07-28 18:23:43 : Initial processing of species 46 complete
+2026-07-28 18:23:53 : Initial processing of species 45 complete
+2026-07-28 18:23:54 : Initial processing of species 47 complete
+2026-07-28 18:24:03 : Initial processing of species 49 complete
+2026-07-28 18:24:03 : Initial processing of species 48 complete
+2026-07-28 18:24:14 : Initial processing of species 50 complete
+2026-07-28 18:24:18 : Initial processing of species 51 complete
+2026-07-28 18:24:22 : Initial processing of species 52 complete
+2026-07-28 18:24:26 : Initial processing of species 53 complete
+2026-07-28 18:24:33 : Initial processing of species 54 complete
+2026-07-28 18:24:36 : Initial processing of species 55 complete
+2026-07-28 18:24:43 : Initial processing of species 56 complete
+2026-07-28 18:24:44 : Initial processing of species 57 complete
+2026-07-28 18:24:52 : Initial processing of species 58 complete
+2026-07-28 18:25:01 : Initial processing of species 60 complete
+2026-07-28 18:25:04 : Initial processing of species 59 complete
+2026-07-28 18:25:11 : Initial processing of species 62 complete
+2026-07-28 18:25:12 : Initial processing of species 61 complete
+2026-07-28 18:25:17 : Initial processing of species 63 complete
+2026-07-28 18:25:18 : Initial processing of species 64 complete
+2026-07-28 18:25:26 : Initial processing of species 65 complete
+2026-07-28 18:25:28 : Initial processing of species 66 complete
+2026-07-28 18:25:36 : Initial processing of species 67 complete
+2026-07-28 18:25:40 : Initial processing of species 68 complete
+2026-07-28 18:25:46 : Initial processing of species 69 complete
+2026-07-28 18:25:49 : Initial processing of species 70 complete
+2026-07-28 18:25:56 : Initial processing of species 71 complete
+2026-07-28 18:26:02 : Initial processing of species 73 complete
+2026-07-28 18:26:04 : Initial processing of species 72 complete
+2026-07-28 18:26:08 : Initial processing of species 74 complete
+2026-07-28 18:26:10 : Initial processing of species 75 complete
+2026-07-28 18:26:14 : Initial processing of species 76 complete
+2026-07-28 18:26:20 : Initial processing of species 77 complete
+2026-07-28 18:26:24 : Initial processing of species 78 complete
+2026-07-28 18:26:27 : Initial processing of species 79 complete
+2026-07-28 18:26:35 : Initial processing of species 81 complete
+2026-07-28 18:26:38 : Initial processing of species 80 complete
+2026-07-28 18:26:46 : Initial processing of species 82 complete
+2026-07-28 18:26:48 : Initial processing of species 83 complete
+2026-07-28 18:26:55 : Initial processing of species 85 complete
+2026-07-28 18:27:00 : Initial processing of species 84 complete
+2026-07-28 18:27:03 : Initial processing of species 86 complete
+2026-07-28 18:27:08 : Initial processing of species 87 complete
+2026-07-28 18:27:10 : Initial processing of species 88 complete
+2026-07-28 18:27:13 : Initial processing of species 89 complete
+2026-07-28 18:27:15 : Initial processing of species 90 complete
+2026-07-28 18:27:20 : Initial processing of species 92 complete
+2026-07-28 18:27:20 : Initial processing of species 91 complete
+2026-07-28 18:27:26 : Initial processing of species 93 complete
+2026-07-28 18:27:28 : Initial processing of species 94 complete
+2026-07-28 18:27:32 : Initial processing of species 95 complete
+2026-07-28 18:27:41 : Initial processing of species 96 complete
+2026-07-28 18:27:44 : Initial processing of species 97 complete
+2026-07-28 18:27:49 : Initial processing of species 98 complete
+2026-07-28 18:27:53 : Initial processing of species 99 complete
+2026-07-28 18:28:56 : Connected putative homologues
+2026-07-28 18:29:00 : Written final scores for species 13 to graph file
+2026-07-28 18:29:03 : Written final scores for species 0 to graph file
+2026-07-28 18:29:08 : Written final scores for species 14 to graph file
+2026-07-28 18:29:09 : Written final scores for species 1 to graph file
+2026-07-28 18:29:12 : Written final scores for species 15 to graph file
+2026-07-28 18:29:14 : Written final scores for species 2 to graph file
+2026-07-28 18:29:17 : Written final scores for species 3 to graph file
+2026-07-28 18:29:18 : Written final scores for species 16 to graph file
+2026-07-28 18:29:21 : Written final scores for species 4 to graph file
+2026-07-28 18:29:25 : Written final scores for species 5 to graph file
+2026-07-28 18:29:29 : Written final scores for species 17 to graph file
+2026-07-28 18:29:33 : Written final scores for species 18 to graph file
+2026-07-28 18:29:34 : Written final scores for species 6 to graph file
+2026-07-28 18:29:37 : Written final scores for species 7 to graph file
+2026-07-28 18:29:42 : Written final scores for species 19 to graph file
+2026-07-28 18:29:42 : Written final scores for species 8 to graph file
+2026-07-28 18:29:48 : Written final scores for species 9 to graph file
+2026-07-28 18:29:48 : Written final scores for species 20 to graph file
+2026-07-28 18:29:54 : Written final scores for species 10 to graph file
+2026-07-28 18:29:55 : Written final scores for species 21 to graph file
+2026-07-28 18:30:00 : Written final scores for species 22 to graph file
+2026-07-28 18:30:00 : Written final scores for species 11 to graph file
+2026-07-28 18:30:07 : Written final scores for species 12 to graph file
+2026-07-28 18:30:08 : Written final scores for species 23 to graph file
+2026-07-28 18:30:12 : Written final scores for species 26 to graph file
+2026-07-28 18:30:17 : Written final scores for species 27 to graph file
+2026-07-28 18:30:18 : Written final scores for species 24 to graph file
+2026-07-28 18:30:22 : Written final scores for species 28 to graph file
+2026-07-28 18:30:22 : Written final scores for species 25 to graph file
+2026-07-28 18:30:27 : Written final scores for species 39 to graph file
+2026-07-28 18:30:28 : Written final scores for species 29 to graph file
+2026-07-28 18:30:35 : Written final scores for species 40 to graph file
+2026-07-28 18:30:36 : Written final scores for species 30 to graph file
+2026-07-28 18:30:40 : Written final scores for species 31 to graph file
+2026-07-28 18:30:40 : Written final scores for species 41 to graph file
+2026-07-28 18:30:44 : Written final scores for species 42 to graph file
+2026-07-28 18:30:47 : Written final scores for species 32 to graph file
+2026-07-28 18:30:51 : Written final scores for species 33 to graph file
+2026-07-28 18:30:58 : Written final scores for species 34 to graph file
+2026-07-28 18:30:58 : Written final scores for species 43 to graph file
+2026-07-28 18:31:06 : Written final scores for species 35 to graph file
+2026-07-28 18:31:08 : Written final scores for species 44 to graph file
+2026-07-28 18:31:11 : Written final scores for species 36 to graph file
+2026-07-28 18:31:20 : Written final scores for species 37 to graph file
+2026-07-28 18:31:20 : Written final scores for species 45 to graph file
+2026-07-28 18:31:24 : Written final scores for species 46 to graph file
+2026-07-28 18:31:28 : Written final scores for species 38 to graph file
+2026-07-28 18:31:32 : Written final scores for species 47 to graph file
+2026-07-28 18:31:33 : Written final scores for species 52 to graph file
+2026-07-28 18:31:38 : Written final scores for species 53 to graph file
+2026-07-28 18:31:39 : Written final scores for species 48 to graph file
+2026-07-28 18:31:44 : Written final scores for species 54 to graph file
+2026-07-28 18:31:44 : Written final scores for species 49 to graph file
+2026-07-28 18:31:50 : Written final scores for species 55 to graph file
+2026-07-28 18:31:51 : Written final scores for species 50 to graph file
+2026-07-28 18:31:56 : Written final scores for species 56 to graph file
+2026-07-28 18:32:00 : Written final scores for species 51 to graph file
+2026-07-28 18:32:01 : Written final scores for species 57 to graph file
+2026-07-28 18:32:05 : Written final scores for species 65 to graph file
+2026-07-28 18:32:06 : Written final scores for species 58 to graph file
+2026-07-28 18:32:11 : Written final scores for species 66 to graph file
+2026-07-28 18:32:17 : Written final scores for species 67 to graph file
+2026-07-28 18:32:18 : Written final scores for species 59 to graph file
+2026-07-28 18:32:24 : Written final scores for species 60 to graph file
+2026-07-28 18:32:24 : Written final scores for species 68 to graph file
+2026-07-28 18:32:30 : Written final scores for species 69 to graph file
+2026-07-28 18:32:30 : Written final scores for species 61 to graph file
+2026-07-28 18:32:34 : Written final scores for species 62 to graph file
+2026-07-28 18:32:35 : Written final scores for species 70 to graph file
+2026-07-28 18:32:38 : Written final scores for species 63 to graph file
+2026-07-28 18:32:42 : Written final scores for species 64 to graph file
+2026-07-28 18:32:42 : Written final scores for species 71 to graph file
+2026-07-28 18:32:47 : Written final scores for species 78 to graph file
+2026-07-28 18:32:52 : Written final scores for species 79 to graph file
+2026-07-28 18:32:52 : Written final scores for species 72 to graph file
+2026-07-28 18:32:56 : Written final scores for species 73 to graph file
+2026-07-28 18:33:00 : Written final scores for species 74 to graph file
+2026-07-28 18:33:01 : Written final scores for species 80 to graph file
+2026-07-28 18:33:04 : Written final scores for species 75 to graph file
+2026-07-28 18:33:06 : Written final scores for species 81 to graph file
+2026-07-28 18:33:08 : Written final scores for species 76 to graph file
+2026-07-28 18:33:14 : Written final scores for species 77 to graph file
+2026-07-28 18:33:15 : Written final scores for species 82 to graph file
+2026-07-28 18:33:19 : Written final scores for species 91 to graph file
+2026-07-28 18:33:21 : Written final scores for species 83 to graph file
+2026-07-28 18:33:22 : Written final scores for species 92 to graph file
+2026-07-28 18:33:27 : Written final scores for species 93 to graph file
+2026-07-28 18:33:29 : Written final scores for species 84 to graph file
+2026-07-28 18:33:32 : Written final scores for species 94 to graph file
+2026-07-28 18:33:33 : Written final scores for species 85 to graph file
+2026-07-28 18:33:36 : Written final scores for species 95 to graph file
+2026-07-28 18:33:38 : Written final scores for species 86 to graph file
+2026-07-28 18:33:43 : Written final scores for species 87 to graph file
+2026-07-28 18:33:45 : Written final scores for species 96 to graph file
+2026-07-28 18:33:48 : Written final scores for species 88 to graph file
+2026-07-28 18:33:51 : Written final scores for species 89 to graph file
+2026-07-28 18:33:54 : Written final scores for species 90 to graph file
+2026-07-28 18:33:54 : Written final scores for species 97 to graph file
+2026-07-28 18:33:59 : Written final scores for species 98 to graph file
+2026-07-28 18:34:04 : Written final scores for species 99 to graph file
+2026-07-28 18:42:54 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 310069 genes (83.9% of total) to 25683 orthogroups. Fifty percent of all genes were in orthogroups with 29 or more genes (G50 was 29) and were contained in the largest 2386 orthogroups (O50 was 2386). There were 7 orthogroups with all species present and 0 of these consisted entirely of single-copy genes.
+
+2026-07-28 18:43:21 : Done orthogroups
+
+Results:
+    Bofasa_Run_SuperGappy_Results/OrthoFinder_Results/Results_Jul28/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914
+2026-07-28 18:43:21,874 - bofasa - INFO - Successfully ran: orthofinder -f Bofasa_Run_SuperGappy_Results/OrthoFinder_Input_Bacterial_Genomes/ -o Bofasa_Run_SuperGappy_Results/OrthoFinder_Results/ -t 20 -og -I 1.2
+2026-07-28 18:43:21,874 - bofasa - INFO - 
+--------------------
+Step 1b
+--------------------
+Integrating MGE (phage/plasmid) proteins into ortholog groups.
+2026-07-28 18:43:21,875 - bofasa - INFO - No MGE proteins found or were requested to be extracted via the -emg flag in bofasa prep
+2026-07-28 18:43:21,875 - bofasa - INFO - 
+--------------------
+Step 2
+--------------------
+Determine refined domain-resolution ortholog groups.
+Running multiple-sequence alignments using MUSCLE super5.
+2026-07-28 18:43:21,875 - bofasa - INFO - Running multiple-sequence alignments using MUSCLE super5.
+2026-07-28 18:43:24,567 - bofasa - INFO - Prepared 124 heavy jobs and 85022 light jobs for alignment
+Checking OrthoFinder setup...
+✓ OrthoFinder is properly set up
+Setting memory limit from unlimited to 250GB
+Memory limit set to: 250GB
+Creating heavy domain alignments ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 1:04:38
+2026-07-28 19:48:02,783 - bofasa - INFO - Heavy domain alignments completed: 124 successful, 0 failed
+Creating light domain alignments ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:18:08
+2026-07-28 20:06:13,482 - bofasa - INFO - Light domain alignments completed: 85022 successful, 0 failed
+Running alignment trimming using trimal.
+2026-07-28 20:06:14,222 - bofasa - INFO - Running alignment trimming using trimal.
+2026-07-28 20:06:14,222 - bofasa - INFO - Running 25683 TrimAl commands with 20 processes
+Running TrimAl ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:16
+2026-07-28 20:06:30,866 - bofasa - INFO - TrimAl summary: 25683 successful, 0 failed out of 25683 total commands
+2026-07-28 20:06:33,455 - bofasa - INFO - Running phylogeny constructions using FastTree 2.
+2026-07-28 20:06:33,455 - bofasa - INFO - Running 25683 FastTree commands
+Running FastTree ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:05:36
+2026-07-28 20:12:10,903 - bofasa - INFO - FastTree summary: 25683 successful, 0 failed out of 25683 total commands
+Using phylogenetics to split coarse domain resolution ortholog groups.
+2026-07-28 20:59:02,749 - bofasa - INFO - Using phylogenetics to split coarse domain resolution ortholog groups.
+Domain OG splits ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:04
+2026-07-28 21:00:10,076 - bofasa - INFO - Phylogenetic resolution of orthogroups completed successfully
+2026-07-28 21:00:10,168 - bofasa - INFO - 
+--------------------
+Step 3
+--------------------
+Determine protein-resolution ortholog groups.
+Protein comparisons ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:39
+2026-07-28 21:01:59,061 - bofasa - INFO - Successfully ran: mcl Bofasa_Run_SuperGappy_Results/Protein_Clustering/Protein_Pairs_Based_on_DOGs.txt --abc -I 1.2 -o Bofasa_Run_SuperGappy_Results/Protein_Clustering/Protein_Clusters_Based_on_DOGs.txt -te 20
+Large OG splits ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   0% -:--:--
+Regular OG splits ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:04:31
+2026-07-28 21:06:32,582 - bofasa - INFO - 
+--------------------
+Step 4
+--------------------
+Assessing neighborhoods for each ortholog group.
+Extracting gene contexts ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:08
+2026-07-28 21:06:48,082 - bofasa - INFO - Ortholog group contexts determined successfully
+2026-07-28 21:06:48,372 - bofasa - INFO - 
+--------------------
+Step 5
+--------------------
+Creating final consolidated report.
+2026-07-28 21:06:56,633 - bofasa - INFO - Final Excel report created successfully
+2026-07-28 21:06:56,634 - bofasa - INFO - 
+--------------------
+Step 6
+--------------------
+Creating final summary visualization of conservation vs. neighborhood syntenic conservation.
+2026-07-28 21:06:58,314 - bofasa - INFO - bofasa analysis completed successfully
+	Command being timed: "bofasa run -i Bofasa_Prep_SuperGappy_Results/ -o Bofasa_Run_SuperGappy_Results/ -c 20 -mm 250"
+	User time (seconds): 95282.14
+	System time (seconds): 4929.83
+	Percent of CPU this job got: 895%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:06:34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3076632
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2769
+	Minor (reclaiming a frame) page faults: 430295626
+	Voluntary context switches: 171546600
+	Involuntary context switches: 1412465
+	Swaps: 0
+	File system inputs: 38672
+	File system outputs: 10823448
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

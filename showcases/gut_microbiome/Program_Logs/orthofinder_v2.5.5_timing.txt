@@ -1,0 +1,535 @@
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2026-07-29 01:19:35 : Starting OrthoFinder 2.5.5
+20 thread(s) for highly parallel tasks (BLAST searches etc.)
+2 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "mafft" - ok
+Test can run "fasttree" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2026-07-29 01:19:38 : Creating diamond database 1 of 100
+2026-07-29 01:19:38 : Creating diamond database 2 of 100
+2026-07-29 01:19:38 : Creating diamond database 3 of 100
+2026-07-29 01:19:38 : Creating diamond database 4 of 100
+2026-07-29 01:19:38 : Creating diamond database 5 of 100
+2026-07-29 01:19:39 : Creating diamond database 6 of 100
+2026-07-29 01:19:39 : Creating diamond database 7 of 100
+2026-07-29 01:19:39 : Creating diamond database 8 of 100
+2026-07-29 01:19:39 : Creating diamond database 9 of 100
+2026-07-29 01:19:39 : Creating diamond database 10 of 100
+2026-07-29 01:19:39 : Creating diamond database 11 of 100
+2026-07-29 01:19:39 : Creating diamond database 12 of 100
+2026-07-29 01:19:39 : Creating diamond database 13 of 100
+2026-07-29 01:19:39 : Creating diamond database 14 of 100
+2026-07-29 01:19:39 : Creating diamond database 15 of 100
+2026-07-29 01:19:39 : Creating diamond database 16 of 100
+2026-07-29 01:19:39 : Creating diamond database 17 of 100
+2026-07-29 01:19:39 : Creating diamond database 18 of 100
+2026-07-29 01:19:39 : Creating diamond database 19 of 100
+2026-07-29 01:19:39 : Creating diamond database 20 of 100
+2026-07-29 01:19:39 : Creating diamond database 21 of 100
+2026-07-29 01:19:39 : Creating diamond database 22 of 100
+2026-07-29 01:19:39 : Creating diamond database 23 of 100
+2026-07-29 01:19:39 : Creating diamond database 24 of 100
+2026-07-29 01:19:39 : Creating diamond database 25 of 100
+2026-07-29 01:19:39 : Creating diamond database 26 of 100
+2026-07-29 01:19:40 : Creating diamond database 27 of 100
+2026-07-29 01:19:40 : Creating diamond database 28 of 100
+2026-07-29 01:19:40 : Creating diamond database 29 of 100
+2026-07-29 01:19:40 : Creating diamond database 30 of 100
+2026-07-29 01:19:40 : Creating diamond database 31 of 100
+2026-07-29 01:19:40 : Creating diamond database 32 of 100
+2026-07-29 01:19:40 : Creating diamond database 33 of 100
+2026-07-29 01:19:40 : Creating diamond database 34 of 100
+2026-07-29 01:19:40 : Creating diamond database 35 of 100
+2026-07-29 01:19:40 : Creating diamond database 36 of 100
+2026-07-29 01:19:40 : Creating diamond database 37 of 100
+2026-07-29 01:19:40 : Creating diamond database 38 of 100
+2026-07-29 01:19:40 : Creating diamond database 39 of 100
+2026-07-29 01:19:40 : Creating diamond database 40 of 100
+2026-07-29 01:19:40 : Creating diamond database 41 of 100
+2026-07-29 01:19:40 : Creating diamond database 42 of 100
+2026-07-29 01:19:40 : Creating diamond database 43 of 100
+2026-07-29 01:19:40 : Creating diamond database 44 of 100
+2026-07-29 01:19:40 : Creating diamond database 45 of 100
+2026-07-29 01:19:40 : Creating diamond database 46 of 100
+2026-07-29 01:19:40 : Creating diamond database 47 of 100
+2026-07-29 01:19:41 : Creating diamond database 48 of 100
+2026-07-29 01:19:41 : Creating diamond database 49 of 100
+2026-07-29 01:19:41 : Creating diamond database 50 of 100
+2026-07-29 01:19:41 : Creating diamond database 51 of 100
+2026-07-29 01:19:41 : Creating diamond database 52 of 100
+2026-07-29 01:19:41 : Creating diamond database 53 of 100
+2026-07-29 01:19:41 : Creating diamond database 54 of 100
+2026-07-29 01:19:41 : Creating diamond database 55 of 100
+2026-07-29 01:19:41 : Creating diamond database 56 of 100
+2026-07-29 01:19:41 : Creating diamond database 57 of 100
+2026-07-29 01:19:41 : Creating diamond database 58 of 100
+2026-07-29 01:19:41 : Creating diamond database 59 of 100
+2026-07-29 01:19:41 : Creating diamond database 60 of 100
+2026-07-29 01:19:41 : Creating diamond database 61 of 100
+2026-07-29 01:19:41 : Creating diamond database 62 of 100
+2026-07-29 01:19:41 : Creating diamond database 63 of 100
+2026-07-29 01:19:41 : Creating diamond database 64 of 100
+2026-07-29 01:19:41 : Creating diamond database 65 of 100
+2026-07-29 01:19:41 : Creating diamond database 66 of 100
+2026-07-29 01:19:41 : Creating diamond database 67 of 100
+2026-07-29 01:19:41 : Creating diamond database 68 of 100
+2026-07-29 01:19:42 : Creating diamond database 69 of 100
+2026-07-29 01:19:42 : Creating diamond database 70 of 100
+2026-07-29 01:19:42 : Creating diamond database 71 of 100
+2026-07-29 01:19:42 : Creating diamond database 72 of 100
+2026-07-29 01:19:42 : Creating diamond database 73 of 100
+2026-07-29 01:19:42 : Creating diamond database 74 of 100
+2026-07-29 01:19:42 : Creating diamond database 75 of 100
+2026-07-29 01:19:42 : Creating diamond database 76 of 100
+2026-07-29 01:19:42 : Creating diamond database 77 of 100
+2026-07-29 01:19:42 : Creating diamond database 78 of 100
+2026-07-29 01:19:42 : Creating diamond database 79 of 100
+2026-07-29 01:19:42 : Creating diamond database 80 of 100
+2026-07-29 01:19:42 : Creating diamond database 81 of 100
+2026-07-29 01:19:42 : Creating diamond database 82 of 100
+2026-07-29 01:19:42 : Creating diamond database 83 of 100
+2026-07-29 01:19:42 : Creating diamond database 84 of 100
+2026-07-29 01:19:42 : Creating diamond database 85 of 100
+2026-07-29 01:19:42 : Creating diamond database 86 of 100
+2026-07-29 01:19:42 : Creating diamond database 87 of 100
+2026-07-29 01:19:42 : Creating diamond database 88 of 100
+2026-07-29 01:19:42 : Creating diamond database 89 of 100
+2026-07-29 01:19:42 : Creating diamond database 90 of 100
+2026-07-29 01:19:43 : Creating diamond database 91 of 100
+2026-07-29 01:19:43 : Creating diamond database 92 of 100
+2026-07-29 01:19:43 : Creating diamond database 93 of 100
+2026-07-29 01:19:43 : Creating diamond database 94 of 100
+2026-07-29 01:19:43 : Creating diamond database 95 of 100
+2026-07-29 01:19:43 : Creating diamond database 96 of 100
+2026-07-29 01:19:43 : Creating diamond database 97 of 100
+2026-07-29 01:19:43 : Creating diamond database 98 of 100
+2026-07-29 01:19:43 : Creating diamond database 99 of 100
+2026-07-29 01:19:43 : Creating diamond database 100 of 100
+
+Running diamond all-versus-all
+------------------------------
+Using 20 thread(s)
+2026-07-29 01:19:43 : This may take some time....
+2026-07-29 01:19:43 : Done 0 of 10000
+2026-07-29 01:28:01 : Done 1000 of 10000
+2026-07-29 01:34:12 : Done 2000 of 10000
+2026-07-29 01:39:44 : Done 3000 of 10000
+2026-07-29 01:44:50 : Done 4000 of 10000
+2026-07-29 01:49:37 : Done 5000 of 10000
+2026-07-29 01:54:07 : Done 6000 of 10000
+2026-07-29 01:58:13 : Done 7000 of 10000
+2026-07-29 02:01:58 : Done 8000 of 10000
+2026-07-29 02:05:29 : Done 9000 of 10000
+2026-07-29 02:08:48 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2026-07-29 02:08:48 : Initial processing of each species
+2026-07-29 02:08:58 : Initial processing of species 1 complete
+2026-07-29 02:09:00 : Initial processing of species 0 complete
+2026-07-29 02:09:05 : Initial processing of species 3 complete
+2026-07-29 02:09:06 : Initial processing of species 2 complete
+2026-07-29 02:09:11 : Initial processing of species 4 complete
+2026-07-29 02:09:12 : Initial processing of species 5 complete
+2026-07-29 02:09:17 : Initial processing of species 7 complete
+2026-07-29 02:09:26 : Initial processing of species 6 complete
+2026-07-29 02:09:27 : Initial processing of species 8 complete
+2026-07-29 02:09:36 : Initial processing of species 9 complete
+2026-07-29 02:09:38 : Initial processing of species 10 complete
+2026-07-29 02:09:47 : Initial processing of species 11 complete
+2026-07-29 02:09:51 : Initial processing of species 12 complete
+2026-07-29 02:09:54 : Initial processing of species 13 complete
+2026-07-29 02:10:01 : Initial processing of species 15 complete
+2026-07-29 02:10:04 : Initial processing of species 14 complete
+2026-07-29 02:10:10 : Initial processing of species 16 complete
+2026-07-29 02:10:17 : Initial processing of species 18 complete
+2026-07-29 02:10:21 : Initial processing of species 17 complete
+2026-07-29 02:10:31 : Initial processing of species 20 complete
+2026-07-29 02:10:32 : Initial processing of species 19 complete
+2026-07-29 02:10:40 : Initial processing of species 22 complete
+2026-07-29 02:10:43 : Initial processing of species 21 complete
+2026-07-29 02:10:51 : Initial processing of species 23 complete
+2026-07-29 02:10:57 : Initial processing of species 24 complete
+2026-07-29 02:10:59 : Initial processing of species 25 complete
+2026-07-29 02:11:06 : Initial processing of species 26 complete
+2026-07-29 02:11:07 : Initial processing of species 27 complete
+2026-07-29 02:11:13 : Initial processing of species 28 complete
+2026-07-29 02:11:17 : Initial processing of species 29 complete
+2026-07-29 02:11:25 : Initial processing of species 31 complete
+2026-07-29 02:11:27 : Initial processing of species 30 complete
+2026-07-29 02:11:34 : Initial processing of species 33 complete
+2026-07-29 02:11:35 : Initial processing of species 32 complete
+2026-07-29 02:11:47 : Initial processing of species 34 complete
+2026-07-29 02:11:48 : Initial processing of species 35 complete
+2026-07-29 02:11:56 : Initial processing of species 36 complete
+2026-07-29 02:12:01 : Initial processing of species 37 complete
+2026-07-29 02:12:09 : Initial processing of species 39 complete
+2026-07-29 02:12:10 : Initial processing of species 38 complete
+2026-07-29 02:12:19 : Initial processing of species 41 complete
+2026-07-29 02:12:22 : Initial processing of species 40 complete
+2026-07-29 02:12:27 : Initial processing of species 42 complete
+2026-07-29 02:12:42 : Initial processing of species 44 complete
+2026-07-29 02:12:44 : Initial processing of species 43 complete
+2026-07-29 02:12:51 : Initial processing of species 46 complete
+2026-07-29 02:13:02 : Initial processing of species 47 complete
+2026-07-29 02:13:03 : Initial processing of species 45 complete
+2026-07-29 02:13:12 : Initial processing of species 48 complete
+2026-07-29 02:13:13 : Initial processing of species 49 complete
+2026-07-29 02:13:24 : Initial processing of species 50 complete
+2026-07-29 02:13:30 : Initial processing of species 51 complete
+2026-07-29 02:13:33 : Initial processing of species 52 complete
+2026-07-29 02:13:39 : Initial processing of species 53 complete
+2026-07-29 02:13:45 : Initial processing of species 54 complete
+2026-07-29 02:13:49 : Initial processing of species 55 complete
+2026-07-29 02:13:56 : Initial processing of species 56 complete
+2026-07-29 02:13:57 : Initial processing of species 57 complete
+2026-07-29 02:14:05 : Initial processing of species 58 complete
+2026-07-29 02:14:14 : Initial processing of species 60 complete
+2026-07-29 02:14:15 : Initial processing of species 59 complete
+2026-07-29 02:14:23 : Initial processing of species 62 complete
+2026-07-29 02:14:26 : Initial processing of species 61 complete
+2026-07-29 02:14:30 : Initial processing of species 63 complete
+2026-07-29 02:14:33 : Initial processing of species 64 complete
+2026-07-29 02:14:40 : Initial processing of species 65 complete
+2026-07-29 02:14:43 : Initial processing of species 66 complete
+2026-07-29 02:14:50 : Initial processing of species 67 complete
+2026-07-29 02:14:55 : Initial processing of species 68 complete
+2026-07-29 02:15:00 : Initial processing of species 69 complete
+2026-07-29 02:15:05 : Initial processing of species 70 complete
+2026-07-29 02:15:10 : Initial processing of species 71 complete
+2026-07-29 02:15:16 : Initial processing of species 73 complete
+2026-07-29 02:15:23 : Initial processing of species 72 complete
+2026-07-29 02:15:23 : Initial processing of species 74 complete
+2026-07-29 02:15:29 : Initial processing of species 75 complete
+2026-07-29 02:15:30 : Initial processing of species 76 complete
+2026-07-29 02:15:40 : Initial processing of species 77 complete
+2026-07-29 02:15:40 : Initial processing of species 78 complete
+2026-07-29 02:15:48 : Initial processing of species 79 complete
+2026-07-29 02:15:55 : Initial processing of species 80 complete
+2026-07-29 02:15:56 : Initial processing of species 81 complete
+2026-07-29 02:16:06 : Initial processing of species 83 complete
+2026-07-29 02:16:07 : Initial processing of species 82 complete
+2026-07-29 02:16:16 : Initial processing of species 85 complete
+2026-07-29 02:16:21 : Initial processing of species 84 complete
+2026-07-29 02:16:25 : Initial processing of species 86 complete
+2026-07-29 02:16:28 : Initial processing of species 87 complete
+2026-07-29 02:16:34 : Initial processing of species 89 complete
+2026-07-29 02:16:34 : Initial processing of species 88 complete
+2026-07-29 02:16:38 : Initial processing of species 90 complete
+2026-07-29 02:16:41 : Initial processing of species 91 complete
+2026-07-29 02:16:44 : Initial processing of species 92 complete
+2026-07-29 02:16:48 : Initial processing of species 93 complete
+2026-07-29 02:16:52 : Initial processing of species 94 complete
+2026-07-29 02:16:56 : Initial processing of species 95 complete
+2026-07-29 02:17:04 : Initial processing of species 96 complete
+2026-07-29 02:17:09 : Initial processing of species 97 complete
+2026-07-29 02:17:12 : Initial processing of species 98 complete
+2026-07-29 02:17:19 : Initial processing of species 99 complete
+2026-07-29 02:18:16 : Connected putative homologues
+2026-07-29 02:18:19 : Written final scores for species 13 to graph file
+2026-07-29 02:18:21 : Written final scores for species 0 to graph file
+2026-07-29 02:18:24 : Written final scores for species 14 to graph file
+2026-07-29 02:18:25 : Written final scores for species 1 to graph file
+2026-07-29 02:18:28 : Written final scores for species 15 to graph file
+2026-07-29 02:18:29 : Written final scores for species 2 to graph file
+2026-07-29 02:18:31 : Written final scores for species 3 to graph file
+2026-07-29 02:18:32 : Written final scores for species 16 to graph file
+2026-07-29 02:18:34 : Written final scores for species 4 to graph file
+2026-07-29 02:18:36 : Written final scores for species 5 to graph file
+2026-07-29 02:18:40 : Written final scores for species 17 to graph file
+2026-07-29 02:18:43 : Written final scores for species 6 to graph file
+2026-07-29 02:18:43 : Written final scores for species 18 to graph file
+2026-07-29 02:18:45 : Written final scores for species 7 to graph file
+2026-07-29 02:18:49 : Written final scores for species 8 to graph file
+2026-07-29 02:18:50 : Written final scores for species 19 to graph file
+2026-07-29 02:18:54 : Written final scores for species 9 to graph file
+2026-07-29 02:18:54 : Written final scores for species 20 to graph file
+2026-07-29 02:18:58 : Written final scores for species 21 to graph file
+2026-07-29 02:18:59 : Written final scores for species 10 to graph file
+2026-07-29 02:19:02 : Written final scores for species 22 to graph file
+2026-07-29 02:19:03 : Written final scores for species 11 to graph file
+2026-07-29 02:19:07 : Written final scores for species 23 to graph file
+2026-07-29 02:19:09 : Written final scores for species 12 to graph file
+2026-07-29 02:19:12 : Written final scores for species 26 to graph file
+2026-07-29 02:19:14 : Written final scores for species 24 to graph file
+2026-07-29 02:19:16 : Written final scores for species 27 to graph file
+2026-07-29 02:19:17 : Written final scores for species 25 to graph file
+2026-07-29 02:19:19 : Written final scores for species 28 to graph file
+2026-07-29 02:19:22 : Written final scores for species 39 to graph file
+2026-07-29 02:19:24 : Written final scores for species 29 to graph file
+2026-07-29 02:19:27 : Written final scores for species 40 to graph file
+2026-07-29 02:19:30 : Written final scores for species 30 to graph file
+2026-07-29 02:19:31 : Written final scores for species 41 to graph file
+2026-07-29 02:19:33 : Written final scores for species 31 to graph file
+2026-07-29 02:19:34 : Written final scores for species 42 to graph file
+2026-07-29 02:19:38 : Written final scores for species 32 to graph file
+2026-07-29 02:19:41 : Written final scores for species 33 to graph file
+2026-07-29 02:19:45 : Written final scores for species 43 to graph file
+2026-07-29 02:19:46 : Written final scores for species 34 to graph file
+2026-07-29 02:19:51 : Written final scores for species 35 to graph file
+2026-07-29 02:19:51 : Written final scores for species 44 to graph file
+2026-07-29 02:19:55 : Written final scores for species 36 to graph file
+2026-07-29 02:20:01 : Written final scores for species 37 to graph file
+2026-07-29 02:20:02 : Written final scores for species 45 to graph file
+2026-07-29 02:20:05 : Written final scores for species 46 to graph file
+2026-07-29 02:20:07 : Written final scores for species 38 to graph file
+2026-07-29 02:20:09 : Written final scores for species 47 to graph file
+2026-07-29 02:20:10 : Written final scores for species 52 to graph file
+2026-07-29 02:20:14 : Written final scores for species 53 to graph file
+2026-07-29 02:20:14 : Written final scores for species 48 to graph file
+2026-07-29 02:20:19 : Written final scores for species 49 to graph file
+2026-07-29 02:20:19 : Written final scores for species 54 to graph file
+2026-07-29 02:20:23 : Written final scores for species 55 to graph file
+2026-07-29 02:20:24 : Written final scores for species 50 to graph file
+2026-07-29 02:20:27 : Written final scores for species 56 to graph file
+2026-07-29 02:20:30 : Written final scores for species 51 to graph file
+2026-07-29 02:20:31 : Written final scores for species 57 to graph file
+2026-07-29 02:20:34 : Written final scores for species 58 to graph file
+2026-07-29 02:20:35 : Written final scores for species 65 to graph file
+2026-07-29 02:20:39 : Written final scores for species 66 to graph file
+2026-07-29 02:20:42 : Written final scores for species 59 to graph file
+2026-07-29 02:20:44 : Written final scores for species 67 to graph file
+2026-07-29 02:20:46 : Written final scores for species 60 to graph file
+2026-07-29 02:20:49 : Written final scores for species 68 to graph file
+2026-07-29 02:20:51 : Written final scores for species 61 to graph file
+2026-07-29 02:20:53 : Written final scores for species 69 to graph file
+2026-07-29 02:20:54 : Written final scores for species 62 to graph file
+2026-07-29 02:20:57 : Written final scores for species 63 to graph file
+2026-07-29 02:20:57 : Written final scores for species 70 to graph file
+2026-07-29 02:21:00 : Written final scores for species 64 to graph file
+2026-07-29 02:21:02 : Written final scores for species 71 to graph file
+2026-07-29 02:21:04 : Written final scores for species 78 to graph file
+2026-07-29 02:21:07 : Written final scores for species 79 to graph file
+2026-07-29 02:21:10 : Written final scores for species 72 to graph file
+2026-07-29 02:21:13 : Written final scores for species 73 to graph file
+2026-07-29 02:21:14 : Written final scores for species 80 to graph file
+2026-07-29 02:21:16 : Written final scores for species 74 to graph file
+2026-07-29 02:21:17 : Written final scores for species 81 to graph file
+2026-07-29 02:21:19 : Written final scores for species 75 to graph file
+2026-07-29 02:21:22 : Written final scores for species 76 to graph file
+2026-07-29 02:21:23 : Written final scores for species 82 to graph file
+2026-07-29 02:21:27 : Written final scores for species 83 to graph file
+2026-07-29 02:21:27 : Written final scores for species 77 to graph file
+2026-07-29 02:21:30 : Written final scores for species 91 to graph file
+2026-07-29 02:21:33 : Written final scores for species 84 to graph file
+2026-07-29 02:21:33 : Written final scores for species 92 to graph file
+2026-07-29 02:21:36 : Written final scores for species 85 to graph file
+2026-07-29 02:21:36 : Written final scores for species 93 to graph file
+2026-07-29 02:21:40 : Written final scores for species 86 to graph file
+2026-07-29 02:21:40 : Written final scores for species 94 to graph file
+2026-07-29 02:21:43 : Written final scores for species 95 to graph file
+2026-07-29 02:21:43 : Written final scores for species 87 to graph file
+2026-07-29 02:21:47 : Written final scores for species 88 to graph file
+2026-07-29 02:21:49 : Written final scores for species 96 to graph file
+2026-07-29 02:21:50 : Written final scores for species 89 to graph file
+2026-07-29 02:21:52 : Written final scores for species 90 to graph file
+2026-07-29 02:21:55 : Written final scores for species 97 to graph file
+2026-07-29 02:21:58 : Written final scores for species 98 to graph file
+2026-07-29 02:22:02 : Written final scores for species 99 to graph file
+2026-07-29 02:28:02 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 277459 genes (93.0% of total) to 17167 orthogroups. Fifty percent of all genes were in orthogroups with 56 or more genes (G50 was 56) and were contained in the largest 1222 orthogroups (O50 was 1222). There were 164 orthogroups with all species present and 54 of these consisted entirely of single-copy genes.
+
+2026-07-29 02:28:20 : Done orthogroups
+
+Analysing Orthogroups
+=====================
+2026-07-29 02:28:20 : Starting MSA/Trees
+Species tree: Using 103 orthogroups with minimum of 95.0% of species having single-copy genes in any orthogroup
+
+Inferring multiple sequence alignments for species tree
+-------------------------------------------------------
+2026-07-29 02:28:26 : Done 0 of 103
+2026-07-29 02:28:36 : Done 10 of 103
+2026-07-29 02:28:43 : Done 20 of 103
+2026-07-29 02:28:46 : Done 30 of 103
+2026-07-29 02:28:50 : Done 40 of 103
+2026-07-29 02:28:54 : Done 50 of 103
+2026-07-29 02:29:02 : Done 60 of 103
+2026-07-29 02:29:05 : Done 70 of 103
+2026-07-29 02:29:11 : Done 80 of 103
+
+Inferring remaining multiple sequence alignments and gene trees
+---------------------------------------------------------------
+2026-07-29 02:31:34 : Done 0 of 17065
+2026-07-29 03:47:51 : Done 1000 of 17065
+2026-07-29 03:56:38 : Done 2000 of 17065
+2026-07-29 04:00:08 : Done 3000 of 17065
+2026-07-29 04:02:02 : Done 4000 of 17065
+2026-07-29 04:03:13 : Done 5000 of 17065
+2026-07-29 04:04:00 : Done 6000 of 17065
+2026-07-29 04:04:35 : Done 7000 of 17065
+2026-07-29 04:05:03 : Done 8000 of 17065
+2026-07-29 04:05:25 : Done 9000 of 17065
+2026-07-29 04:05:45 : Done 10000 of 17065
+2026-07-29 04:06:03 : Done 11000 of 17065
+2026-07-29 04:06:21 : Done 12000 of 17065
+2026-07-29 04:06:37 : Done 13000 of 17065
+2026-07-29 04:06:53 : Done 14000 of 17065
+2026-07-29 04:07:09 : Done 15000 of 17065
+2026-07-29 04:07:25 : Done 16000 of 17065
+2026-07-29 04:07:42 : Done 17000 of 17065
+2026-07-29 04:07:49 : Done MSA/Trees
+
+Best outgroup(s) for species tree
+---------------------------------
+2026-07-29 04:07:49 : Starting STRIDE
+2026-07-29 04:08:07 : Done STRIDE
+Observed 204 well-supported, non-terminal duplications. 204 support the best roots and 0 contradict them.
+Best outgroups for species tree:
+  GCA_963360665.1_BFTSDC17_v2, GCA_030168385.1_ASM3016838v1, GCA_019249725.2_ASM1924972v2, GCA_018847935.1_ASM1884793v1, GCA_018289295.1_ASM1828929v1, GCA_024758065.1_ASM2475806v1, GCA_006542745.1_6CPBBH3, GCA_022009815.1_ASM2200981v1, GCA_928852565.1_min17_bin03, GCA_027923645.1_ASM2792364v1, GCA_025145285.1_ASM2514528v1, GCA_016888945.1_ASM1688894v1, GCA_016724805.1_ASM1672480v1, GCA_020735865.1_ASM2073586v1, GCA_025145845.1_ASM2514584v1, GCA_024759085.1_ASM2475908v1, GCA_018847015.1_ASM1884701v1, GCA_008369705.1_ASM836970v1, GCA_006546965.1_ASM654696v1, GCA_900187175.1_51342_A02, GCA_902498985.2_QI0027_V3, GCA_028225915.1_ASM2822591v1, GCA_024759185.1_ASM2475918v1, GCA_020885775.1_ASM2088577v1, GCA_004328515.1_ASM432851v1, GCA_039789235.1_ASM3978923v1, GCA_951793255.1_DSM32187, GCA_001640865.1_ASM164086v1, GCA_006542685.1_Adis_1.0, GCA_020091485.1_ASM2009148v1, GCA_963360685.1_BMTSDC17_v2, GCA_025263845.1_ASM2526384v1, GCA_928722225.1_min17_bin80, GCA_020735605.1_ASM2073560v1, GCA_928721465.1_min17_bin31, GCA_000265365.1_ASM26536v1
+  GCA_025150085.1_ASM2515008v1, GCA_019597925.1_ASM1959792v1, GCA_025150245.1_ASM2515024v1
+  GCA_032695835.1_ASM3269583v1
+  GCA_963360665.1_BFTSDC17_v2, GCA_030168385.1_ASM3016838v1, GCA_019249725.2_ASM1924972v2, GCA_001025195.1_ASM102519v1, GCA_001765415.1_ASM176541v1, GCA_000966445.2_ASM96644v2, GCA_018847935.1_ASM1884793v1, GCA_900199375.1_G142160_polished_assembly_ID17483, GCA_018289295.1_ASM1828929v1, GCA_004135085.1_ASM413508v1, GCA_024758065.1_ASM2475806v1, GCA_006542745.1_6CPBBH3, GCA_022009815.1_ASM2200981v1, GCA_928852565.1_min17_bin03, GCA_027923645.1_ASM2792364v1, GCA_025145285.1_ASM2514528v1, GCA_016888945.1_ASM1688894v1, GCA_016724805.1_ASM1672480v1, GCA_020735865.1_ASM2073586v1, GCA_000478885.1_ASM47888v1, GCA_025145845.1_ASM2514584v1, GCA_024759085.1_ASM2475908v1, GCA_001281345.1_ASM128134v1, GCA_020541925.1_ASM2054192v1, GCA_018847015.1_ASM1884701v1, GCA_008369705.1_ASM836970v1, GCA_006546965.1_ASM654696v1, GCA_900187175.1_51342_A02, GCA_902498985.2_QI0027_V3, GCA_028225915.1_ASM2822591v1, GCA_024759185.1_ASM2475918v1, GCA_020885775.1_ASM2088577v1, GCA_004328515.1_ASM432851v1, GCA_028743295.1_ASM2874329v1, GCA_008086305.1_ASM808630v1, GCA_039789235.1_ASM3978923v1, GCA_951793255.1_DSM32187, GCA_963360655.1_CATSDC17_v2, GCA_001640865.1_ASM164086v1, GCA_006542685.1_Adis_1.0, GCA_020091485.1_ASM2009148v1, GCA_963360685.1_BMTSDC17_v2, GCA_025263845.1_ASM2526384v1, GCA_928722225.1_min17_bin80, GCA_020735605.1_ASM2073560v1, GCA_928721465.1_min17_bin31, GCA_000265365.1_ASM26536v1
+  GCA_036419515.1_ASM3641951v1, GCA_036419155.1_ASM3641915v1
+  GCA_018847935.1_ASM1884793v1, GCA_018847015.1_ASM1884701v1
+  GCA_025152405.1_ASM2515240v1, GCA_019597925.1_ASM1959792v1, GCA_014337175.1_ASM1433717v1, GCA_025758005.1_ASM2575800v1, GCA_025150245.1_ASM2515024v1, GCA_025149785.1_ASM2514978v1, GCA_025148125.1_ASM2514812v1, GCA_000020605.1_ASM2060v1, GCA_003584705.1_ASM358470v1, GCA_014337155.1_ASM1433715v1, GCA_036419155.1_ASM3641915v1, GCA_900537995.1_Roseburia_intestinalis_strain_L1-82, GCA_025146925.1_ASM2514692v1, GCA_036419515.1_ASM3641951v1, GCA_025148445.1_ASM2514844v1, GCA_025147765.1_ASM2514776v1, GCA_025150085.1_ASM2515008v1, GCA_020735685.1_ASM2073568v1, GCA_020735365.1_ASM2073536v1
+  GCA_025147765.1_ASM2514776v1, GCA_025758005.1_ASM2575800v1, GCA_025150085.1_ASM2515008v1, GCA_020735365.1_ASM2073536v1, GCA_025150245.1_ASM2515024v1, GCA_025149785.1_ASM2514978v1, GCA_025148125.1_ASM2514812v1, GCA_025152405.1_ASM2515240v1, GCA_019597925.1_ASM1959792v1
+  GCA_025757645.1_ASM2575764v1
+  GCA_900199375.1_G142160_polished_assembly_ID17483, GCA_000478885.1_ASM47888v1, GCA_963360655.1_CATSDC17_v2
+  GCA_025757645.1_ASM2575764v1, GCA_025757965.1_ASM2575796v1, GCA_022845655.1_ASM2284565v1, GCA_003573975.1_ASM357397v1, GCA_003574015.1_ASM357401v1, GCA_018326305.1_ASM1832630v1, GCA_018408575.1_ASM1840857v1
+  GCA_020735365.1_ASM2073536v1
+  GCA_928721525.1_min17_bin18
+  GCA_025758005.1_ASM2575800v1, GCA_025152405.1_ASM2515240v1
+  GCA_025148445.1_ASM2514844v1
+  GCA_014337155.1_ASM1433715v1, GCA_020735685.1_ASM2073568v1, GCA_036419515.1_ASM3641951v1, GCA_036419155.1_ASM3641915v1
+  GCA_023347275.1_ASM2334727v1, GCA_025757625.1_ASM2575762v1, GCA_040234585.1_ASM4023458v1, GCA_025758045.1_ASM2575804v1, GCA_025757985.1_ASM2575798v1, GCA_025757565.1_ASM2575756v1, GCA_002586945.1_ASM258694v1, GCA_902388275.1_UHGG_MGYG-HGUT-02545
+  GCA_018326305.1_ASM1832630v1, GCA_018408575.1_ASM1840857v1, GCA_003574015.1_ASM357401v1
+  GCA_025147765.1_ASM2514776v1, GCA_000020605.1_ASM2060v1, GCA_003584705.1_ASM358470v1, GCA_025758005.1_ASM2575800v1, GCA_014337175.1_ASM1433717v1, GCA_025150085.1_ASM2515008v1, GCA_900537995.1_Roseburia_intestinalis_strain_L1-82, GCA_025150245.1_ASM2515024v1, GCA_025149785.1_ASM2514978v1, GCA_020735365.1_ASM2073536v1, GCA_025148125.1_ASM2514812v1, GCA_025146925.1_ASM2514692v1, GCA_025152405.1_ASM2515240v1, GCA_025148445.1_ASM2514844v1, GCA_019597925.1_ASM1959792v1
+  GCA_018326305.1_ASM1832630v1, GCA_018408575.1_ASM1840857v1
+  GCA_025757685.1_ASM2575768v1, GCA_023921805.1_ASM2392180v1
+  GCA_963360665.1_BFTSDC17_v2, GCA_030168385.1_ASM3016838v1, GCA_019249725.2_ASM1924972v2, GCA_018847935.1_ASM1884793v1, GCA_018289295.1_ASM1828929v1, GCA_024758065.1_ASM2475806v1, GCA_006542745.1_6CPBBH3, GCA_022009815.1_ASM2200981v1, GCA_928852565.1_min17_bin03, GCA_027923645.1_ASM2792364v1, GCA_025145285.1_ASM2514528v1, GCA_016888945.1_ASM1688894v1, GCA_020735865.1_ASM2073586v1, GCA_025145845.1_ASM2514584v1, GCA_024759085.1_ASM2475908v1, GCA_018847015.1_ASM1884701v1, GCA_008369705.1_ASM836970v1, GCA_006546965.1_ASM654696v1, GCA_900187175.1_51342_A02, GCA_024759185.1_ASM2475918v1, GCA_020885775.1_ASM2088577v1, GCA_004328515.1_ASM432851v1, GCA_039789235.1_ASM3978923v1, GCA_001640865.1_ASM164086v1, GCA_006542685.1_Adis_1.0, GCA_020091485.1_ASM2009148v1, GCA_963360685.1_BMTSDC17_v2, GCA_025263845.1_ASM2526384v1, GCA_020735605.1_ASM2073560v1, GCA_000265365.1_ASM26536v1
+  GCA_025144545.1_ASM2514454v1
+  GCA_025148125.1_ASM2514812v1
+  GCA_963360665.1_BFTSDC17_v2, GCA_030168385.1_ASM3016838v1, GCA_019249725.2_ASM1924972v2, GCA_001025195.1_ASM102519v1, GCA_000966445.2_ASM96644v2, GCA_018847935.1_ASM1884793v1, GCA_900199375.1_G142160_polished_assembly_ID17483, GCA_018289295.1_ASM1828929v1, GCA_004135085.1_ASM413508v1, GCA_024758065.1_ASM2475806v1, GCA_006542745.1_6CPBBH3, GCA_022009815.1_ASM2200981v1, GCA_928852565.1_min17_bin03, GCA_027923645.1_ASM2792364v1, GCA_025145285.1_ASM2514528v1, GCA_016888945.1_ASM1688894v1, GCA_016724805.1_ASM1672480v1, GCA_020735865.1_ASM2073586v1, GCA_000478885.1_ASM47888v1, GCA_025145845.1_ASM2514584v1, GCA_024759085.1_ASM2475908v1, GCA_001281345.1_ASM128134v1, GCA_020541925.1_ASM2054192v1, GCA_018847015.1_ASM1884701v1, GCA_008369705.1_ASM836970v1, GCA_006546965.1_ASM654696v1, GCA_900187175.1_51342_A02, GCA_902498985.2_QI0027_V3, GCA_028225915.1_ASM2822591v1, GCA_024759185.1_ASM2475918v1, GCA_020885775.1_ASM2088577v1, GCA_004328515.1_ASM432851v1, GCA_028743295.1_ASM2874329v1, GCA_008086305.1_ASM808630v1, GCA_039789235.1_ASM3978923v1, GCA_951793255.1_DSM32187, GCA_963360655.1_CATSDC17_v2, GCA_001640865.1_ASM164086v1, GCA_006542685.1_Adis_1.0, GCA_020091485.1_ASM2009148v1, GCA_963360685.1_BMTSDC17_v2, GCA_025263845.1_ASM2526384v1, GCA_928722225.1_min17_bin80, GCA_020735605.1_ASM2073560v1, GCA_928721465.1_min17_bin31, GCA_000265365.1_ASM26536v1
+  GCA_022845655.1_ASM2284565v1, GCA_003573975.1_ASM357397v1, GCA_003574015.1_ASM357401v1, GCA_018326305.1_ASM1832630v1, GCA_018408575.1_ASM1840857v1
+  GCA_951793255.1_DSM32187, GCA_902498985.2_QI0027_V3
+  GCA_951793255.1_DSM32187, GCA_016724805.1_ASM1672480v1, GCA_902498985.2_QI0027_V3, GCA_028225915.1_ASM2822591v1, GCA_928722225.1_min17_bin80, GCA_928721465.1_min17_bin31
+  GCA_014337175.1_ASM1433717v1, GCA_900537995.1_Roseburia_intestinalis_strain_L1-82, GCA_003584705.1_ASM358470v1, GCA_000020605.1_ASM2060v1
+  GCA_019974115.1_ASM1997411v1
+  GCA_963360665.1_BFTSDC17_v2, GCA_019249725.2_ASM1924972v2, GCA_018289295.1_ASM1828929v1, GCA_024758065.1_ASM2475806v1, GCA_006542745.1_6CPBBH3, GCA_022009815.1_ASM2200981v1, GCA_928852565.1_min17_bin03, GCA_027923645.1_ASM2792364v1, GCA_025145285.1_ASM2514528v1, GCA_016888945.1_ASM1688894v1, GCA_020735865.1_ASM2073586v1, GCA_025145845.1_ASM2514584v1, GCA_024759085.1_ASM2475908v1, GCA_008369705.1_ASM836970v1, GCA_006546965.1_ASM654696v1, GCA_900187175.1_51342_A02, GCA_024759185.1_ASM2475918v1, GCA_020885775.1_ASM2088577v1, GCA_004328515.1_ASM432851v1, GCA_039789235.1_ASM3978923v1, GCA_001640865.1_ASM164086v1, GCA_006542685.1_Adis_1.0, GCA_020091485.1_ASM2009148v1, GCA_963360685.1_BMTSDC17_v2, GCA_025263845.1_ASM2526384v1, GCA_020735605.1_ASM2073560v1, GCA_000265365.1_ASM26536v1
+  GCA_025758005.1_ASM2575800v1, GCA_025150085.1_ASM2515008v1, GCA_025150245.1_ASM2515024v1, GCA_025149785.1_ASM2514978v1, GCA_025152405.1_ASM2515240v1, GCA_019597925.1_ASM1959792v1
+  GCA_036419515.1_ASM3641951v1
+  GCA_025149785.1_ASM2514978v1
+  GCA_025150085.1_ASM2515008v1, GCA_019597925.1_ASM1959792v1
+  GCA_003574015.1_ASM357401v1
+  GCA_025757885.1_ASM2575788v1, GCA_928721695.1_min17_bin50
+  GCA_963360665.1_BFTSDC17_v2, GCA_019249725.2_ASM1924972v2, GCA_018847935.1_ASM1884793v1, GCA_018289295.1_ASM1828929v1, GCA_024758065.1_ASM2475806v1, GCA_006542745.1_6CPBBH3, GCA_022009815.1_ASM2200981v1, GCA_928852565.1_min17_bin03, GCA_027923645.1_ASM2792364v1, GCA_025145285.1_ASM2514528v1, GCA_016888945.1_ASM1688894v1, GCA_020735865.1_ASM2073586v1, GCA_025145845.1_ASM2514584v1, GCA_024759085.1_ASM2475908v1, GCA_018847015.1_ASM1884701v1, GCA_008369705.1_ASM836970v1, GCA_006546965.1_ASM654696v1, GCA_900187175.1_51342_A02, GCA_024759185.1_ASM2475918v1, GCA_020885775.1_ASM2088577v1, GCA_004328515.1_ASM432851v1, GCA_039789235.1_ASM3978923v1, GCA_001640865.1_ASM164086v1, GCA_006542685.1_Adis_1.0, GCA_020091485.1_ASM2009148v1, GCA_963360685.1_BMTSDC17_v2, GCA_025263845.1_ASM2526384v1, GCA_020735605.1_ASM2073560v1, GCA_000265365.1_ASM26536v1
+  GCA_963360655.1_CATSDC17_v2
+  GCA_963360665.1_BFTSDC17_v2, GCA_019249725.2_ASM1924972v2, GCA_018289295.1_ASM1828929v1, GCA_024758065.1_ASM2475806v1, GCA_022009815.1_ASM2200981v1, GCA_027923645.1_ASM2792364v1, GCA_016888945.1_ASM1688894v1, GCA_020735865.1_ASM2073586v1, GCA_024759085.1_ASM2475908v1, GCA_008369705.1_ASM836970v1, GCA_006546965.1_ASM654696v1, GCA_900187175.1_51342_A02, GCA_024759185.1_ASM2475918v1, GCA_020885775.1_ASM2088577v1, GCA_004328515.1_ASM432851v1, GCA_039789235.1_ASM3978923v1, GCA_001640865.1_ASM164086v1, GCA_020091485.1_ASM2009148v1, GCA_963360685.1_BMTSDC17_v2, GCA_025263845.1_ASM2526384v1, GCA_020735605.1_ASM2073560v1
+  GCA_928721465.1_min17_bin31, GCA_928722225.1_min17_bin80
+  GCA_900683765.1_Phascolarctobacterium_succinatutens_82G5, GCA_025144545.1_ASM2514454v1, GCA_019974115.1_ASM1997411v1, GCA_963931105.1_6732_HOM_VAC_s129.ctg000173l_hifiasm_large_MAG, GCA_928721695.1_min17_bin50, GCA_032695835.1_ASM3269583v1, GCA_963931005.1_6755_HET_CTRL_contig_17144_metaflye_large_MAG, GCA_025757885.1_ASM2575788v1
+  GCA_963931105.1_6732_HOM_VAC_s129.ctg000173l_hifiasm_large_MAG
+  GCA_036419155.1_ASM3641915v1
+  GCA_003573975.1_ASM357397v1, GCA_022845655.1_ASM2284565v1
+  GCA_963931005.1_6755_HET_CTRL_contig_17144_metaflye_large_MAG, GCA_032695835.1_ASM3269583v1
+  GCA_025150085.1_ASM2515008v1
+  GCA_025150085.1_ASM2515008v1, GCA_019597925.1_ASM1959792v1, GCA_025149785.1_ASM2514978v1, GCA_025150245.1_ASM2515024v1
+  GCA_900199375.1_G142160_polished_assembly_ID17483, GCA_000478885.1_ASM47888v1
+  GCA_025146925.1_ASM2514692v1, GCA_025148445.1_ASM2514844v1
+  GCA_963360655.1_CATSDC17_v2, GCA_001025195.1_ASM102519v1, GCA_000966445.2_ASM96644v2, GCA_900199375.1_G142160_polished_assembly_ID17483, GCA_004135085.1_ASM413508v1, GCA_000478885.1_ASM47888v1, GCA_028743295.1_ASM2874329v1, GCA_001281345.1_ASM128134v1, GCA_020541925.1_ASM2054192v1, GCA_008086305.1_ASM808630v1
+  GCA_025146925.1_ASM2514692v1
+  GCA_000020605.1_ASM2060v1, GCA_900537995.1_Roseburia_intestinalis_strain_L1-82
+  GCA_001025195.1_ASM102519v1, GCA_000966445.2_ASM96644v2, GCA_004135085.1_ASM413508v1, GCA_028743295.1_ASM2874329v1, GCA_001281345.1_ASM128134v1, GCA_020541925.1_ASM2054192v1, GCA_008086305.1_ASM808630v1
+  GCA_023921805.1_ASM2392180v1, GCA_025757685.1_ASM2575768v1, GCA_025150425.1_ASM2515042v1, GCA_025757945.1_ASM2575794v1
+  GCA_025150245.1_ASM2515024v1
+  GCA_016724805.1_ASM1672480v1, GCA_028225915.1_ASM2822591v1
+  GCA_003432325.1_ASM343232v1, GCA_025148785.1_ASM2514878v1, GCA_038630745.1_PS01447, GCA_905186165.1_Catenibacterium_canine_HQ_MAG, GCA_031234455.1_ASM3123445v1
+  GCA_030168385.1_ASM3016838v1
+  GCA_014337175.1_ASM1433717v1, GCA_003584705.1_ASM358470v1
+  GCA_025147765.1_ASM2514776v1, GCA_025148125.1_ASM2514812v1, GCA_020735365.1_ASM2073536v1
+  GCA_025758025.1_ASM2575802v1
+  GCA_900537995.1_Roseburia_intestinalis_strain_L1-82
+  GCA_025757965.1_ASM2575796v1
+  GCA_000020605.1_ASM2060v1
+  GCA_019597925.1_ASM1959792v1
+  GCA_963931005.1_6755_HET_CTRL_contig_17144_metaflye_large_MAG
+  GCA_900683765.1_Phascolarctobacterium_succinatutens_82G5
+  GCA_025147765.1_ASM2514776v1, GCA_025148125.1_ASM2514812v1
+  GCA_025757645.1_ASM2575764v1, GCA_025757965.1_ASM2575796v1, GCA_025757625.1_ASM2575762v1, GCA_040234585.1_ASM4023458v1, GCA_003574015.1_ASM357401v1, GCA_018326305.1_ASM1832630v1, GCA_025757685.1_ASM2575768v1, GCA_018408575.1_ASM1840857v1, GCA_025152405.1_ASM2515240v1, GCA_928721525.1_min17_bin18, GCA_019597925.1_ASM1959792v1, GCA_022845655.1_ASM2284565v1, GCA_014337175.1_ASM1433717v1, GCA_025758005.1_ASM2575800v1, GCA_025150245.1_ASM2515024v1, GCA_025149785.1_ASM2514978v1, GCA_025148125.1_ASM2514812v1, GCA_025758025.1_ASM2575802v1, GCA_025757945.1_ASM2575794v1, GCA_023921805.1_ASM2392180v1, GCA_000020605.1_ASM2060v1, GCA_003584705.1_ASM358470v1, GCA_014337155.1_ASM1433715v1, GCA_036419155.1_ASM3641915v1, GCA_025758045.1_ASM2575804v1, GCA_025757985.1_ASM2575798v1, GCA_025757565.1_ASM2575756v1, GCA_900537995.1_Roseburia_intestinalis_strain_L1-82, GCA_025146925.1_ASM2514692v1, GCA_025150425.1_ASM2515042v1, GCA_025148445.1_ASM2514844v1, GCA_036419515.1_ASM3641951v1, GCA_025147765.1_ASM2514776v1, GCA_023347275.1_ASM2334727v1, GCA_025150085.1_ASM2515008v1, GCA_003573975.1_ASM357397v1, GCA_020735685.1_ASM2073568v1, GCA_002586945.1_ASM258694v1, GCA_020735365.1_ASM2073536v1, GCA_902388275.1_UHGG_MGYG-HGUT-02545
+  GCA_025150425.1_ASM2515042v1, GCA_025757945.1_ASM2575794v1
+  GCA_025757645.1_ASM2575764v1, GCA_025757965.1_ASM2575796v1, GCA_025757625.1_ASM2575762v1, GCA_040234585.1_ASM4023458v1, GCA_003574015.1_ASM357401v1, GCA_018326305.1_ASM1832630v1, GCA_025757685.1_ASM2575768v1, GCA_018408575.1_ASM1840857v1, GCA_022845655.1_ASM2284565v1, GCA_023921805.1_ASM2392180v1, GCA_025757945.1_ASM2575794v1, GCA_025758045.1_ASM2575804v1, GCA_025757985.1_ASM2575798v1, GCA_025757565.1_ASM2575756v1, GCA_025150425.1_ASM2515042v1, GCA_023347275.1_ASM2334727v1, GCA_003573975.1_ASM357397v1, GCA_002586945.1_ASM258694v1, GCA_902388275.1_UHGG_MGYG-HGUT-02545
+  GCA_023921805.1_ASM2392180v1
+  GCA_014337155.1_ASM1433715v1, GCA_020735685.1_ASM2073568v1
+  GCA_016724805.1_ASM1672480v1, GCA_928721465.1_min17_bin31, GCA_028225915.1_ASM2822591v1, GCA_928722225.1_min17_bin80
+  GCA_025152405.1_ASM2515240v1, GCA_019597925.1_ASM1959792v1, GCA_014337175.1_ASM1433717v1, GCA_025758005.1_ASM2575800v1, GCA_025150245.1_ASM2515024v1, GCA_025149785.1_ASM2514978v1, GCA_025148125.1_ASM2514812v1, GCA_025758025.1_ASM2575802v1, GCA_000020605.1_ASM2060v1, GCA_003584705.1_ASM358470v1, GCA_014337155.1_ASM1433715v1, GCA_036419155.1_ASM3641915v1, GCA_900537995.1_Roseburia_intestinalis_strain_L1-82, GCA_025146925.1_ASM2514692v1, GCA_036419515.1_ASM3641951v1, GCA_025148445.1_ASM2514844v1, GCA_025147765.1_ASM2514776v1, GCA_025150085.1_ASM2515008v1, GCA_020735685.1_ASM2073568v1, GCA_020735365.1_ASM2073536v1
+  GCA_025757685.1_ASM2575768v1
+  GCA_001765415.1_ASM176541v1
+  GCA_025757645.1_ASM2575764v1, GCA_022845655.1_ASM2284565v1, GCA_003573975.1_ASM357397v1, GCA_003574015.1_ASM357401v1, GCA_018326305.1_ASM1832630v1, GCA_018408575.1_ASM1840857v1
+  GCA_025757645.1_ASM2575764v1, GCA_025757965.1_ASM2575796v1, GCA_025757625.1_ASM2575762v1, GCA_040234585.1_ASM4023458v1, GCA_003574015.1_ASM357401v1, GCA_018326305.1_ASM1832630v1, GCA_025757685.1_ASM2575768v1, GCA_019974115.1_ASM1997411v1, GCA_032695835.1_ASM3269583v1, GCA_025152405.1_ASM2515240v1, GCA_018408575.1_ASM1840857v1, GCA_928721525.1_min17_bin18, GCA_025757885.1_ASM2575788v1, GCA_019597925.1_ASM1959792v1, GCA_025144545.1_ASM2514454v1, GCA_022845655.1_ASM2284565v1, GCA_014337175.1_ASM1433717v1, GCA_025758005.1_ASM2575800v1, GCA_963931105.1_6732_HOM_VAC_s129.ctg000173l_hifiasm_large_MAG, GCA_025150245.1_ASM2515024v1, GCA_025149785.1_ASM2514978v1, GCA_025148125.1_ASM2514812v1, GCA_025758025.1_ASM2575802v1, GCA_025757945.1_ASM2575794v1, GCA_023921805.1_ASM2392180v1, GCA_000020605.1_ASM2060v1, GCA_003584705.1_ASM358470v1, GCA_014337155.1_ASM1433715v1, GCA_036419155.1_ASM3641915v1, GCA_025758045.1_ASM2575804v1, GCA_025757985.1_ASM2575798v1, GCA_025757565.1_ASM2575756v1, GCA_928721695.1_min17_bin50, GCA_900683765.1_Phascolarctobacterium_succinatutens_82G5, GCA_900537995.1_Roseburia_intestinalis_strain_L1-82, GCA_025146925.1_ASM2514692v1, GCA_025150425.1_ASM2515042v1, GCA_025148445.1_ASM2514844v1, GCA_036419515.1_ASM3641951v1, GCA_025147765.1_ASM2514776v1, GCA_023347275.1_ASM2334727v1, GCA_025150085.1_ASM2515008v1, GCA_003573975.1_ASM357397v1, GCA_020735685.1_ASM2073568v1, GCA_002586945.1_ASM258694v1, GCA_020735365.1_ASM2073536v1, GCA_963931005.1_6755_HET_CTRL_contig_17144_metaflye_large_MAG, GCA_902388275.1_UHGG_MGYG-HGUT-02545
+  GCA_019974115.1_ASM1997411v1, GCA_025144545.1_ASM2514454v1, GCA_900683765.1_Phascolarctobacterium_succinatutens_82G5
+  GCA_900683765.1_Phascolarctobacterium_succinatutens_82G5, GCA_025144545.1_ASM2514454v1, GCA_025757885.1_ASM2575788v1, GCA_928721695.1_min17_bin50, GCA_032695835.1_ASM3269583v1, GCA_963931005.1_6755_HET_CTRL_contig_17144_metaflye_large_MAG, GCA_019974115.1_ASM1997411v1
+  GCA_025147765.1_ASM2514776v1
+  GCA_025757885.1_ASM2575788v1, GCA_963931005.1_6755_HET_CTRL_contig_17144_metaflye_large_MAG, GCA_032695835.1_ASM3269583v1, GCA_928721695.1_min17_bin50
+  GCA_023347275.1_ASM2334727v1, GCA_025757625.1_ASM2575762v1, GCA_040234585.1_ASM4023458v1, GCA_025757685.1_ASM2575768v1, GCA_025758045.1_ASM2575804v1, GCA_025757565.1_ASM2575756v1, GCA_002586945.1_ASM258694v1, GCA_023921805.1_ASM2392180v1, GCA_025757985.1_ASM2575798v1, GCA_902388275.1_UHGG_MGYG-HGUT-02545, GCA_025150425.1_ASM2515042v1, GCA_025757945.1_ASM2575794v1
+  GCA_025145285.1_ASM2514528v1, GCA_006542685.1_Adis_1.0, GCA_000265365.1_ASM26536v1, GCA_006542745.1_6CPBBH3, GCA_025145845.1_ASM2514584v1, GCA_928852565.1_min17_bin03
+  GCA_025147765.1_ASM2514776v1, GCA_000020605.1_ASM2060v1, GCA_003584705.1_ASM358470v1, GCA_025758005.1_ASM2575800v1, GCA_014337175.1_ASM1433717v1, GCA_025150085.1_ASM2515008v1, GCA_900537995.1_Roseburia_intestinalis_strain_L1-82, GCA_025150245.1_ASM2515024v1, GCA_025149785.1_ASM2514978v1, GCA_020735365.1_ASM2073536v1, GCA_025148125.1_ASM2514812v1, GCA_025152405.1_ASM2515240v1, GCA_019597925.1_ASM1959792v1
+  GCA_025144545.1_ASM2514454v1, GCA_900683765.1_Phascolarctobacterium_succinatutens_82G5
+  GCA_025757645.1_ASM2575764v1, GCA_025757965.1_ASM2575796v1, GCA_025757625.1_ASM2575762v1, GCA_040234585.1_ASM4023458v1, GCA_003574015.1_ASM357401v1, GCA_018326305.1_ASM1832630v1, GCA_025757685.1_ASM2575768v1, GCA_018408575.1_ASM1840857v1, GCA_025152405.1_ASM2515240v1, GCA_019597925.1_ASM1959792v1, GCA_022845655.1_ASM2284565v1, GCA_014337175.1_ASM1433717v1, GCA_025758005.1_ASM2575800v1, GCA_025150245.1_ASM2515024v1, GCA_025149785.1_ASM2514978v1, GCA_025148125.1_ASM2514812v1, GCA_025758025.1_ASM2575802v1, GCA_025757945.1_ASM2575794v1, GCA_023921805.1_ASM2392180v1, GCA_000020605.1_ASM2060v1, GCA_003584705.1_ASM358470v1, GCA_014337155.1_ASM1433715v1, GCA_036419155.1_ASM3641915v1, GCA_025758045.1_ASM2575804v1, GCA_025757985.1_ASM2575798v1, GCA_025757565.1_ASM2575756v1, GCA_900537995.1_Roseburia_intestinalis_strain_L1-82, GCA_025146925.1_ASM2514692v1, GCA_036419515.1_ASM3641951v1, GCA_025148445.1_ASM2514844v1, GCA_025150425.1_ASM2515042v1, GCA_025147765.1_ASM2514776v1, GCA_023347275.1_ASM2334727v1, GCA_025150085.1_ASM2515008v1, GCA_003573975.1_ASM357397v1, GCA_020735685.1_ASM2073568v1, GCA_002586945.1_ASM258694v1, GCA_020735365.1_ASM2073536v1, GCA_902388275.1_UHGG_MGYG-HGUT-02545
+
+WARNING: Multiple potential species tree roots were identified, only one will be analyed.
+
+Reconciling gene trees and species tree
+---------------------------------------
+Outgroup: GCA_963360665.1_BFTSDC17_v2, GCA_030168385.1_ASM3016838v1, GCA_019249725.2_ASM1924972v2, GCA_018847935.1_ASM1884793v1, GCA_018289295.1_ASM1828929v1, GCA_024758065.1_ASM2475806v1, GCA_006542745.1_6CPBBH3, GCA_022009815.1_ASM2200981v1, GCA_928852565.1_min17_bin03, GCA_027923645.1_ASM2792364v1, GCA_025145285.1_ASM2514528v1, GCA_016888945.1_ASM1688894v1, GCA_016724805.1_ASM1672480v1, GCA_020735865.1_ASM2073586v1, GCA_025145845.1_ASM2514584v1, GCA_024759085.1_ASM2475908v1, GCA_018847015.1_ASM1884701v1, GCA_008369705.1_ASM836970v1, GCA_006546965.1_ASM654696v1, GCA_900187175.1_51342_A02, GCA_902498985.2_QI0027_V3, GCA_028225915.1_ASM2822591v1, GCA_024759185.1_ASM2475918v1, GCA_020885775.1_ASM2088577v1, GCA_004328515.1_ASM432851v1, GCA_039789235.1_ASM3978923v1, GCA_951793255.1_DSM32187, GCA_001640865.1_ASM164086v1, GCA_006542685.1_Adis_1.0, GCA_020091485.1_ASM2009148v1, GCA_963360685.1_BMTSDC17_v2, GCA_025263845.1_ASM2526384v1, GCA_928722225.1_min17_bin80, GCA_020735605.1_ASM2073560v1, GCA_928721465.1_min17_bin31, GCA_000265365.1_ASM26536v1
+2026-07-29 04:08:07 : Starting Recon and orthologues
+2026-07-29 04:08:07 : Starting OF Orthologues
+2026-07-29 04:08:09 : Done 0 of 9474
+2026-07-29 04:08:50 : Done 1000 of 9474
+2026-07-29 04:09:03 : Done 2000 of 9474
+2026-07-29 04:09:09 : Done 3000 of 9474
+2026-07-29 04:09:13 : Done 4000 of 9474
+2026-07-29 04:09:16 : Done 5000 of 9474
+2026-07-29 04:09:19 : Done 6000 of 9474
+2026-07-29 04:09:21 : Done 7000 of 9474
+2026-07-29 04:09:23 : Done 8000 of 9474
+2026-07-29 04:09:24 : Done 9000 of 9474
+2026-07-29 04:09:26 : Done OF Orthologues
+
+Writing results files
+=====================
+2026-07-29 04:09:36 : Done orthologues
+
+Results:
+    OrthoFinder_v2_Results/Results_Jul29/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914
+	Command being timed: "orthofinder -f Bofasa_Prep_Results/Genome_Processing/Proteomes/ -o OrthoFinder_v2_Results/ -t 20 -M msa"
+	User time (seconds): 171702.53
+	System time (seconds): 7577.88
+	Percent of CPU this job got: 1754%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:50:18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5070336
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 30059
+	Minor (reclaiming a frame) page faults: 686092590
+	Voluntary context switches: 11148957
+	Involuntary context switches: 3274968
+	Swaps: 0
+	File system inputs: 220064
+	File system outputs: 27937280
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

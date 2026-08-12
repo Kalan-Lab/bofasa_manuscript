@@ -1,0 +1,121 @@
+
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m07:16:07[0m[39;49m : Starting [0m[38;5;136;49mOrthoFinder[0m[39;49m v[0m[38;5;38;49m3.[0m[1;38;5;38;49m1.3[0m
+20 thread(s) for highly parallel tasks (BLAST searches etc.)
+2 thread(s) for OrthoFinder algorithm
+
+[1;38;5;136;49mOrthoFinder[0m[39;49m version [0m[1;38;5;38;49m3.1[0m[38;5;38;49m.[0m[1;38;5;38;49m3[0m[39;49m Copyright [0m[1;39;49m([0m[39;49mC[0m[1;39;49m)[0m[39;49m [0m[1;36;49m2014[0m[39;49m [0m[1;38;5;136;49mDavid Emms[0m
+
+[39;49mResults directory:[0m
+[39;49m    [0m[38;5;36;49m/workspace/local/rauf/bofasa/Polished_Analyses/actino_showcase/OrthoFinder_v3.1.3_Results/Results_Mar06/[0m
+
+Checking required programs are installed
+========================================
+[39;49mTest can run [0m[32;49m"[0m[38;5;172;49mmcl[0m[32;49m"[0m[39;49m - [0m[1;32;49mok[0m
+[39;49mTest can run [0m[32;49m"[0m[38;5;172;49mfamsa[0m[32;49m"[0m[39;49m - [0m[1;32;49mok[0m
+[39;49mTest can run [0m[32;49m"[0m[38;5;172;49mfasttree[0m[32;49m"[0m[39;49m - [0m[1;32;49mok[0m
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+Processing... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   56/56 0:00:05
+
+Running diamond all-versus-all
+==============================
+Using 20 thread(s)
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m07:16:16[0m[39;49m : This may take some time[0m[33;49m...[0m
+Processing... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   3136/3136 0:48:19
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:04:36[0m[39;49m : Done all-versus-all sequence search[0m
+
+Running OrthoFinder algorithm
+-----------------------------
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:04:36[0m[39;49m : Initial processing of each species[0m
+Processing... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   56/56 0:11:19
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:15:56[0m[39;49m : Connected putative homologues[0m
+Processing... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   56/56 0:00:54
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:41:42[0m[39;49m : Ran MCL[0m
+
+Writing orthogroups to file
+---------------------------
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:41:49[0m[39;49m : Done orthogroups[0m
+
+Analysing Orthogroups
+=====================
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:41:49[0m[39;49m : Starting MSA/Trees[0m
+Species tree: Using 297 orthogroups with minimum of 91.1% of species having single-copy genes in any orthogroup
+
+Inferring multiple sequence alignments for species tree
+-------------------------------------------------------
+Processing... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   297/297 0:00:30
+
+Inferring remaining multiple sequence alignments and gene trees
+---------------------------------------------------------------
+Processing... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   11860/11860 0:15:35
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:57:58[0m[39;49m : Done MSA/Trees[0m
+
+Best outgroup(s) for species tree
+---------------------------------
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:57:58[0m[39;49m : Starting STRIDE[0m
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:58:37[0m[39;49m : Done STRIDE[0m
+Observed 86 well-supported, non-terminal duplications. 86 support the best root and 0 contradict it.
+Best outgroup for species tree:
+  GCA_021172045.1_ASM2117204v1, GCA_000025265.1_ASM2526v1, GCA_007970665.1_ASM797066v1, GCA_024220175.1_ASM2422017v1
+
+Reconciling gene trees and species tree
+---------------------------------------
+Outgroup: GCA_021172045.1_ASM2117204v1, GCA_000025265.1_ASM2526v1, GCA_007970665.1_ASM797066v1, GCA_024220175.1_ASM2422017v1
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:58:37[0m[39;49m : Starting reconciliation and orthologues[0m
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:58:37[0m[39;49m : Inferring orthologues from gene trees[0m
+Processing... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   7601/7601 0:01:09
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:59:47[0m[39;49m : Done of orthologues[0m
+
+Writing results files
+=====================
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:59:49[0m[39;49m : Start writing hierarchical orthogroups files[0m
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m08:59:49[0m[39;49m : Converting MSA/Trees[0m
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m09:00:01[0m[39;49m : Updating MSA/Trees[0m
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m09:06:42[0m[39;49m : Done updating MSA/Trees[0m
+Processing... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   12484/12484 0:01:03
+[1;36;49m2026[0m[39;49m-[0m[1;36;49m03[0m[39;49m-[0m[1;36;49m06[0m[39;49m [0m[1;92;49m09:08:00[0m[39;49m : Done writing files[0m
+
+Summary: 
+ OrthoFinder assigned 335701 genes (92.4% of total) to 18525 orthogroups.                                                                
+ 50% of genes were in orthogroups with 41 or more genes (G50 was 41) and were contained in the largest 2540 orthogroups (O50 was 2540).  
+ There were 399 orthogroups with all species present and 161 of these consisted entirely of single-copy genes.                           
+
+[39;49mResults directory:[0m
+[39;49m    [0m[38;5;36;49m/workspace/local/rauf/bofasa/Polished_Analyses/actino_showcase/OrthoFinder_v3.1.3_Results/Results_Mar06/[0m
+
+
+[39;49mCITATION:[0m
+[39;49m When publishing work that uses [0m[38;5;136;49mOrthoFinder[0m[39;49m please cite:[0m
+[39;49m Emms D.M., Liu Y., Belcher L., Holmes J. & Kelly S. [0m[1;39;49m([0m[1;36;49m2025[0m[1;39;49m)[0m[39;49m, bioRxiv [0m]8;id=532876;https://doi.org/10.1101/2025.07.15.664860\[4;38;5;36;49mhttps://doi.org/10.1101/2025.07.15.664860[0m]8;;\
+[39;49m Emms D.M. & Kelly S. [0m[1;39;49m([0m[1;36;49m2019[0m[1;39;49m)[0m[39;49m, Genome Biology [0m[1;92;49m20:238[0m
+
+[39;49m If you use the species tree in your work then please also cite:[0m
+[39;49m Emms D.M. & Kelly S. [0m[1;39;49m([0m[1;36;49m2017[0m[1;39;49m)[0m[39;49m, MBE [0m[1;35;49m34[0m[1;39;49m([0m[1;36;49m12[0m[1;39;49m)[0m[39;49m: [0m[1;36;49m3267[0m[39;49m-[0m[1;36;49m3278[0m
+[39;49m Emms D.M. & Kelly S. [0m[1;39;49m([0m[1;36;49m2018[0m[1;39;49m)[0m[39;49m, bioRxiv [0m]8;id=283879;https://doi.org/10.1101/267914\[4;38;5;36;49mhttps://doi.org/10.1101/267914[0m]8;;\
+
+[38;5;136;49mOrthoFinder[0m[39;49m finished in [0m[1;32;49m6727.[0m[32;49m834554[0m[39;49ms[0m
+
+	Command being timed: "orthofinder -f Bofasa_Prep_Prokka/Genome_Processing/Proteomes/ -o OrthoFinder_v3.1.3_Results/ -t 20 -M msa"
+	User time (seconds): 78080.48
+	System time (seconds): 2450.71
+	Percent of CPU this job got: 1196%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:52:09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2370312
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 139
+	Minor (reclaiming a frame) page faults: 465857741
+	Voluntary context switches: 7120235
+	Involuntary context switches: 2097662
+	Swaps: 0
+	File system inputs: 254896
+	File system outputs: 30584808
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
