@@ -9,8 +9,8 @@ names(colors) <- c('bofasa', 'OrthoFinder', 'PIRATE', 'SCARAP', 'SonicParanoid',
 pdf("Timing_and_Memory.pdf", height=10, width=10)
 
 # showcase	method  method_color	time	memory
-time <- ggplot(dat, aes(x=method, y=time, fill=method_color)) + geom_bar(stat='identity', color='black') + theme_classic() + facet_grid(.~showcase, scales='free', space='free_x') + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + scale_fill_manual(values=colors)
-memo <- ggplot(dat, aes(x=method, y=memory, fill=method_color)) + geom_bar(stat='identity', color='black') + theme_classic() + facet_grid(.~showcase, scales='free', space='free_x') + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + scale_fill_manual(values=colors)
+time <- ggplot(dat, aes(x=method, y=time, fill=method_color)) + geom_bar(stat='identity', color='black') + theme_classic() + facet_grid(.~showcase, scales='free', space='free_x') + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + scale_fill_manual(values=colors) + scale_y_log10()
+memo <- ggplot(dat, aes(x=method, y=memory, fill=method_color)) + geom_bar(stat='identity', color='black') + theme_classic() + facet_grid(.~showcase, scales='free', space='free_x') + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + scale_fill_manual(values=colors) + scale_y_log10()
 
 plot_grid(time, memo, ncol=1)
 
