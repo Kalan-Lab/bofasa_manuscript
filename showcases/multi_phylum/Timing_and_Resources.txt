@@ -1,0 +1,10 @@
+method	time	memory
+bofasa	11.47	11.36
+bofasa - emg rs1000 us	60.08	11.37
+OrthoFinder v2.5.5	7.38	8.00
+OrthoFinder v3.1.3	5.02	1.14
+SCARAP	1.68	1.33
+PIRATE	34.5	0.60
+PIRATE - moresteps	44.95	2.39
+SonicParanoid	2.23	7.88
+SonicParanoid - sensitive	5.92	7.88

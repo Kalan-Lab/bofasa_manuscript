@@ -1,0 +1,37 @@
+showcase	method_color	method	time	memory
+simpan	bofasa	bofasa	11.33	0.299
+simpan	bofasa	bofasa - rs1000	11.43	0.301
+simpan	OrthoFinder	OrthoFinder v2.5.5	43.82	9.059
+simpan	OrthoFinder	OrthoFinder v3.1.3	47.35	9.016
+simpan	SCARAP	SCARAP	0.72	0.933
+simpan	PIRATE	PIRATE	15.37	0.679
+simpan	SonicParanoid	SonicParanoid	5.78	0.145
+multi_phylum	bofasa	bofasa	11.47	11.36
+multi_phylum	bofasa	bofasa - emg rs1000 us	60.08	11.37
+multi_phylum	OrthoFinder	OrthoFinder v2.5.5	7.38	8.00
+multi_phylum	OrthoFinder	OrthoFinder v3.1.3	5.02	1.14
+multi_phylum	SCARAP	SCARAP	1.68	1.33
+multi_phylum	PIRATE	PIRATE	34.5	0.60
+multi_phylum	PIRATE	PIRATE - moresteps	44.95	2.39
+multi_phylum	SonicParanoid	SonicParanoid	2.23	7.88
+multi_phylum	SonicParanoid	SonicParanoid - sensitive	5.92	7.88
+actinomycetota	bofasa	bofasa	938.2	10.90
+actinomycetota	OrthoFinder	OrthoFinder v2.5.5	196.85	11.89
+actinomycetota	OrthoFinder	OrthoFinder v3.1.3	112.15	2.37
+actinomycetota	SCARAP	SCARAP	8.65	5.00
+actinomycetota	PIRATE	PIRATE	935.93	1.12
+actinomycetota	SonicParanoid	SonicParanoid	66.28	8.76
+actinomycetota	SonicParanoid	SonicParanoid - sensitive	330.47	7.93
+staph_genus	bofasa	bofasa	57.51	1.01
+staph_genus	bofasa	bofasa - emg rs1000	465.31	1.00
+staph_genus	OrthoFinder	OrthoFinder v2.5.5	69.03	5.72
+staph_genus	OrthoFinder	OrthoFinder v3.1.3	61.52	5.33
+staph_genus	SCARAP	SCARAP	126.58	1.06
+staph_genus	PIRATE	PIRATE	106.58	0.80
+staph_genus	SonicParanoid	SonicParanoid	24.46	7.11
+gut_microbiome	bofasa	bofasa	511.1	4.31
+gut_microbiome	OrthoFinder	OrthoFinder v2.5.5	170.3	5.07
+gut_microbiome	OrthoFinder	OrthoFinder v3.1.3	160.5	1.38
+gut_microbiome	SCARAP	SCARAP	5.88	1.29
+gut_microbiome	PIRATE	PIRATE	404.02	1.01
+gut_microbiome	SonicParanoid	SonicParanoid	68.9	7.90

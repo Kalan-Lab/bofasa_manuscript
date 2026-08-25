@@ -1,1 +1,3 @@
+Note, some comparator programs were run on proteome files generated from earlier bofasa runs. The predicted-proteome files (*.faa) were validated to be equivalent with those produced by bofasa prep from the version used for the manuscript. For some programs differences in the order proteome files are read/considered could manifest in differences in results; however, the input predicted-proteome files were the same across comparator runs.
+
 Color assigned to domains only if >20 proteins in ortholog group, >50% of ortholog group have proteins annotated by Pfam as the domain of interest, >25% of proteins are found in NRPS proteins

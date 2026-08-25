@@ -1,0 +1,7 @@
+method	time	memory
+bofasa	511.1	4.31
+OrthoFinder v2.5.5	170.3	5.07
+OrthoFinder v3.1.3	160.5	1.38
+SCARAP	5.88	1.29
+PIRATE	404.02	1.01
+SonicParanoid	68.9	7.90
