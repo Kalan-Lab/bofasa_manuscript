@@ -60,10 +60,3 @@ for taxon in sorted(taxon_med_abds.items(), key=itemgetter(1), reverse=True):
     print(str(selected) + '\t' + taxon[0] + '\t' + str(random.choice(list(complete_genomes[taxon[0]]))))
     selected += 1
 
-"""
-with open(gtdb_meta_file) as ogmf:
-    for i, line in enumerate(ogmf):
-        if i == 0: continue
-        line = line.strip()
-        ls = line.split('\t')
-"""        
